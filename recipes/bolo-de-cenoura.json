@@ -1,0 +1,139 @@
+{
+  "title": "Bolo de cenoura com cobertura de chocolate",
+  "category": "Bolos",
+  "description": "O clássico do Panelinha: massa batida no liquidificador e calda de chocolate que endurece por cima.",
+  "servings": 1,
+  "yieldLabel": "fôrma 30 × 20 cm",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 360,
+      "id": "1",
+      "name": "cenoura descascada (cerca de 3 médias)",
+      "unit": "g"
+    },
+    {
+      "amount": 4,
+      "id": "2",
+      "name": "ovos em temperatura ambiente",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "3",
+      "name": "óleo",
+      "unit": "cup"
+    },
+    {
+      "amount": 1.5,
+      "id": "4",
+      "name": "açúcar",
+      "unit": "cup"
+    },
+    {
+      "amount": 2,
+      "id": "5",
+      "name": "farinha de trigo",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "fermento em pó",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "7",
+      "name": "sal",
+      "unit": "pinch"
+    },
+    {
+      "amount": "",
+      "id": "8",
+      "name": "manteiga e farinha para untar",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "9",
+      "name": "## Cobertura",
+      "unit": ""
+    },
+    {
+      "amount": 0.5,
+      "id": "10",
+      "name": "chocolate em pó 50% cacau",
+      "unit": "cup"
+    },
+    {
+      "amount": 0.333,
+      "id": "11",
+      "name": "açúcar",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "12",
+      "name": "manteiga",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 0.333,
+      "id": "13",
+      "name": "água",
+      "unit": "cup"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Preaqueça o forno a 180 °C. Unte com manteiga uma fôrma de 30 × 20 cm e polvilhe farinha, batendo para tirar o excesso.",
+      "timer": 0,
+      "title": "Preparar o forno e a fôrma"
+    },
+    {
+      "content": "Numa tigela, peneire a farinha, o sal e o fermento. Reserve.",
+      "timer": 0,
+      "title": "Peneirar os secos"
+    },
+    {
+      "content": "Corte as cenouras em rodelas e bata no liquidificador com o óleo, os ovos (quebre um a um numa tigelinha antes) e o açúcar, por cerca de 5 minutos, até ficar liso.",
+      "timer": 300,
+      "title": "Bater os líquidos"
+    },
+    {
+      "content": "Transfira para uma tigela grande e adicione os secos em 3 etapas, peneirando, misturando delicadamente com um batedor de arame.",
+      "timer": 0,
+      "title": "Misturar"
+    },
+    {
+      "content": "Leve ao forno por cerca de 45 minutos, até um palito sair limpo.",
+      "timer": 2700,
+      "title": "Assar"
+    },
+    {
+      "content": "Deixe esfriar 15 minutos. O bolo deve estar morno quando receber a cobertura.",
+      "timer": 900,
+      "title": "Amornar"
+    },
+    {
+      "content": "Numa panela pequena, junte o chocolate, o açúcar, a manteiga e a água. Leve ao fogo médio mexendo até ferver, e mexa por mais 2 minutos, até formar bolhas grandes e engrossar.",
+      "timer": 120,
+      "title": "Fazer a cobertura"
+    },
+    {
+      "content": "Desligue e mexa com espátula por cerca de 2 minutos, até parar de ferver. Isso evita que a calda escorra.",
+      "timer": 120,
+      "title": "Mexer fora do fogo"
+    },
+    {
+      "content": "Regue o bolo e espalhe rápido. Deixe esfriar até a superfície endurecer antes de servir.",
+      "timer": 0,
+      "title": "Cobrir"
+    }
+  ],
+  "notes": "Funciona também numa fôrma redonda de 24 cm com furo no meio, com o mesmo tempo de forno. Dica: corte o bolo na assadeira antes da calda, para servir mais fácil.",
+  "images": [],
+  "source": "Bolo_Cenoura_Panelinha.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

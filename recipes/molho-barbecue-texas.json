@@ -1,0 +1,112 @@
+{
+  "title": "Molho barbecue estilo Texas",
+  "category": "Molhos",
+  "description": "Barbecue de panela com extrato de tomate, mascavo, vinagre de maçã, páprica defumada e semente de mostarda.",
+  "servings": 1,
+  "yieldLabel": "receita",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 1,
+      "id": "1",
+      "name": "azeite",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "2",
+      "name": "cebola em pedaços grandes",
+      "unit": ""
+    },
+    {
+      "amount": 3,
+      "id": "3",
+      "name": "dentes de alho em pedaços grandes",
+      "unit": ""
+    },
+    {
+      "amount": 0.5,
+      "id": "4",
+      "name": "açúcar mascavo",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "5",
+      "name": "extrato de tomate",
+      "unit": "cup"
+    },
+    {
+      "amount": 0.333,
+      "id": "6",
+      "name": "vinagre de maçã",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "7",
+      "name": "páprica defumada",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "8",
+      "name": "semente de mostarda",
+      "unit": "tsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "9",
+      "name": "pimenta-do-reino moída",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "10",
+      "name": "sal",
+      "unit": "tsp"
+    },
+    {
+      "amount": 2,
+      "id": "11",
+      "name": "molho inglês",
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Em fogo médio, frite a cebola no azeite até ficar transparente.",
+      "timer": 0,
+      "title": "Cebola"
+    },
+    {
+      "content": "Junte o alho e frite até a cebola começar a dourar.",
+      "timer": 0,
+      "title": "Alho"
+    },
+    {
+      "content": "Junte o açúcar e mexa até derreter completamente, cerca de 2 minutos.",
+      "timer": 120,
+      "title": "Açúcar"
+    },
+    {
+      "content": "Junte o vinagre, o extrato, a páprica, a mostarda, a pimenta e o sal. Mexa até engrossar, cerca de 3 minutos.",
+      "timer": 180,
+      "title": "Engrossar"
+    },
+    {
+      "content": "Adicione o molho inglês e mexa por mais 1 minuto.",
+      "timer": 60,
+      "title": "Molho inglês"
+    },
+    {
+      "content": "Desligue e bata no liquidificador ou mixer em velocidade alta por cerca de 1 minuto, até ficar alaranjado.",
+      "timer": 60,
+      "title": "Bater"
+    }
+  ],
+  "notes": "Em pote bem fechado, dura até 1 mês na geladeira.",
+  "images": [],
+  "source": "Molho_Barbecure_1.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

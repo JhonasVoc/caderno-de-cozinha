@@ -1,0 +1,80 @@
+{
+  "title": "Molho ranch",
+  "category": "Molhos",
+  "description": "Maionese com creme azedo (ou iogurte) e ervas desidratadas. Descansa 30 minutos na geladeira.",
+  "servings": 1,
+  "yieldLabel": "receita",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 1,
+      "id": "1",
+      "name": "maionese",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "2",
+      "name": "creme azedo ou iogurte natural",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "3",
+      "name": "cebolinha desidratada",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "4",
+      "name": "salsinha desidratada",
+      "unit": "tsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "5",
+      "name": "dill",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "alho desidratado",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "7",
+      "name": "cebola desidratada",
+      "unit": "tsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "8",
+      "name": "sal (colher de café)",
+      "unit": "tsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "9",
+      "name": "pimenta-do-reino moída (colher de café)",
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Numa tigela, misture todos os ingredientes.",
+      "timer": 0,
+      "title": "Misturar"
+    },
+    {
+      "content": "Tampe e leve à geladeira por 30 minutos antes de usar.",
+      "timer": 1800,
+      "title": "Descansar"
+    }
+  ],
+  "notes": "",
+  "images": [],
+  "source": "Molhos.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

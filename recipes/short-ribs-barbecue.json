@@ -1,0 +1,114 @@
+{
+  "title": "Short ribs com molho barbecue",
+  "category": "Churrasco",
+  "description": "Costela bovina com rub simples, assada longe do fogo e selada, com molho barbecue de uísque e fumaça.",
+  "servings": 1,
+  "yieldLabel": "peça",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 1,
+      "id": "1",
+      "name": "peça de short rib",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "2",
+      "name": "sal",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "3",
+      "name": "pimenta-do-reino",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "4",
+      "name": "alho em pó",
+      "unit": "tbsp"
+    },
+    {
+      "amount": "",
+      "id": "5",
+      "name": "## Molho barbecue",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "açúcar mascavo",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "7",
+      "name": "extrato de tomate",
+      "unit": "cup"
+    },
+    {
+      "amount": 0.333,
+      "id": "8",
+      "name": "vinagre de maçã",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "9",
+      "name": "páprica picante",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "10",
+      "name": "alho em pó",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "11",
+      "name": "pimenta-caiena",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "12",
+      "name": "fumaça em pó",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "13",
+      "name": "dose de uísque",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Misture o sal, a pimenta e o alho em pó e tempere a carne.",
+      "timer": 0,
+      "title": "Temperar"
+    },
+    {
+      "content": "Coloque na churrasqueira, longe do fogo, por 1 hora.",
+      "timer": 3600,
+      "title": "Assar"
+    },
+    {
+      "content": "Sele 5 minutos de cada lado.",
+      "timer": 300,
+      "title": "Selar"
+    },
+    {
+      "content": "Derreta o açúcar mascavo numa panela, junte o extrato de tomate e misture. Adicione o restante, mexa bem e deixe mais 1 minuto no fogo.",
+      "timer": 60,
+      "title": "Fazer o molho"
+    }
+  ],
+  "notes": "",
+  "images": [],
+  "source": "CHURRASCO_AMERICANO.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

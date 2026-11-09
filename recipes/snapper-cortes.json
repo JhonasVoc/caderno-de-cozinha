@@ -1,0 +1,84 @@
+{
+  "title": "Snapper: cortes para sashimi e nigiri",
+  "category": "Técnicas",
+  "description": "Do filé de snapper aos blocos de lombo e barriga, com usuzukuri, nigiri e a opção de kobujime.",
+  "servings": 3,
+  "scale": false,
+  "ingredients": [
+    {
+      "amount": 2,
+      "id": "1",
+      "name": "filés de snapper (de um peixe de ~1,2 kg)",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "2",
+      "name": "sal fino (para kobujime)",
+      "unit": "tsp"
+    },
+    {
+      "amount": 2,
+      "id": "3",
+      "name": "folhas de kombu (opcional)",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "4",
+      "name": "pinça de espinha",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "5",
+      "name": "faca yanagiba bem afiada",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Snapper é selvagem: para comer cru, congele {1} a -20 °C por 7 dias, ou confirme na peixaria que é próprio para sashimi. Descongele na geladeira.",
+      "timer": 0,
+      "title": "Segurança"
+    },
+    {
+      "content": "Na aba fina da barriga, perto da cabeça, passe a faca rente por baixo das costelas e tire junto a membrana escura. Guarde para o caldo.",
+      "timer": 0,
+      "title": "Aparar as costelas (1)"
+    },
+    {
+      "content": "Um corte de cada lado da linha vermelha central, em V, e retire a tira. O filé se divide em lombo (A) e barriga (B).",
+      "timer": 0,
+      "title": "Linha de sangue (2)"
+    },
+    {
+      "content": "Passe o dedo na linha central e puxe as pontinhas com {4}, no sentido da cabeça. Acerte as bordas.",
+      "timer": 0,
+      "title": "Espinhas finas"
+    },
+    {
+      "content": "Salgue os blocos de leve com {2}, espere, seque bem, envolva entre {3} umedecidas com água e embrulhe em filme. Geladeira por 3–6 horas.",
+      "timer": 1500,
+      "title": "Kobujime (opcional)"
+    },
+    {
+      "content": "Usuzukuri: {5} bem inclinada, fatias quase transparentes em leque, com ponzu. Ou hira-zukuri, fatias de 5–8 mm num único puxão.",
+      "timer": 0,
+      "title": "Sashimi no lombo"
+    },
+    {
+      "content": "Fatias diagonais de 5–8 mm, com ~7 × 3 cm. Fica ótimo maçaricado (aburi), com sal e raspas de limão.",
+      "timer": 0,
+      "title": "Nigiri na barriga"
+    }
+  ],
+  "notes": "Fiozinhos escuros e finos na carne geralmente são vasinhos sanguíneos. Algo enrolado e mais grosso que sai inteiro com a pinça: não coma cru. Matsukawa-zukuri: mantenha a pele, escalde com água fervente e mergulhe em água gelada antes de fatiar.",
+  "images": [
+    {
+      "src": "images/snapper-cortes/01.jpg",
+      "caption": "Lombo (A), barriga (B), costelas (1) e linha de sangue (2)."
+    }
+  ],
+  "updatedAt": "2026-11-01T09:50:00.000Z"
+}

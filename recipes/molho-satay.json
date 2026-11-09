@@ -1,0 +1,62 @@
+{
+  "title": "Molho satay",
+  "category": "Molhos",
+  "description": "Molho de amendoim da Malásia e Tailândia: leite de coco, pasta de amendoim, shoyu e pimenta. Pronto em 10 minutos.",
+  "servings": 12,
+  "yieldLabel": "porções",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 300,
+      "id": "1",
+      "name": "leite de coco",
+      "unit": "ml"
+    },
+    {
+      "amount": 130,
+      "id": "2",
+      "name": "pasta de amendoim crocante (½ xícara)",
+      "unit": "g"
+    },
+    {
+      "amount": 0.5,
+      "id": "3",
+      "name": "cebola pequena ralada",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "4",
+      "name": "shoyu",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 2,
+      "id": "5",
+      "name": "açúcar mascavo",
+      "unit": "tsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "6",
+      "name": "pimenta calabresa em flocos",
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Junte tudo numa panela e mexa em fogo médio até ferver.",
+      "timer": 300,
+      "title": "Ferver"
+    },
+    {
+      "content": "Retire do fogo e mantenha aquecido.",
+      "timer": 0,
+      "title": "Servir"
+    }
+  ],
+  "notes": "Rende cerca de 1 ½ xícara.",
+  "images": [],
+  "source": "Molhos.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

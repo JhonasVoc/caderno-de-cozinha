@@ -1,0 +1,39 @@
+{
+  "title": "Molho blue cheese",
+  "category": "Molhos",
+  "description": "Creme de leite batido com gorgonzola ou roquefort e um toque de vinagre.",
+  "servings": 1,
+  "yieldLabel": "receita",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 1,
+      "id": "1",
+      "name": "lata de creme de leite com soro",
+      "unit": ""
+    },
+    {
+      "amount": 200,
+      "id": "2",
+      "name": "gorgonzola ou roquefort",
+      "unit": "g"
+    },
+    {
+      "amount": 1,
+      "id": "3",
+      "name": "vinagre de vinho branco",
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Bata tudo no liquidificador ou mixer e acerte o sal.",
+      "timer": 0,
+      "title": "Bater"
+    }
+  ],
+  "notes": "",
+  "images": [],
+  "source": "Molhos.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

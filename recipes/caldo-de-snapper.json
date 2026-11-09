@@ -1,0 +1,120 @@
+{
+  "title": "Caldo de snapper com dashi (tai-dashi)",
+  "category": "Caldos",
+  "description": "Caldo claro com a carcaça e a cabeça do snapper, kombu e aromáticos. Vira ushio-jiru só com sal, ou ara-jiru com missô.",
+  "servings": 4,
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 600,
+      "id": "1",
+      "name": "carcaça e cabeça de snapper, sem guelras",
+      "unit": "g"
+    },
+    {
+      "amount": 1,
+      "id": "2",
+      "name": "sal para o shimofuri",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1.2,
+      "id": "3",
+      "name": "água gelada",
+      "unit": "l"
+    },
+    {
+      "amount": 1,
+      "id": "4",
+      "name": "pedaço de kombu, ~10 cm",
+      "unit": ""
+    },
+    {
+      "amount": 3,
+      "id": "5",
+      "name": "shiitake seco",
+      "unit": ""
+    },
+    {
+      "amount": 3,
+      "id": "6",
+      "name": "fatias finas de gengibre",
+      "unit": ""
+    },
+    {
+      "amount": 3,
+      "id": "7",
+      "name": "talos verdes de cebolinha",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "8",
+      "name": "saquê ou ryōrishu",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "9",
+      "name": "sal para temperar",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "10",
+      "name": "shoyu claro (usukuchi), opcional",
+      "unit": "tsp"
+    },
+    {
+      "amount": 2,
+      "id": "11",
+      "name": "parte branca da cebolinha, picada fina",
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Retire as guelras de {1} e raspe a linha de sangue ao longo da espinha sob água corrente, com uma colher ou escova limpa.",
+      "timer": 0,
+      "title": "Limpar"
+    },
+    {
+      "content": "Polvilhe {2} sobre a carcaça e a cabeça para puxar o sangue e o cheiro forte.",
+      "timer": 1200,
+      "title": "Salgar"
+    },
+    {
+      "content": "Despeje água fervente sobre a carcaça até a superfície ficar esbranquiçada. Passe na hora para água gelada e lave com os dedos, tirando sangue coagulado e escamas.",
+      "timer": 0,
+      "title": "Shimofuri"
+    },
+    {
+      "content": "Na panela: {3}, {4}, {5}, {6}, {7}, {8} e a carcaça limpa. Deixe de molho com o fogo desligado.",
+      "timer": 1800,
+      "title": "Molho a frio"
+    },
+    {
+      "content": "Fogo baixo. Quando surgirem bolhinhas no fundo, antes de ferver, retire o kombu.",
+      "timer": 900,
+      "title": "Aquecer devagar"
+    },
+    {
+      "content": "Fervura bem suave, sem borbulhar forte, tirando a espuma que subir.",
+      "timer": 1500,
+      "title": "Fervura leve"
+    },
+    {
+      "content": "Coe em pano fino ou coador com papel-toalha, sem espremer.",
+      "timer": 0,
+      "title": "Coar"
+    },
+    {
+      "content": "Tempere com {9} e, se quiser, {10}. Sirva quente com {11} por cima.",
+      "timer": 0,
+      "title": "Temperar e servir"
+    }
+  ],
+  "notes": "Não deixe o kombu ferver (solta gosma e amarga) nem passe de 40 minutos no fogo (o caldo turva). Para ara-jiru, dissolva missô fora do fogo.",
+  "images": [],
+  "updatedAt": "2026-11-01T09:50:00.000Z"
+}

@@ -1,0 +1,113 @@
+{
+  "title": "Fundo claro de legumes",
+  "category": "Fundos",
+  "description": "Fundo básico de legumes e ervas aromáticas, sem ossos. Base para risotos, sopas, velouté de legumes e cozimentos delicados.",
+  "servings": 1,
+  "yieldLabel": "receita (~1,5 l)",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": "",
+      "id": "1",
+      "name": "## Mirepoix (~460 g, metade cebola)",
+      "unit": ""
+    },
+    {
+      "amount": 250,
+      "id": "2",
+      "name": "cebola em pedaços médios",
+      "unit": "g"
+    },
+    {
+      "amount": 70,
+      "id": "3",
+      "name": "aipo (salsão)",
+      "unit": "g"
+    },
+    {
+      "amount": 70,
+      "id": "4",
+      "name": "alho-poró, parte branca",
+      "unit": "g"
+    },
+    {
+      "amount": 70,
+      "id": "5",
+      "name": "cenoura",
+      "unit": "g"
+    },
+    {
+      "amount": "",
+      "id": "6",
+      "name": "## Líquido",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "7",
+      "name": "água fria",
+      "unit": "l"
+    },
+    {
+      "amount": "",
+      "id": "8",
+      "name": "## Bouquet garni (ervas aromáticas)",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "9",
+      "name": "ramos de tomilho",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "10",
+      "name": "folha de louro",
+      "unit": ""
+    },
+    {
+      "amount": 5,
+      "id": "11",
+      "name": "talos de salsinha",
+      "unit": ""
+    },
+    {
+      "amount": 6,
+      "id": "12",
+      "name": "grãos de pimenta-do-reino",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Corte os legumes em pedaços médios, de 2–3 cm. Lave bem o alho-poró, que costuma ter terra entre as camadas.",
+      "timer": 0,
+      "title": "Cortar"
+    },
+    {
+      "content": "Amarre o tomilho, o louro e os talos de salsinha com barbante (ou num saquinho de pano, junto com a pimenta).",
+      "timer": 0,
+      "title": "Montar o bouquet"
+    },
+    {
+      "content": "Coloque os legumes e o bouquet na panela com {7} e leve ao fogo médio até começar a ferver.",
+      "timer": 0,
+      "title": "Começar a frio"
+    },
+    {
+      "content": "Abaixe para fervura bem suave, sem tampa, retirando a espuma que subir.",
+      "timer": 2700,
+      "title": "Cozinhar em fervura leve"
+    },
+    {
+      "content": "Coe sem espremer os legumes. Esfrie rápido (panela sobre água com gelo) e guarde.",
+      "timer": 0,
+      "title": "Coar"
+    }
+  ],
+  "notes": "Fundo não leva sal: ele será reduzido depois. Mais de 1 hora de cozimento deixa o fundo de legumes amargo. Para mais sabor, sue os legumes em um fio de óleo por 5 minutos, sem dourar, antes da água. Dura 3–4 dias na geladeira e 3 meses no congelador (em forminhas de gelo é prático).",
+  "images": [],
+  "source": "",
+  "updatedAt": "2026-11-09T03:10:00.000Z"
+}

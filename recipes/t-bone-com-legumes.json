@@ -1,0 +1,96 @@
+{
+  "title": "T-bone com legumes grelhados",
+  "category": "Churrasco",
+  "description": "T-bone na grelha com legumes pincelados em azeite temperado com alho.",
+  "servings": 2,
+  "yieldLabel": "porções",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 1,
+      "id": "1",
+      "name": "bife de T-bone",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "2",
+      "name": "sal, pimenta-do-reino e azeite",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "3",
+      "name": "## Legumes",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "4",
+      "name": "cebola roxa fatiada",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "5",
+      "name": "cebola branca fatiada",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "abobrinha fatiada",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "7",
+      "name": "berinjela fatiada",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "8",
+      "name": "cenoura fatiada",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "9",
+      "name": "tomate fatiado",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "10",
+      "name": "azeite, sal, pimenta-do-reino e alho granulado",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Tempere o T-bone, regue com azeite e grelhe 9 minutos de um lado e 6 do outro.",
+      "timer": 540,
+      "title": "Grelhar a carne"
+    },
+    {
+      "content": "Misture azeite com sal, pimenta e alho granulado.",
+      "timer": 0,
+      "title": "Temperar o azeite"
+    },
+    {
+      "content": "Pincele os legumes com o azeite temperado e leve à grelha até marcar.",
+      "timer": 0,
+      "title": "Grelhar os legumes"
+    },
+    {
+      "content": "Sirva a carne com os legumes.",
+      "timer": 0,
+      "title": "Servir"
+    }
+  ],
+  "notes": "",
+  "images": [],
+  "source": "CHURRASCO_AMERICANO.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

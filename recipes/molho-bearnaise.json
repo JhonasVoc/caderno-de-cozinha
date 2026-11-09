@@ -1,0 +1,73 @@
+{
+  "title": "Molho béarnaise",
+  "category": "Molhos",
+  "description": "Molho emulsionado de gemas, manteiga e redução de vinagre com estragão. Para carnes grelhadas, peixe e legumes.",
+  "servings": 4,
+  "yieldLabel": "porções",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 2,
+      "id": "1",
+      "name": "estragão picado (+ para decorar)",
+      "unit": "tsp"
+    },
+    {
+      "amount": 2,
+      "id": "2",
+      "name": "cebola roxa picada",
+      "unit": "tsp"
+    },
+    {
+      "amount": 5,
+      "id": "3",
+      "name": "vinagre de vinho branco",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 4,
+      "id": "4",
+      "name": "gemas",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "5",
+      "name": "suco de limão-siciliano",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "sal",
+      "unit": "pinch"
+    },
+    {
+      "amount": 225,
+      "id": "7",
+      "name": "manteiga derretida",
+      "unit": "g"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Cozinhe o estragão, a cebola e o vinagre em fogo médio por 5 minutos, até sobrar cerca de 1 colher de sopa. Coe e reserve o vinagre.",
+      "timer": 300,
+      "title": "Reduzir"
+    },
+    {
+      "content": "Bata as gemas no liquidificador com o vinagre reduzido, o limão e o sal. Com o liquidificador ligado, junte a manteiga derretida aos poucos.",
+      "timer": 0,
+      "title": "Emulsionar"
+    },
+    {
+      "content": "Transfira para uma vasilha, decore com estragão e sirva logo.",
+      "timer": 0,
+      "title": "Servir"
+    }
+  ],
+  "notes": "",
+  "images": [],
+  "source": "Molhos.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

@@ -1,0 +1,135 @@
+{
+  "title": "Coxinha de mandioca",
+  "category": "Salgados",
+  "description": "Massa de mandioca cozida com caldo de frango, mais macia e adocicada que a tradicional. Empanada com água e açúcar, que não deixa doce.",
+  "servings": 25,
+  "yieldLabel": "coxinhas",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": "",
+      "id": "1",
+      "name": "## Massa",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "2",
+      "name": "mandioca cozida",
+      "unit": "kg"
+    },
+    {
+      "amount": 2,
+      "id": "3",
+      "name": "farinha de trigo",
+      "unit": "cup"
+    },
+    {
+      "amount": 2,
+      "id": "4",
+      "name": "manteiga",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 600,
+      "id": "5",
+      "name": "caldo do cozimento do frango (ou 2 tabletes de caldo de galinha em 600 ml de água)",
+      "unit": "ml"
+    },
+    {
+      "amount": "",
+      "id": "6",
+      "name": "cheiro-verde a gosto",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "7",
+      "name": "sal a gosto",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "8",
+      "name": "## Para empanar",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "9",
+      "name": "água",
+      "unit": "l"
+    },
+    {
+      "amount": 1,
+      "id": "10",
+      "name": "açúcar refinado",
+      "unit": "cup"
+    },
+    {
+      "amount": "",
+      "id": "11",
+      "name": "farinha de rosca",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "12",
+      "name": "óleo para fritar",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "13",
+      "name": "## Recheio",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "14",
+      "name": "frango desfiado, carne moída ou legumes, a gosto",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Amasse a mandioca até virar purê. Junte o caldo, a manteiga, o sal e o cheiro-verde.",
+      "timer": 0,
+      "title": "Fazer o purê"
+    },
+    {
+      "content": "Leve ao fogo médio. Quando começar a ferver, junte metade da farinha e misture bem. Adicione o resto aos poucos, mexendo sem parar por cerca de 10 minutos.",
+      "timer": 600,
+      "title": "Cozinhar a massa"
+    },
+    {
+      "content": "Transfira para uma tigela, cubra com filme encostando na massa e deixe esfriar bem. É normal ficar mais mole que a massa tradicional.",
+      "timer": 0,
+      "title": "Esfriar"
+    },
+    {
+      "content": "Com as mãos untadas com óleo, abra porções de massa, recheie e modele as coxinhas.",
+      "timer": 0,
+      "title": "Modelar"
+    },
+    {
+      "content": "Dissolva o açúcar na água, passe as coxinhas nessa mistura e depois na farinha de rosca.",
+      "timer": 0,
+      "title": "Empanar"
+    },
+    {
+      "content": "Frite em óleo quente e escorra numa peneira de metal, não em papel-toalha, para não encharcar.",
+      "timer": 0,
+      "title": "Fritar"
+    }
+  ],
+  "notes": "A água com açúcar ajuda a dourar e deixa a casquinha crocante, sem adoçar. O recheio não vem na receita original.",
+  "images": [
+    {
+      "src": "images/coxinha-de-mandioca/01.jpg",
+      "caption": "Coxinhas modeladas, antes de empanar."
+    }
+  ],
+  "source": "Coxinha_de_Mandioca.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

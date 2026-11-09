@@ -1,0 +1,206 @@
+{
+  "title": "Bolinho de feijoada",
+  "category": "Salgados",
+  "description": "Massa de feijão-preto com carnes, engrossada com farinha de mandioca, recheada com couve refogada e empanada.",
+  "servings": 1,
+  "yieldLabel": "receita",
+  "scale": false,
+  "ingredients": [
+    {
+      "amount": "",
+      "id": "1",
+      "name": "## Feijoada",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "2",
+      "name": "água",
+      "unit": "l"
+    },
+    {
+      "amount": 500,
+      "id": "3",
+      "name": "feijão-preto",
+      "unit": "g"
+    },
+    {
+      "amount": 100,
+      "id": "4",
+      "name": "carne-seca dessalgada em cubinhos",
+      "unit": "g"
+    },
+    {
+      "amount": 100,
+      "id": "5",
+      "name": "lombo defumado em cubinhos",
+      "unit": "g"
+    },
+    {
+      "amount": 100,
+      "id": "6",
+      "name": "costelinha dessalgada ou defumada",
+      "unit": "g"
+    },
+    {
+      "amount": 1,
+      "id": "7",
+      "name": "linguiça calabresa em cubos",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "8",
+      "name": "paio em cubos",
+      "unit": ""
+    },
+    {
+      "amount": 3,
+      "id": "9",
+      "name": "folhas de louro",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "10",
+      "name": "## Massa",
+      "unit": ""
+    },
+    {
+      "amount": 3,
+      "id": "11",
+      "name": "azeite",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 3,
+      "id": "12",
+      "name": "dentes de alho",
+      "unit": ""
+    },
+    {
+      "amount": 200,
+      "id": "13",
+      "name": "farinha de mandioca fina, sem torrar",
+      "unit": "g"
+    },
+    {
+      "amount": 1,
+      "id": "14",
+      "name": "polvilho azedo",
+      "unit": "tbsp"
+    },
+    {
+      "amount": "",
+      "id": "15",
+      "name": "## Recheio de couve",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "16",
+      "name": "maços de couve cortada bem fininha",
+      "unit": ""
+    },
+    {
+      "amount": 250,
+      "id": "17",
+      "name": "bacon em cubinhos",
+      "unit": "g"
+    },
+    {
+      "amount": 2,
+      "id": "18",
+      "name": "dentes de alho",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "19",
+      "name": "azeite",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "20",
+      "name": "## Para empanar e servir",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "21",
+      "name": "farinha de rosca",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "22",
+      "name": "óleo para fritar",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "23",
+      "name": "gomos de laranja",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "24",
+      "name": "torresmo",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "25",
+      "name": "batida de limão",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Na panela de pressão, coloque a água, o feijão, as carnes e o louro. Cozinhe por cerca de 1 hora, contando depois que pegar pressão.",
+      "timer": 3600,
+      "title": "Cozinhar a feijoada"
+    },
+    {
+      "content": "Retire o louro e bata o feijão com as carnes até virar um creme grosso.",
+      "timer": 0,
+      "title": "Bater o feijão"
+    },
+    {
+      "content": "Aqueça o azeite numa panela grande, doure o alho e refogue o feijão batido. Acerte o sal. Acrescente a farinha de mandioca aos poucos, sem parar de mexer, até engrossar e soltar do fundo.",
+      "timer": 0,
+      "title": "Engrossar a massa"
+    },
+    {
+      "content": "Retire do fogo e deixe esfriar. Junte o polvilho e misture até a massa ficar homogênea.",
+      "timer": 0,
+      "title": "Esfriar e dar liga"
+    },
+    {
+      "content": "Numa frigideira, doure o bacon com o alho, junte a couve e refogue por 2 minutos.",
+      "timer": 120,
+      "title": "Refogar a couve"
+    },
+    {
+      "content": "Abra pequenas porções de massa na mão, coloque 1 colher de chá de couve, feche em bolinhos e achate levemente.",
+      "timer": 0,
+      "title": "Modelar"
+    },
+    {
+      "content": "Passe na farinha de rosca e frite em óleo quente até dourar.",
+      "timer": 0,
+      "title": "Empanar e fritar"
+    },
+    {
+      "content": "Sirva com gomos de laranja, torresmo e uma batidinha de limão.",
+      "timer": 0,
+      "title": "Servir"
+    }
+  ],
+  "notes": "O passo de bater o feijão está implícito na receita original, que fala em \"refogar o feijão batido\".",
+  "images": [],
+  "source": "Bolinho_de_feijoada.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

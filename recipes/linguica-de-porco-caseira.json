@@ -1,0 +1,89 @@
+{
+  "title": "Linguiça de porco caseira",
+  "category": "Embutidos",
+  "description": "A mais simples: pernil e toucinho moídos grosso com alho, sal e pimenta, amarrada a cada 10 cm.",
+  "servings": 1,
+  "yieldLabel": "receita",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 1,
+      "id": "1",
+      "name": "pernil de porco",
+      "unit": "kg"
+    },
+    {
+      "amount": 400,
+      "id": "2",
+      "name": "toucinho sem couro",
+      "unit": "g"
+    },
+    {
+      "amount": 5,
+      "id": "3",
+      "name": "dentes de alho",
+      "unit": ""
+    },
+    {
+      "amount": 0.5,
+      "id": "4",
+      "name": "pimenta-do-reino (colher de café)",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1.5,
+      "id": "5",
+      "name": "sal",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "vinagre (para a tripa)",
+      "unit": "tbsp"
+    },
+    {
+      "amount": "",
+      "id": "7",
+      "name": "tripa de porco salgada",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "8",
+      "name": "barbante",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "No moedor com o disco mais grosso, moa o pernil, o toucinho e o alho uma única vez: pedaços maiores dão mais sabor.",
+      "timer": 0,
+      "title": "Moer"
+    },
+    {
+      "content": "Junte a pimenta e o sal e misture muito bem.",
+      "timer": 0,
+      "title": "Temperar"
+    },
+    {
+      "content": "Deixe 3 horas na geladeira.",
+      "timer": 10800,
+      "title": "Descansar"
+    },
+    {
+      "content": "Perto de embutir, deixe a tripa em água com vinagre por 30 minutos e lave bem em água corrente.",
+      "timer": 1800,
+      "title": "Preparar a tripa"
+    },
+    {
+      "content": "Encha a tripa com o funil e amarre com barbante a cada 10 cm. Conserve na geladeira.",
+      "timer": 0,
+      "title": "Embutir e amarrar"
+    }
+  ],
+  "notes": "Variações de sabor: hortelã (1 maço, ou desidratada, para 4 kg de carne), erva-doce, provolone, azeitona, rúcula com tomate seco, chimichurri, páprica, noz-moscada.",
+  "images": [],
+  "source": "Linguica_Caseira.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

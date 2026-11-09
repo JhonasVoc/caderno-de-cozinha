@@ -1,0 +1,104 @@
+{
+  "title": "Tempura de camarão e legumes",
+  "category": "Frituras",
+  "description": "Massa leve e crocante feita com água com gás gelada, servida com molho tentsuyu de dashi, shoyu e mirin.",
+  "servings": 4,
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 12,
+      "id": "1",
+      "name": "camarões grandes, descascados, com o rabo",
+      "unit": ""
+    },
+    {
+      "amount": 400,
+      "id": "2",
+      "name": "legumes em fatias (batata-doce, abóbora, berinjela, cogumelos, vagem)",
+      "unit": "g"
+    },
+    {
+      "amount": 120,
+      "id": "3",
+      "name": "farinha de trigo fraca",
+      "unit": "g"
+    },
+    {
+      "amount": 1,
+      "id": "4",
+      "name": "gema de ovo",
+      "unit": ""
+    },
+    {
+      "amount": 200,
+      "id": "5",
+      "name": "água com gás geladíssima",
+      "unit": "ml"
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "óleo para fritar",
+      "unit": "l"
+    },
+    {
+      "amount": 200,
+      "id": "7",
+      "name": "dashi",
+      "unit": "ml"
+    },
+    {
+      "amount": 50,
+      "id": "8",
+      "name": "shoyu",
+      "unit": "ml"
+    },
+    {
+      "amount": 50,
+      "id": "9",
+      "name": "mirin",
+      "unit": "ml"
+    },
+    {
+      "amount": 4,
+      "id": "10",
+      "name": "nabo daikon ralado",
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Leve ao fogo {7}, {8} e {9} até ferver. Desligue e reserve morno.",
+      "timer": 180,
+      "title": "Fazer o tentsuyu"
+    },
+    {
+      "content": "Faça 3–4 cortes rasos na barriga de {1} e pressione para ficarem retos. Seque bem os camarões e {2}.",
+      "timer": 0,
+      "title": "Preparar os camarões"
+    },
+    {
+      "content": "Aqueça {6} em panela funda a 170–180 °C. Sem termômetro: uma gota de massa afunda um pouco e sobe logo, borbulhando.",
+      "timer": 420,
+      "title": "Aquecer o óleo"
+    },
+    {
+      "content": "Misture {4} com {5}. Junte {3} de uma vez e mexa com hashi só alguns segundos. A massa deve ficar empelotada.",
+      "timer": 0,
+      "title": "Fazer a massa na hora"
+    },
+    {
+      "content": "Passe cada peça numa leve camada de farinha, depois na massa, e frite poucas por vez até dourar bem claro. Legumes 2–3 min, camarão 1–2 min.",
+      "timer": 150,
+      "title": "Fritar"
+    },
+    {
+      "content": "Escorra em grade ou papel-toalha e sirva na hora com o tentsuyu e {10} à parte.",
+      "timer": 0,
+      "title": "Servir"
+    }
+  ],
+  "notes": "Tudo bem gelado e massa pouco mexida: é isso que deixa crocante. Mantenha a tigela da massa sobre gelo. Farinha pronta de tempura (天ぷら粉) também funciona bem. Nunca deixe o óleo quente sem supervisão.",
+  "images": [],
+  "updatedAt": "2026-11-01T09:50:00.000Z"
+}

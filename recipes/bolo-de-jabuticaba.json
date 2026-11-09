@@ -1,0 +1,67 @@
+{
+  "title": "Bolo de jabuticaba",
+  "category": "Bolos",
+  "description": "Jabuticabas inteiras batidas com ovos, açúcar e óleo. Massa simples de liquidificador em fôrma de pudim.",
+  "servings": 1,
+  "yieldLabel": "fôrma",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 2,
+      "id": "1",
+      "name": "jabuticabas",
+      "unit": "cup"
+    },
+    {
+      "amount": 3,
+      "id": "2",
+      "name": "ovos inteiros",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "3",
+      "name": "açúcar",
+      "unit": "cup"
+    },
+    {
+      "amount": 0.5,
+      "id": "4",
+      "name": "óleo",
+      "unit": "cup"
+    },
+    {
+      "amount": 2,
+      "id": "5",
+      "name": "farinha de trigo peneirada (ou aveia)",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "fermento químico em pó",
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "content": "No liquidificador, bata as jabuticabas, os ovos, o açúcar e o óleo por cerca de 1 minuto e meio.",
+      "timer": 90,
+      "title": "Bater"
+    },
+    {
+      "content": "Numa vasilha, peneire a farinha, junte o creme do liquidificador e misture bem. Adicione o fermento e misture delicadamente.",
+      "timer": 0,
+      "title": "Misturar"
+    },
+    {
+      "content": "Despeje numa fôrma de pudim untada e enfarinhada e asse a 180 °C por cerca de 40 minutos, até o palito sair limpo.",
+      "timer": 2400,
+      "title": "Assar"
+    }
+  ],
+  "notes": "A receita original não diz temperatura nem tempo: coloquei 180 °C por cerca de 40 minutos, que é o padrão para esse tamanho de bolo. Confira com o palito.",
+  "images": [],
+  "source": "Bolo_de_Jabiticaba.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

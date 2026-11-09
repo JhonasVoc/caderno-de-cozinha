@@ -1,0 +1,14 @@
+{
+  "name": "caderno-de-cozinha",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Caderno pessoal de receitas e técnicas: site estático gerado a partir de arquivos JSON.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/build.mjs && npx --yes serve -l 3000 ."
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

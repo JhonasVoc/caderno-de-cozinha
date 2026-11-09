@@ -1,0 +1,88 @@
+{
+  "title": "Crustule da avó (latugue)",
+  "category": "Doces",
+  "description": "Receita de família trazida da Itália por volta de 1880: massa finíssima com banha e cachaça de erva-doce, frita e polvilhada com açúcar.",
+  "servings": 1,
+  "yieldLabel": "receita",
+  "scale": false,
+  "ingredients": [
+    {
+      "amount": 5,
+      "id": "1",
+      "name": "ovos",
+      "unit": ""
+    },
+    {
+      "amount": 1.5,
+      "id": "2",
+      "name": "açúcar (+ para polvilhar)",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "3",
+      "name": "manteiga ou margarina, derretida com a banha",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "4",
+      "name": "banha de porco derretida",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "5",
+      "name": "cachaça aromatizada com erva-doce",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 900,
+      "id": "6",
+      "name": "farinha de trigo, aproximadamente (o quanto baste)",
+      "unit": "g"
+    },
+    {
+      "amount": "",
+      "id": "7",
+      "name": "óleo para fritar",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Bata os ovos, junte o açúcar e continue batendo. Adicione a manteiga derretida com a banha e a cachaça. Um mixer ajuda.",
+      "timer": 0,
+      "title": "Bater"
+    },
+    {
+      "content": "Vá colocando farinha e amassando até a massa desgrudar bem das mãos.",
+      "timer": 0,
+      "title": "Sovar"
+    },
+    {
+      "content": "Enrole em filme e deixe na geladeira por algumas horas, de preferência de um dia para o outro.",
+      "timer": 0,
+      "title": "Descansar"
+    },
+    {
+      "content": "Passe no cilindro até ficar bem fina, cerca de 0,5 mm (posição 5 da Marcato).",
+      "timer": 0,
+      "title": "Abrir fino"
+    },
+    {
+      "content": "Corte retângulos de cerca de 2 × 5 cm, faça um corte no meio e passe uma das pontas por ele.",
+      "timer": 0,
+      "title": "Cortar"
+    },
+    {
+      "content": "Frite em óleo quente, mas não muito, até começar a dourar. Polvilhe açúcar assim que tirar do óleo.",
+      "timer": 0,
+      "title": "Fritar e polvilhar"
+    }
+  ],
+  "notes": "Cachaça de erva-doce: coloque sementes de erva-doce num vidro com cachaça e deixe curtir alguns dias.",
+  "images": [],
+  "source": "Crustule.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

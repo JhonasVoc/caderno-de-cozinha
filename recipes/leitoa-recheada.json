@@ -1,0 +1,217 @@
+{
+  "title": "Leitoa recheada com arroz",
+  "category": "Churrasco",
+  "description": "Leitoa de 4–5 kg marinada por dentro na seringa, recheada com arroz de carne moída, frutas secas e castanhas, assada no rolete ou no forno.",
+  "servings": 1,
+  "yieldLabel": "leitoa (4–5 kg)",
+  "scale": false,
+  "ingredients": [
+    {
+      "amount": "",
+      "id": "1",
+      "name": "## Recheio",
+      "unit": ""
+    },
+    {
+      "amount": 3,
+      "id": "2",
+      "name": "arroz parboilizado",
+      "unit": "cup"
+    },
+    {
+      "amount": 150,
+      "id": "3",
+      "name": "manteiga",
+      "unit": "g"
+    },
+    {
+      "amount": "",
+      "id": "4",
+      "name": "óleo para fritar a carne moída",
+      "unit": ""
+    },
+    {
+      "amount": 500,
+      "id": "5",
+      "name": "carne moída",
+      "unit": "g"
+    },
+    {
+      "amount": 2,
+      "id": "6",
+      "name": "cubos de caldo de galinha",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "7",
+      "name": "cebola grande picada",
+      "unit": ""
+    },
+    {
+      "amount": 0.75,
+      "id": "8",
+      "name": "passas sem sementes",
+      "unit": "cup"
+    },
+    {
+      "amount": 0.75,
+      "id": "9",
+      "name": "nozes picadas",
+      "unit": "cup"
+    },
+    {
+      "amount": 0.75,
+      "id": "10",
+      "name": "amêndoas laminadas",
+      "unit": "cup"
+    },
+    {
+      "amount": 0.75,
+      "id": "11",
+      "name": "castanha de caju picada",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "12",
+      "name": "azeitonas pretas",
+      "unit": "cup"
+    },
+    {
+      "amount": 8,
+      "id": "13",
+      "name": "dentes de alho fatiados",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "14",
+      "name": "cheiro-verde (salsinha, cebolinha, orégano fresco, sálvia e manjericão)",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "15",
+      "name": "copo de vinho branco seco",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "16",
+      "name": "sal temperado ou sal + pimenta-do-reino, pimenta vermelha, noz-moscada, cominho a gosto",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "17",
+      "name": "## Leitoa e marinada",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "18",
+      "name": "leitoa de cerca de 4,5 kg",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "19",
+      "name": "¾ de copo (250 ml) de vinagre branco",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "20",
+      "name": "¼ de copo (250 ml) de molho inglês",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "21",
+      "name": "sal (bem cheias)",
+      "unit": "tbsp"
+    },
+    {
+      "amount": "",
+      "id": "22",
+      "name": "sal temperado para esfregar na pele",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Misture o vinagre, o molho inglês e o sal. Com uma seringa culinária, injete a marinada sempre pelo lado de dentro, sem furar a pele (isso prejudica a pururuca).",
+      "timer": 0,
+      "title": "Marinar a leitoa"
+    },
+    {
+      "content": "Esfregue sal temperado em toda a pele, mantendo-a seca. Deixe no tempero por pelo menos 12 horas na geladeira.",
+      "timer": 0,
+      "title": "Temperar a pele"
+    },
+    {
+      "content": "Frite a carne moída no óleo. Junte o alho, depois a cebola, até murchar. Adicione o vinho e deixe evaporar.",
+      "timer": 0,
+      "title": "Refogar a carne do recheio"
+    },
+    {
+      "content": "Junte o caldo de galinha, passas, nozes, amêndoas, castanha, azeitonas e o sal temperado. Mexa por 2 minutos e cubra com água fervendo até um dedo acima.",
+      "timer": 120,
+      "title": "Temperar o recheio"
+    },
+    {
+      "content": "Em outra panela, refogue o arroz como de costume, adicione água e cozinhe até quase secar.",
+      "timer": 0,
+      "title": "Cozinhar o arroz"
+    },
+    {
+      "content": "Junte o refogado de carne ao arroz e cozinhe até secar toda a água. Acrescente o cheiro-verde e misture.",
+      "timer": 0,
+      "title": "Juntar e finalizar o recheio"
+    },
+    {
+      "content": "Escorra o líquido que se formou dentro da leitoa, recheie com o arroz e costure a abertura com barbante.",
+      "timer": 0,
+      "title": "Rechear"
+    },
+    {
+      "content": "Asse em fogo moderado por cerca de 3 horas e depois em fogo mais alto por mais 1 hora, para a pele pururucar. No rolete, o tempo é semelhante.",
+      "timer": 10800,
+      "title": "Assar"
+    }
+  ],
+  "notes": "Ponto da pele: ela precisa ficar seca o tempo todo para pururucar. Se assar no forno, use temperatura moderada (180 °C) e termine a 220–230 °C.",
+  "images": [
+    {
+      "src": "images/leitoa-recheada/01.jpg",
+      "caption": "Leitoa assada e recheada."
+    },
+    {
+      "src": "images/leitoa-recheada/02.jpg",
+      "caption": "Refogado de carne coberto com água."
+    },
+    {
+      "src": "images/leitoa-recheada/03.jpg",
+      "caption": "Arroz quase seco."
+    },
+    {
+      "src": "images/leitoa-recheada/04.jpg",
+      "caption": "Juntando o refogado ao arroz."
+    },
+    {
+      "src": "images/leitoa-recheada/05.jpg",
+      "caption": "Recheio pronto."
+    },
+    {
+      "src": "images/leitoa-recheada/06.jpg",
+      "caption": "Recheando a leitoa."
+    },
+    {
+      "src": "images/leitoa-recheada/07.jpg",
+      "caption": "Costurando com barbante."
+    }
+  ],
+  "source": "Leitoa_Recheada_Rolete.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

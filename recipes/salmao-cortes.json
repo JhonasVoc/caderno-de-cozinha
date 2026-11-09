@@ -1,0 +1,95 @@
+{
+  "title": "Salmão: cortes para sashimi, nigiri e maki",
+  "category": "Técnicas",
+  "description": "Como transformar um corte central de salmão em blocos (saku) e fatiar para sashimi, nigiri e maki.",
+  "servings": 3,
+  "scale": false,
+  "ingredients": [
+    {
+      "amount": 400,
+      "id": "1",
+      "name": "filé de salmão, corte central, próprio para sashimi",
+      "unit": "g"
+    },
+    {
+      "amount": "",
+      "id": "2",
+      "name": "pinça de espinha",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "3",
+      "name": "faca yanagiba bem afiada",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "4",
+      "name": "pano úmido para a lâmina",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Mantenha {1} embrulhado em papel-toalha e filme na parte mais fria da geladeira até a hora de cortar. Peixe frio fatia mais limpo.",
+      "timer": 0,
+      "title": "Gelar o peixe"
+    },
+    {
+      "content": "Se tiver pele, passe a faca rente entre carne e pele. Passe o dedo na linha central e puxe as espinhas finas com {2}, no sentido da cabeça.",
+      "timer": 0,
+      "title": "Pele e espinhas"
+    },
+    {
+      "content": "Corte ao longo da faixa de gordura branca que divide o filé. O lado com mais listras é a barriga (A); o mais vermelho e firme, o lombo (B).",
+      "timer": 0,
+      "title": "Separar barriga e lombo (1)"
+    },
+    {
+      "content": "Apare as bordas finas para formar blocos retangulares. Guarde as aparas para tartar ou maki.",
+      "timer": 0,
+      "title": "Aparar (2)"
+    },
+    {
+      "content": "Faca na vertical, fatias de ~1 cm atravessando as listras brancas, num único puxão do salto à ponta de {3}, sem serrar (hira-zukuri).",
+      "timer": 0,
+      "title": "Sashimi no lombo"
+    },
+    {
+      "content": "Divida a barriga em tiras de ~3,5 cm no sentido das listras. Fatie cada tira atravessando as listras, faca inclinada ~45°, fatias de ~5 mm e 7–8 × 3 cm (sogi-giri).",
+      "timer": 0,
+      "title": "Nigiri na barriga"
+    },
+    {
+      "content": "Se o bloco tiver mais de 1,5 cm de altura, fatie na horizontal em camadas de ~1 cm. Corte bastões no comprimento: 1 × 1 cm para hosomaki, 1,5 × 1 cm para uramaki, com ~19–20 cm.",
+      "timer": 0,
+      "title": "Bastões para maki"
+    },
+    {
+      "content": "Passe {4} na lâmina a cada poucos cortes. Guarde as fatias cobertas na geladeira e sirva no mesmo dia.",
+      "timer": 0,
+      "title": "Lâmina limpa"
+    }
+  ],
+  "notes": "Regra de ouro: as listras de gordura ficam atravessadas na fatia, como faixas. Se ficarem no comprimento, o corte foi no sentido errado e a fatia se desfaz. Mapa do filé: lombo e barriga são ótimos para sashimi e nigiri; a cauda, mais fina e com mais nervos, vai melhor em tartar e maki; o kama (gola atrás da cabeça) é melhor grelhado. Retire sempre a linha de sangue (chiai), de gosto forte.",
+  "images": [
+    {
+      "src": "images/salmao-cortes/01.png",
+      "caption": "Mapa do filé: kama, lombo (se), barriga (harasu), cauda e a linha de sangue (chiai) entre lombo e barriga."
+    },
+    {
+      "src": "images/salmao-cortes/02.jpg",
+      "caption": "Divisão do filé: barriga (A) para nigiri, lombo (B) para sashimi."
+    },
+    {
+      "src": "images/salmao-cortes/03.jpg",
+      "caption": "Nigiri: tiras paralelas às listras, fatias atravessando."
+    },
+    {
+      "src": "images/salmao-cortes/04.jpg",
+      "caption": "Maki: bastões no comprimento do bloco."
+    }
+  ],
+  "updatedAt": "2026-11-01T10:00:00.000Z"
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Demi-glace",
+  "category": "Molhos",
+  "description": "Molho espanhol com fundo escuro, reduzido à metade até ficar brilhante e encorpado. Base de molhos para carnes.",
+  "servings": 1,
+  "yieldLabel": "receita (~500 ml)",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 500,
+      "id": "1",
+      "name": "molho espanhol",
+      "unit": "ml"
+    },
+    {
+      "amount": 500,
+      "id": "2",
+      "name": "fundo escuro",
+      "unit": "ml"
+    },
+    {
+      "amount": 2,
+      "id": "3",
+      "name": "vinho Madeira ou do Porto (opcional)",
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Junte {1} e {2} numa panela de fundo grosso e leve à fervura.",
+      "timer": 0,
+      "title": "Juntar"
+    },
+    {
+      "content": "Cozinhe em fogo baixo, retirando a espuma, até reduzir à metade e cobrir as costas da colher.",
+      "timer": 2700,
+      "title": "Reduzir"
+    },
+    {
+      "content": "Passe pela peneira fina. Se quiser, junte {3} no final.",
+      "timer": 0,
+      "title": "Finalizar"
+    }
+  ],
+  "notes": "Para molhos de carne: refogue chalota na manteiga, deglaceie com vinho tinto, junte demi-glace e reduza (molho bordelaise), ou junte pimenta verde e creme (molho au poivre). Congela muito bem em forminhas de gelo.",
+  "images": [],
+  "source": "",
+  "updatedAt": "2026-11-09T03:10:00.000Z"
+}

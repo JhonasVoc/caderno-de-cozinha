@@ -1,0 +1,113 @@
+{
+  "title": "Linguiça de pernil com queijo",
+  "category": "Embutidos",
+  "description": "Pernil em cubos de 1 cm com muçarela (ou provolone), cura opcional de um a dois dias na geladeira.",
+  "servings": 1,
+  "yieldLabel": "kg de carne",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 1,
+      "id": "1",
+      "name": "pernil suíno, sem pele e sem nervos",
+      "unit": "kg"
+    },
+    {
+      "amount": 300,
+      "id": "2",
+      "name": "queijo muçarela, prato, coalho ou provolone",
+      "unit": "g"
+    },
+    {
+      "amount": 2,
+      "id": "3",
+      "name": "leite em pó",
+      "unit": "tbsp"
+    },
+    {
+      "amount": "",
+      "id": "4",
+      "name": "salsinha e cebolinha a gosto",
+      "unit": ""
+    },
+    {
+      "amount": 12,
+      "id": "5",
+      "name": "sal",
+      "unit": "g"
+    },
+    {
+      "amount": 4,
+      "id": "6",
+      "name": "dentes de alho amassados",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "7",
+      "name": "açúcar (colher de sobremesa)",
+      "unit": "tsp"
+    },
+    {
+      "amount": 50,
+      "id": "8",
+      "name": "água gelada",
+      "unit": "ml"
+    },
+    {
+      "amount": 1,
+      "id": "9",
+      "name": "glutamato monossódico (opcional)",
+      "unit": "tsp"
+    },
+    {
+      "amount": 2.4,
+      "id": "10",
+      "name": "sal de cura (opcional)",
+      "unit": "g"
+    },
+    {
+      "amount": 2,
+      "id": "11",
+      "name": "aroma natural de fumaça (opcional)",
+      "unit": "tbsp"
+    },
+    {
+      "amount": "",
+      "id": "12",
+      "name": "6 m de tripa ovina fina ou 3 m de tripa suína 32/34",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Limpe o pernil, tire a pele e o máximo de tecido conjuntivo. Corte em cubos de cerca de 1 cm.",
+      "timer": 0,
+      "title": "Limpar e cortar"
+    },
+    {
+      "content": "Junte todos os ingredientes, menos o queijo, e misture com as mãos ou na batedeira com a pá, em velocidade baixa, até a carne ficar pegajosa.",
+      "timer": 0,
+      "title": "Dar liga"
+    },
+    {
+      "content": "Deixe na geladeira por 1 a 2 dias para o tempero se incorporar (e o sal de cura agir, se usado).",
+      "timer": 0,
+      "title": "Curar"
+    },
+    {
+      "content": "Corte o queijo em cubos de 1 cm e misture uniformemente.",
+      "timer": 0,
+      "title": "Juntar o queijo"
+    },
+    {
+      "content": "Encha a tripa com funil ou embutidora própria. Moedor caseiro não é recomendado aqui.",
+      "timer": 0,
+      "title": "Embutir"
+    }
+  ],
+  "notes": "Não precisa deixar a gordura do pernil: o queijo faz esse papel. A tripa ovina é mais macia e assa mais rápido, mas rompe com mais facilidade e é mais cara; na dúvida, use a suína.",
+  "images": [],
+  "source": "Linguica_Caseira.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

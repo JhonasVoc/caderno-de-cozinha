@@ -1,0 +1,112 @@
+{
+  "title": "Molho bechamel",
+  "category": "Molhos",
+  "description": "Molho-mãe francês: roux de manteiga e farinha com leite aromatizado pela cebola piquée e noz-moscada. Base para lasanha, gratinados, croquete e molho mornay.",
+  "servings": 1,
+  "yieldLabel": "receita (~400 ml)",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 16,
+      "id": "1",
+      "name": "manteiga",
+      "unit": "g"
+    },
+    {
+      "amount": 16,
+      "id": "2",
+      "name": "farinha de trigo",
+      "unit": "g"
+    },
+    {
+      "amount": 400,
+      "id": "3",
+      "name": "leite integral",
+      "unit": "ml"
+    },
+    {
+      "amount": "",
+      "id": "4",
+      "name": "## Cebola piquée",
+      "unit": ""
+    },
+    {
+      "amount": 0.5,
+      "id": "5",
+      "name": "cebola pequena (metade, sem casca)",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "folha de louro",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "7",
+      "name": "cravos-da-índia",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "8",
+      "name": "## Tempero",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "9",
+      "name": "noz-moscada ralada na hora",
+      "unit": "pinch"
+    },
+    {
+      "amount": 0.5,
+      "id": "10",
+      "name": "sal",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "11",
+      "name": "pimenta-do-reino branca moída (opcional)",
+      "unit": "pinch"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Prenda a folha de louro na face cortada da cebola, espetando os cravos através dela, como alfinetes.",
+      "timer": 0,
+      "title": "Montar a cebola piquée"
+    },
+    {
+      "content": "Aqueça {3} com a cebola piquée em fogo baixo até quase ferver. Desligue, tampe e deixe em infusão.",
+      "timer": 900,
+      "title": "Aromatizar o leite"
+    },
+    {
+      "content": "Em outra panela de fundo grosso, derreta {1} em fogo baixo, junte {2} de uma vez e mexa com batedor de arame por 1–2 minutos, até cheirar a biscoito, sem deixar dourar (roux branco).",
+      "timer": 90,
+      "title": "Fazer o roux"
+    },
+    {
+      "content": "Retire a cebola do leite e reserve-a. Despeje o leite morno sobre o roux aos poucos, batendo sem parar para não empelotar. Devolva a cebola piquée à panela.",
+      "timer": 0,
+      "title": "Juntar o leite"
+    },
+    {
+      "content": "Cozinhe em fogo baixo, mexendo de vez em quando, até engrossar e perder o gosto de farinha crua. Deve cobrir as costas de uma colher.",
+      "timer": 600,
+      "title": "Cozinhar"
+    },
+    {
+      "content": "Retire a cebola piquée. Tempere com {10}, {9} e, se quiser, {11}. Se tiver grumos, passe pela peneira.",
+      "timer": 0,
+      "title": "Temperar e finalizar"
+    }
+  ],
+  "notes": "Consistência: com 16 g de manteiga e 16 g de farinha para 400 ml, o molho fica leve, bom para lasanha e para regar. Para gratinados, use 20 g de cada; para massa de croquete, 30–35 g de cada. Pimenta-do-reino branca é a clássica, porque não deixa pontinhos pretos. Para guardar, cubra com filme encostando no molho para não formar película; reaqueça mexendo, com um pouco de leite. Vira molho mornay com 50 g de queijo gruyère ou parmesão ralado no final.",
+  "images": [],
+  "source": "",
+  "updatedAt": "2026-11-09T03:05:00.000Z"
+}

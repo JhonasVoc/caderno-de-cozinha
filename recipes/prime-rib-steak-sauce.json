@@ -1,0 +1,131 @@
+{
+  "title": "Prime rib com steak sauce",
+  "category": "Churrasco",
+  "description": "Prime rib marinado em vinho branco e shoyu, assado longe da brasa e selado no final, com molho de cerveja escura e cogumelos.",
+  "servings": 1,
+  "yieldLabel": "peça",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 1,
+      "id": "1",
+      "name": "peça de prime rib",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "2",
+      "name": "sal grosso",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "3",
+      "name": "## Marinada",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "4",
+      "name": "dentes de alho amassados",
+      "unit": ""
+    },
+    {
+      "amount": 500,
+      "id": "5",
+      "name": "vinho branco seco",
+      "unit": "ml"
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "pimenta calabresa",
+      "unit": "pinch"
+    },
+    {
+      "amount": 2,
+      "id": "7",
+      "name": "shoyu",
+      "unit": "tbsp"
+    },
+    {
+      "amount": "",
+      "id": "8",
+      "name": "## Steak sauce",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "9",
+      "name": "fio de azeite",
+      "unit": ""
+    },
+    {
+      "amount": 100,
+      "id": "10",
+      "name": "manteiga",
+      "unit": "g"
+    },
+    {
+      "amount": 2,
+      "id": "11",
+      "name": "dentes de alho picados",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "12",
+      "name": "cebola em rodelas",
+      "unit": ""
+    },
+    {
+      "amount": 355,
+      "id": "13",
+      "name": "cerveja escura",
+      "unit": "ml"
+    },
+    {
+      "amount": 200,
+      "id": "14",
+      "name": "cogumelos frescos",
+      "unit": "g"
+    },
+    {
+      "amount": 1,
+      "id": "15",
+      "name": "sal",
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Tempere a carne com sal por todos os lados, coloque num saco com os ingredientes da marinada e deixe 1 hora.",
+      "timer": 3600,
+      "title": "Marinar"
+    },
+    {
+      "content": "Coloque na parte mais alta da churrasqueira por 15 a 20 minutos.",
+      "timer": 1080,
+      "title": "Assar longe da brasa"
+    },
+    {
+      "content": "Desça para perto do fogo e sele 2 minutos de cada lado.",
+      "timer": 120,
+      "title": "Selar"
+    },
+    {
+      "content": "Deixe a carne descansar 3 minutos antes de fatiar.",
+      "timer": 180,
+      "title": "Descansar"
+    },
+    {
+      "content": "Numa panela, aqueça o azeite e a manteiga, junte o alho, a cebola, a cerveja, os cogumelos e o sal. Cozinhe de 15 a 20 minutos.",
+      "timer": 1080,
+      "title": "Fazer o molho"
+    }
+  ],
+  "notes": "O tempo na grelha alta depende da espessura: para ponto malpassado, procure 52–54 °C no centro antes de selar.",
+  "images": [],
+  "source": "CHURRASCO_AMERICANO.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

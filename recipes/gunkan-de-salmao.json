@@ -1,0 +1,85 @@
+{
+  "title": "Gunkan de salmão",
+  "category": "Sushi",
+  "description": "O \"barquinho\" tradicional: bolinho de arroz cercado por uma faixa de nori, com salmão picado por cima. Aproveita as aparas do sashimi e do nigiri. Rende 6 peças por folha de nori.",
+  "servings": 6,
+  "yieldLabel": "peças",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 90,
+      "id": "1",
+      "name": "arroz de sushi pronto (shari)",
+      "unit": "g"
+    },
+    {
+      "amount": 1,
+      "id": "2",
+      "name": "folha de nori",
+      "unit": ""
+    },
+    {
+      "amount": 80,
+      "id": "3",
+      "name": "aparas de salmão sem pele (cauda, bordas)",
+      "unit": "g"
+    },
+    {
+      "amount": 1,
+      "id": "4",
+      "name": "cebolinha bem fina",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "5",
+      "name": "shoyu",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "maionese japonesa (opcional)",
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Corte {2} com tesoura em 6 tiras de 3,5 × 19 cm, no sentido das linhas da folha.",
+      "timer": 0,
+      "title": "Cortar o nori"
+    },
+    {
+      "content": "Pique {3} na faca em cubinhos de 3–5 mm. Misture com {4}, {5} e, se quiser, {6}. Mantenha na geladeira até montar.",
+      "timer": 0,
+      "title": "Preparar o recheio"
+    },
+    {
+      "content": "Com as mãos úmidas, divida {1} em bolinhos ovais de ~15 g (cerca de 4 × 2,5 cm e 2 cm de altura), sem apertar.",
+      "timer": 0,
+      "title": "Formar os bolinhos"
+    },
+    {
+      "content": "Envolva cada bolinho com uma tira de nori, lado brilhante para fora e base alinhada com o arroz, deixando ~1,5 cm de \"parede\" acima. Cole a ponta com um grão de arroz amassado.",
+      "timer": 0,
+      "title": "Enrolar o nori"
+    },
+    {
+      "content": "Coloque 12–15 g de recheio por peça, formando um montinho ~1 cm acima da borda. Sirva na hora: o nori amolece em poucos minutos.",
+      "timer": 0,
+      "title": "Rechear e servir"
+    }
+  ],
+  "notes": "Clássico japonês: ikura (ova de salmão) no lugar do picado, ~15 g por peça. Monte só na hora de servir.",
+  "images": [
+    {
+      "src": "images/gunkan-de-salmao/01.jpg",
+      "caption": "Gunkans com recheios picados."
+    },
+    {
+      "src": "images/gunkan-de-salmao/02.png",
+      "caption": "Esquema: de onde tirar o salmão, como cortar o nori e como montar."
+    }
+  ],
+  "updatedAt": "2026-11-02T09:15:00.000Z"
+}

@@ -1,0 +1,74 @@
+{
+  "title": "Molho de café",
+  "category": "Molhos",
+  "description": "Molho rápido de manteiga, café forte, mostarda e limão para pincelar carnes. Fica pronto em 15 minutos.",
+  "servings": 1,
+  "yieldLabel": "receita",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 2,
+      "id": "1",
+      "name": "molho inglês",
+      "unit": "tsp"
+    },
+    {
+      "amount": 0.333,
+      "id": "2",
+      "name": "manteiga com sal",
+      "unit": "cup"
+    },
+    {
+      "amount": 1.5,
+      "id": "3",
+      "name": "mostarda",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "4",
+      "name": "suco de limão",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "5",
+      "name": "açúcar",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "sal",
+      "unit": "pinch"
+    },
+    {
+      "amount": "",
+      "id": "7",
+      "name": "molho de pimenta ou pimenta moída a gosto",
+      "unit": ""
+    },
+    {
+      "amount": 0.667,
+      "id": "8",
+      "name": "café forte pronto, sem açúcar",
+      "unit": "cup"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Junte todos os ingredientes numa panela e aqueça mexendo até a manteiga derreter por completo.",
+      "timer": 0,
+      "title": "Aquecer"
+    },
+    {
+      "content": "Pincele a carne antes de assar, cozinhe junto com ela ou sirva sobre a carne pronta.",
+      "timer": 0,
+      "title": "Usar"
+    }
+  ],
+  "notes": "Combina com lombo e filé mignon. Para massas (raviólis): acrescente 2 dentes de alho picados, 100 ml de creme de leite e cogumelos.",
+  "images": [],
+  "source": "Molho_de_Cafe.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

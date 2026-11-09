@@ -1,0 +1,116 @@
+{
+  "title": "Linguiça calabresa caseira",
+  "category": "Embutidos",
+  "description": "Paleta de porco com toucinho, erva-doce tostada, páprica e pimenta calabresa.",
+  "servings": 9,
+  "yieldLabel": "linguiças",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 1,
+      "id": "1",
+      "name": "paleta de porco em cubos",
+      "unit": "kg"
+    },
+    {
+      "amount": 200,
+      "id": "2",
+      "name": "toucinho em cubos",
+      "unit": "g"
+    },
+    {
+      "amount": 3,
+      "id": "3",
+      "name": "sementes de erva-doce",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 4,
+      "id": "4",
+      "name": "dentes de alho picados",
+      "unit": ""
+    },
+    {
+      "amount": 1.5,
+      "id": "5",
+      "name": "páprica",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "sal",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 4,
+      "id": "7",
+      "name": "pimenta calabresa",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "8",
+      "name": "pimenta-do-reino",
+      "unit": "tsp"
+    },
+    {
+      "amount": 2,
+      "id": "9",
+      "name": "vinho branco seco",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "10",
+      "name": "tripa",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Deixe a paleta, o toucinho e o moedor no congelador por 30 minutos.",
+      "timer": 1800,
+      "title": "Gelar"
+    },
+    {
+      "content": "Toste a erva-doce em frigideira em fogo alto até ficar perfumada e começar a soltar fumaça. Macere no pilão e misture com o alho, o sal, as pimentas e a páprica.",
+      "timer": 0,
+      "title": "Tostar a erva-doce"
+    },
+    {
+      "content": "Moa a carne parcialmente congelada no disco médio. Junte os temperos e o vinho e misture com as mãos por 2–3 minutos.",
+      "timer": 150,
+      "title": "Moer e temperar"
+    },
+    {
+      "content": "Cubra com filme e leve à geladeira por pelo menos 1 hora, ou de um dia para o outro.",
+      "timer": 3600,
+      "title": "Descansar"
+    },
+    {
+      "content": "Deixe a tripa de molho em água fria por 30 minutos e enxágue por dentro e por fora.",
+      "timer": 1800,
+      "title": "Preparar a tripa"
+    },
+    {
+      "content": "Acople o funil ao moedor, coloque toda a tripa nele e comece a moer. Quando a carne chegar na ponta, dê um nó. Continue enchendo e dê um nó na outra ponta.",
+      "timer": 0,
+      "title": "Embutir"
+    },
+    {
+      "content": "Torça a linguiça em direções opostas no tamanho desejado e faça 2–3 furinhos em cada gomo.",
+      "timer": 0,
+      "title": "Fazer os gomos"
+    },
+    {
+      "content": "Cozinhe como quiser, ou guarde até 3 dias na geladeira ou 3 meses no congelador.",
+      "timer": 0,
+      "title": "Guardar"
+    }
+  ],
+  "notes": "Dicas gerais: gordura de 20 a 30% para a linguiça ficar suculenta. Trabalhe tudo o mais frio possível: carne quase congelada, tigela sobre gelo, utensílios gelados. Corte em cubos de até 2 cm e marine com os temperos pelo menos 30 minutos antes de moer. Sal médio: 10 g para cada 500 g de carne. Depois de moer, misture até a massa ficar pegajosa e homogênea; líquidos (vinho, água) entram nessa hora, bem gelados. Deixe a tripa de molho pelo menos 30 minutos e enxágue por dentro e por fora.",
+  "images": [],
+  "source": "Linguica_Caseira.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

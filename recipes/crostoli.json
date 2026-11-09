@@ -1,0 +1,145 @@
+{
+  "title": "Crostoli (grostoli, cueca virada)",
+  "category": "Doces",
+  "description": "Massa italiana frita, fina e crocante, com o nó característico, passada em açúcar com canela.",
+  "servings": 1,
+  "yieldLabel": "receita",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 500,
+      "id": "1",
+      "name": "farinha de trigo",
+      "unit": "g"
+    },
+    {
+      "amount": 2,
+      "id": "2",
+      "name": "ovos",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "3",
+      "name": "leite",
+      "unit": "cup"
+    },
+    {
+      "amount": 4,
+      "id": "4",
+      "name": "açúcar",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 2,
+      "id": "5",
+      "name": "grappa ou cachaça",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "banha de porco",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "7",
+      "name": "fermento em pó",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 3,
+      "id": "8",
+      "name": "óleo para fritar",
+      "unit": "cup"
+    },
+    {
+      "amount": "",
+      "id": "9",
+      "name": "## Cobertura",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "10",
+      "name": "açúcar",
+      "unit": "cup"
+    },
+    {
+      "amount": 2,
+      "id": "11",
+      "name": "canela",
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Misture a farinha, os ovos, o leite, o açúcar, a cachaça, a banha e o fermento até obter uma massa homogênea e firme.",
+      "timer": 0,
+      "title": "Fazer a massa"
+    },
+    {
+      "content": "Cubra com filme e deixe na geladeira por 30 minutos.",
+      "timer": 1800,
+      "title": "Descansar"
+    },
+    {
+      "content": "Retire um pouco de massa por vez, forme bolinhas e abra com rolo na espessura desejada, bem fina. Erga para ver se não gruda.",
+      "timer": 0,
+      "title": "Abrir"
+    },
+    {
+      "content": "Corte tiras de 3 × 10 cm, faça um pequeno corte no centro e passe uma das pontas por ele, virando para trás.",
+      "timer": 0,
+      "title": "Cortar e dar o nó"
+    },
+    {
+      "content": "Aqueça o óleo sem exagero, abaixe o fogo e frite aos poucos, virando dos dois lados até dourar.",
+      "timer": 0,
+      "title": "Fritar"
+    },
+    {
+      "content": "Misture o açúcar e a canela e passe os crostoli fritos ainda quentes.",
+      "timer": 0,
+      "title": "Cobrir"
+    }
+  ],
+  "notes": "Versão salgada: não passe no açúcar com canela. História: nasceu na Roma antiga como frictilia, bolinhos fritos da Saturnália; no Brasil ganhou o nome de cueca virada.",
+  "images": [
+    {
+      "src": "images/crostoli/01.jpg",
+      "caption": "Crostoli prontos."
+    },
+    {
+      "src": "images/crostoli/02.jpg",
+      "caption": "Crostoli com açúcar."
+    },
+    {
+      "src": "images/crostoli/03.jpg",
+      "caption": "Misturando a massa."
+    },
+    {
+      "src": "images/crostoli/04.jpg",
+      "caption": "Massa homogênea e firme."
+    },
+    {
+      "src": "images/crostoli/05.jpg",
+      "caption": "Abrindo com rolo."
+    },
+    {
+      "src": "images/crostoli/06.jpg",
+      "caption": "Cortando as tiras."
+    },
+    {
+      "src": "images/crostoli/07.jpg",
+      "caption": "Tiras com o nó."
+    },
+    {
+      "src": "images/crostoli/08.jpg",
+      "caption": "Fritando."
+    }
+  ],
+  "source": "CROSTOLI.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

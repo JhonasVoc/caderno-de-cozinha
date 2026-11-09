@@ -1,0 +1,96 @@
+{
+  "title": "Tomahawk com batatas, queijo e bacon",
+  "category": "Churrasco",
+  "description": "Tomahawk assado na parte alta e selado, com batatas gratinadas na churrasqueira tampada.",
+  "servings": 1,
+  "yieldLabel": "peça",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 1,
+      "id": "1",
+      "name": "peça de tomahawk",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "2",
+      "name": "sal",
+      "unit": "tsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "3",
+      "name": "pimenta-do-reino",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "4",
+      "name": "alho granulado",
+      "unit": "tsp"
+    },
+    {
+      "amount": "",
+      "id": "5",
+      "name": "azeite",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "6",
+      "name": "## Batatas",
+      "unit": ""
+    },
+    {
+      "amount": 6,
+      "id": "7",
+      "name": "batatas assadas, cortadas ao meio",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "8",
+      "name": "fatias de queijo a gosto",
+      "unit": ""
+    },
+    {
+      "amount": 100,
+      "id": "9",
+      "name": "bacon em cubos",
+      "unit": "g"
+    },
+    {
+      "amount": "",
+      "id": "10",
+      "name": "cebolinha picada",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Misture os temperos, tempere a carne e regue com azeite.",
+      "timer": 0,
+      "title": "Temperar"
+    },
+    {
+      "content": "Leve à parte mais alta da churrasqueira por 20 a 30 minutos.",
+      "timer": 1500,
+      "title": "Assar"
+    },
+    {
+      "content": "Sele 5 minutos de cada lado e deixe descansar 5 minutos fora do fogo.",
+      "timer": 300,
+      "title": "Selar e descansar"
+    },
+    {
+      "content": "Numa panela rasa, coloque as batatas, o queijo por cima e o bacon. Leve à churrasqueira tampada por 10 minutos e finalize com cebolinha.",
+      "timer": 600,
+      "title": "Batatas"
+    }
+  ],
+  "notes": "",
+  "images": [],
+  "source": "CHURRASCO_AMERICANO.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

@@ -1,0 +1,71 @@
+{
+  "title": "Mousse de chocolate",
+  "category": "Doces",
+  "description": "Mousse clássica com chocolate meio amargo, creme de leite e claras em neve com açúcar.",
+  "servings": 6,
+  "yieldLabel": "porções",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 200,
+      "id": "1",
+      "name": "chocolate meio amargo picado",
+      "unit": "g"
+    },
+    {
+      "amount": 3,
+      "id": "2",
+      "name": "ovos frescos, com gemas e claras separadas",
+      "unit": ""
+    },
+    {
+      "amount": 200,
+      "id": "3",
+      "name": "creme de leite (1 lata, sem soro)",
+      "unit": "g"
+    },
+    {
+      "amount": 3,
+      "id": "4",
+      "name": "açúcar",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "5",
+      "name": "sal",
+      "unit": "pinch"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Derreta o chocolate em banho-maria ou no micro-ondas em intervalos de 30 segundos, mexendo entre eles. Deixe amornar.",
+      "timer": 0,
+      "title": "Derreter o chocolate"
+    },
+    {
+      "content": "Misture o creme de leite ao chocolate morno e depois as gemas, uma a uma, até ficar liso e brilhante.",
+      "timer": 0,
+      "title": "Base"
+    },
+    {
+      "content": "Bata as claras com a pitada de sal até espumar, junte o açúcar aos poucos e bata até picos macios e brilhantes.",
+      "timer": 0,
+      "title": "Claras em neve"
+    },
+    {
+      "content": "Junte 1/3 das claras ao chocolate e misture para soltar a massa. Incorpore o restante com uma espátula, em movimentos de baixo para cima, sem bater, para não perder o ar.",
+      "timer": 0,
+      "title": "Incorporar"
+    },
+    {
+      "content": "Distribua em taças ou numa travessa e leve à geladeira por pelo menos 4 horas.",
+      "timer": 14400,
+      "title": "Gelar"
+    }
+  ],
+  "notes": "Leva ovo cru: use ovos bem frescos (ou pasteurizados) e consuma em até 2 dias. Na Austrália, a \"lata de creme de leite\" equivale à Nestlé Reduced Cream (lata de 250 g) ou a 200 ml de thickened cream. O chocolate deve estar morno, não quente, para não cozinhar as gemas nem derreter as claras.",
+  "images": [],
+  "source": "",
+  "updatedAt": "2026-11-09T03:10:00.000Z"
+}

@@ -1,0 +1,103 @@
+{
+  "title": "Bolo de banana e castanhas",
+  "category": "Bolos",
+  "description": "Bolo sem farinha de trigo: banana madura, farinha de amêndoas, aveia, castanha-do-pará e frutas secas.",
+  "servings": 1,
+  "yieldLabel": "fôrma",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 3,
+      "id": "1",
+      "name": "bananas pequenas bem maduras",
+      "unit": ""
+    },
+    {
+      "amount": 4,
+      "id": "2",
+      "name": "óleo de coco",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "3",
+      "name": "canela em pó",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 4,
+      "id": "4",
+      "name": "ovos",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "5",
+      "name": "açúcar mascavo (+ um pouco para polvilhar)",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "farinha de amêndoas",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "7",
+      "name": "aveia em flocos",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "8",
+      "name": "fermento em pó",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 10,
+      "id": "9",
+      "name": "castanhas-do-pará",
+      "unit": ""
+    },
+    {
+      "amount": 20,
+      "id": "10",
+      "name": "uvas-passas",
+      "unit": ""
+    },
+    {
+      "amount": 6,
+      "id": "11",
+      "name": "damascos secos",
+      "unit": ""
+    },
+    {
+      "amount": 0.5,
+      "id": "12",
+      "name": "água",
+      "unit": "cup"
+    }
+  ],
+  "steps": [
+    {
+      "content": "No liquidificador, bata as bananas, o óleo de coco, a canela, os ovos, o açúcar e a água.",
+      "timer": 0,
+      "title": "Bater"
+    },
+    {
+      "content": "Transfira para uma tigela e misture com colher ou batedor a farinha de amêndoas, a aveia e as frutas secas picadas (cerca de 8 castanhas, 6 damascos e 20 passas). Por último, o fermento.",
+      "timer": 0,
+      "title": "Misturar"
+    },
+    {
+      "content": "Despeje numa fôrma untada, polvilhe açúcar mascavo e as castanhas restantes por cima. Asse por 35 minutos a 200 °C.",
+      "timer": 2100,
+      "title": "Assar"
+    }
+  ],
+  "notes": "",
+  "images": [],
+  "source": "Bolo_de_Bananas_e_Castanhas.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

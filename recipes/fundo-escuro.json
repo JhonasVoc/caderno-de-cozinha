@@ -1,0 +1,135 @@
+{
+  "title": "Fundo escuro",
+  "category": "Fundos",
+  "description": "Fundo de ossos e mirepoix tostados, com extrato de tomate e vinho tinto. Base do molho espanhol e do demi-glace.",
+  "servings": 1,
+  "yieldLabel": "receita (~1 l)",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 600,
+      "id": "1",
+      "name": "recortes de ossos (boi ou vitela; joelho e tutano são ótimos)",
+      "unit": "g"
+    },
+    {
+      "amount": "",
+      "id": "2",
+      "name": "## Mirepoix (500 g)",
+      "unit": ""
+    },
+    {
+      "amount": 250,
+      "id": "3",
+      "name": "cebola",
+      "unit": "g"
+    },
+    {
+      "amount": 125,
+      "id": "4",
+      "name": "cenoura",
+      "unit": "g"
+    },
+    {
+      "amount": 125,
+      "id": "5",
+      "name": "aipo (salsão)",
+      "unit": "g"
+    },
+    {
+      "amount": "",
+      "id": "6",
+      "name": "## Para tostar e deglacear",
+      "unit": ""
+    },
+    {
+      "amount": 50,
+      "id": "7",
+      "name": "extrato de tomate",
+      "unit": "g"
+    },
+    {
+      "amount": 100,
+      "id": "8",
+      "name": "vinho tinto seco",
+      "unit": "ml"
+    },
+    {
+      "amount": 2.5,
+      "id": "9",
+      "name": "água fria",
+      "unit": "l"
+    },
+    {
+      "amount": "",
+      "id": "10",
+      "name": "## Ervas",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "11",
+      "name": "ramos de tomilho",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "12",
+      "name": "ramo de alecrim",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "13",
+      "name": "folhas de louro",
+      "unit": ""
+    },
+    {
+      "amount": 8,
+      "id": "14",
+      "name": "grãos de pimenta-do-reino",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Espalhe os ossos numa assadeira e asse a 220 °C, virando na metade, até ficarem bem dourados, cor de caramelo escuro, sem queimar.",
+      "timer": 2700,
+      "title": "Tostar os ossos"
+    },
+    {
+      "content": "Junte o mirepoix em pedaços grandes à assadeira e asse até caramelizar.",
+      "timer": 1200,
+      "title": "Tostar o mirepoix"
+    },
+    {
+      "content": "Espalhe {7} sobre ossos e legumes e volte ao forno até ficar cor de tijolo. Isso tira a acidez do tomate.",
+      "timer": 420,
+      "title": "Pinçage"
+    },
+    {
+      "content": "Passe tudo para a panela. Leve a assadeira ao fogo com {8} e raspe o fundo com espátula para soltar o caramelizado. Despeje na panela.",
+      "timer": 0,
+      "title": "Deglacear"
+    },
+    {
+      "content": "Cubra com {9}, leve à fervura e retire a espuma. Junte as ervas.",
+      "timer": 0,
+      "title": "Cobrir com água fria"
+    },
+    {
+      "content": "Cozinhe em fervura bem suave, sem tampa, de 4 a 6 horas (até 8 para ossos de boi), retirando espuma e gordura. Complete com água fria se baixar além dos ossos.",
+      "timer": 18000,
+      "title": "Fervura leve"
+    },
+    {
+      "content": "Coe numa peneira fina. Esfrie rápido e retire a gordura endurecida por cima.",
+      "timer": 0,
+      "title": "Coar e desengordurar"
+    }
+  ],
+  "notes": "Sem sal. Se queimar os ossos, o fundo fica amargo: dourado escuro é o ponto. Ao reduzir até virar uma calda grossa e brilhante (cerca de 1/10 do volume), vira glace de viande, ótima para finalizar molhos. Dura 4–5 dias na geladeira e 3 meses no congelador.",
+  "images": [],
+  "source": "",
+  "updatedAt": "2026-11-09T03:10:00.000Z"
+}

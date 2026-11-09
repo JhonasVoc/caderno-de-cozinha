@@ -1,0 +1,80 @@
+{
+  "title": "Marinada Jack's Old South",
+  "category": "Temperos",
+  "description": "Marinada de competição de Myron Mixon (Jack's Old South): suco de maçã, molho inglês, laranja e açúcar mascavo.",
+  "servings": 1,
+  "yieldLabel": "receita",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 1.9,
+      "id": "1",
+      "name": "suco de maçã (2 quarts americanos)",
+      "unit": "l"
+    },
+    {
+      "amount": 1,
+      "id": "2",
+      "name": "molho inglês",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "3",
+      "name": "suco de laranja",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "4",
+      "name": "açúcar mascavo claro",
+      "unit": "cup"
+    },
+    {
+      "amount": 0.5,
+      "id": "5",
+      "name": "azeite",
+      "unit": "cup"
+    },
+    {
+      "amount": 0.5,
+      "id": "6",
+      "name": "suco de limão",
+      "unit": "cup"
+    },
+    {
+      "amount": 2,
+      "id": "7",
+      "name": "molho de pimenta",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "8",
+      "name": "vinagre de maçã",
+      "unit": "cup"
+    },
+    {
+      "amount": 0.5,
+      "id": "9",
+      "name": "sal",
+      "unit": "cup"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Aqueça todos os ingredientes, batendo até o açúcar e o sal dissolverem.",
+      "timer": 0,
+      "title": "Dissolver"
+    },
+    {
+      "content": "Deixe esfriar completamente antes de colocar a carne.",
+      "timer": 0,
+      "title": "Esfriar"
+    }
+  ],
+  "notes": "A receita original usa \"2 quarts\" de suco de maçã, medida americana: são cerca de 1,9 litro. As xícaras são as americanas (240 ml).",
+  "images": [],
+  "source": "BBB_Temperos_Miron_Mixon.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

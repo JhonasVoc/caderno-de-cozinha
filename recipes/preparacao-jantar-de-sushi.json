@@ -1,0 +1,74 @@
+{
+  "title": "Preparação de jantar de sushi",
+  "category": "Técnicas",
+  "description": "Cronograma do dia, como num restaurante: blocos de peixe prontos com antecedência, fatiar e montar só na hora de servir.",
+  "servings": 3,
+  "scale": false,
+  "ingredients": [
+    {
+      "amount": "",
+      "id": "1",
+      "name": "blocos de peixe limpos (saku)",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "2",
+      "name": "papel-toalha e filme plástico",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "3",
+      "name": "prato de servir gelado",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "4",
+      "name": "pano úmido para a lâmina",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "5",
+      "name": "saco fechado para o nori cortado",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Tire pele, espinhas e linha de sangue e corte os {1}. Embrulhe cada bloco em {2} e guarde na parte mais fria da geladeira. Kobujime também entra aqui.",
+      "timer": 0,
+      "title": "Manhã ou até 6 h antes: limpar o peixe"
+    },
+    {
+      "content": "Prepare os molhos (ponzu, tarê, maionese picante), cebolinha, pepino e abacate em bastões (abacate com limão), gengibre e wasabi. Corte o nori em tiras para gunkan e guarde no {5}.",
+      "timer": 0,
+      "title": "2 h antes: acompanhamentos"
+    },
+    {
+      "content": "Comece o arroz de sushi. Ele fica pronto e morno na hora de montar. Nunca leve à geladeira.",
+      "timer": 0,
+      "title": "1h30 antes: arroz"
+    },
+    {
+      "content": "Faça os recheios picados de gunkan e jô e corte as tiras de salmão do jô. Tudo coberto na geladeira.",
+      "timer": 0,
+      "title": "30 min antes: recheios"
+    },
+    {
+      "content": "Tire um bloco por vez da geladeira, fatie o sashimi e o nigiri e devolva o resto ao frio. Monte os nigiris, enrole os makis e deixe os gunkans por último, porque o nori amolece. Passe o {4} na lâmina entre um peixe e outro.",
+      "timer": 0,
+      "title": "Na hora: fatiar e montar"
+    },
+    {
+      "content": "Arrume o sashimi no {3} e tire da geladeira 5–10 minutos antes de comer: gelado demais perde sabor. Peixe frio, arroz morno.",
+      "timer": 0,
+      "title": "Servir"
+    }
+  ],
+  "notes": "Fatiar 1 hora antes, se for preciso: fatias no prato gelado, papel-toalha levemente úmido por cima, filme plástico encostando no peixe, na parte mais fria da geladeira. Atum só na hora, porque escurece rápido. Segurança: peixe cru no máximo 2 horas fora da geladeira (1 hora no verão de Sydney); para servir aos poucos, monte o prato em etapas.",
+  "images": [],
+  "updatedAt": "2026-11-02T09:55:00.000Z"
+}

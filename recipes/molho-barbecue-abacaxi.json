@@ -1,0 +1,81 @@
+{
+  "title": "Molho barbecue de abacaxi",
+  "category": "Molhos",
+  "description": "Barbecue frutado de abacaxi com shoyu, melado, mostarda e gengibre, reduzido em fogo baixo.",
+  "servings": 1,
+  "yieldLabel": "receita",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 1,
+      "id": "1",
+      "name": "páprica defumada",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "2",
+      "name": "dente de alho picado",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "3",
+      "name": "copos de abacaxi sem miolo, picado",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "4",
+      "name": "vinagre",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 4,
+      "id": "5",
+      "name": "shoyu",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 4,
+      "id": "6",
+      "name": "melado (ou açúcar mascavo)",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 2,
+      "id": "7",
+      "name": "mostarda",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "8",
+      "name": "manjericão fresco",
+      "unit": "pinch"
+    },
+    {
+      "amount": 500,
+      "id": "9",
+      "name": "água",
+      "unit": "ml"
+    },
+    {
+      "amount": "",
+      "id": "10",
+      "name": "gengibre a gosto",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Coloque tudo numa panela e deixe reduzir em fogo baixo por 30 a 40 minutos.",
+      "timer": 2100,
+      "title": "Reduzir"
+    }
+  ],
+  "notes": "Receita do Bela Cozinha (GNT). Se quiser liso, bata no final.",
+  "images": [],
+  "source": "Molhos.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

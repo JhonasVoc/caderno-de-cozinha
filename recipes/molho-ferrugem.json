@@ -1,0 +1,119 @@
+{
+  "title": "Molho ferrugem",
+  "category": "Molhos",
+  "description": "Molho escuro clássico com roux, legumes, bacon e caldo de carne, para lagarto e carne de panela. Pode congelar.",
+  "servings": 1,
+  "yieldLabel": "xícara",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 2,
+      "id": "1",
+      "name": "bacon picado",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "2",
+      "name": "cebola picada",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "3",
+      "name": "talo de salsão picado",
+      "unit": ""
+    },
+    {
+      "amount": 0.25,
+      "id": "4",
+      "name": "cogumelos picados",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "5",
+      "name": "cenoura pequena em rodelas",
+      "unit": ""
+    },
+    {
+      "amount": 3,
+      "id": "6",
+      "name": "manteiga",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 3,
+      "id": "7",
+      "name": "farinha de trigo",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1.25,
+      "id": "8",
+      "name": "caldo de carne",
+      "unit": "cup"
+    },
+    {
+      "amount": 3,
+      "id": "9",
+      "name": "salsinha picada",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 2,
+      "id": "10",
+      "name": "extrato de tomate",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "11",
+      "name": "tomate sem pele e sem sementes",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "12",
+      "name": "folha de louro",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "13",
+      "name": "sal e pimenta-do-reino a gosto",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Derreta a manteiga e cozinhe o bacon e os legumes por 10 minutos, mexendo, até dourarem levemente.",
+      "timer": 600,
+      "title": "Dourar"
+    },
+    {
+      "content": "Abaixe o fogo, junte a farinha e cozinhe mexendo até ficar quase marrom.",
+      "timer": 0,
+      "title": "Roux"
+    },
+    {
+      "content": "Fora do fogo, junte o caldo aos poucos. Volte ao fogo e mexa até engrossar.",
+      "timer": 0,
+      "title": "Caldo"
+    },
+    {
+      "content": "Junte o restante, menos sal e pimenta. Tampe e cozinhe em fogo baixo por 45 minutos a 1 hora, mexendo às vezes e tirando a gordura que subir.",
+      "timer": 3000,
+      "title": "Apurar"
+    },
+    {
+      "content": "Coe para outra panela e tempere com sal e pimenta. Reaqueça antes de servir.",
+      "timer": 0,
+      "title": "Coar e temperar"
+    }
+  ],
+  "notes": "",
+  "images": [],
+  "source": "Molhos.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

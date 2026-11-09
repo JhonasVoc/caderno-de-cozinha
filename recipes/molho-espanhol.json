@@ -1,0 +1,118 @@
+{
+  "title": "Molho espanhol (espagnole)",
+  "category": "Molhos",
+  "description": "Molho-mãe escuro: fundo escuro engrossado com roux escuro, mirepoix e tomate. Base do demi-glace.",
+  "servings": 1,
+  "yieldLabel": "receita (~750 ml)",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 1,
+      "id": "1",
+      "name": "fundo escuro quente",
+      "unit": "l"
+    },
+    {
+      "amount": 60,
+      "id": "2",
+      "name": "manteiga",
+      "unit": "g"
+    },
+    {
+      "amount": 60,
+      "id": "3",
+      "name": "farinha de trigo",
+      "unit": "g"
+    },
+    {
+      "amount": "",
+      "id": "4",
+      "name": "## Mirepoix",
+      "unit": ""
+    },
+    {
+      "amount": 100,
+      "id": "5",
+      "name": "cebola em cubos pequenos",
+      "unit": "g"
+    },
+    {
+      "amount": 50,
+      "id": "6",
+      "name": "cenoura em cubos pequenos",
+      "unit": "g"
+    },
+    {
+      "amount": 50,
+      "id": "7",
+      "name": "aipo em cubos pequenos",
+      "unit": "g"
+    },
+    {
+      "amount": "",
+      "id": "8",
+      "name": "## Sabor",
+      "unit": ""
+    },
+    {
+      "amount": 30,
+      "id": "9",
+      "name": "extrato de tomate",
+      "unit": "g"
+    },
+    {
+      "amount": 1,
+      "id": "10",
+      "name": "folha de louro",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "11",
+      "name": "ramo de tomilho",
+      "unit": ""
+    },
+    {
+      "amount": 5,
+      "id": "12",
+      "name": "talos de salsinha",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Derreta {2} e doure o mirepoix em fogo médio.",
+      "timer": 480,
+      "title": "Dourar o mirepoix"
+    },
+    {
+      "content": "Polvilhe {3} e cozinhe mexendo em fogo baixo até ficar cor de avelã escura.",
+      "timer": 600,
+      "title": "Roux escuro"
+    },
+    {
+      "content": "Junte {9} e mexa por 1–2 minutos.",
+      "timer": 90,
+      "title": "Tomate"
+    },
+    {
+      "content": "Junte {1} aos poucos, batendo para não empelotar. Acrescente as ervas.",
+      "timer": 0,
+      "title": "Juntar o fundo"
+    },
+    {
+      "content": "Cozinhe em fogo baixo por 1 hora a 1h30, retirando a espuma e a gordura, até reduzir para cerca de 750 ml.",
+      "timer": 4500,
+      "title": "Apurar"
+    },
+    {
+      "content": "Passe pela peneira fina, pressionando de leve os legumes.",
+      "timer": 0,
+      "title": "Coar"
+    }
+  ],
+  "notes": "Clássico de Escoffier, raramente servido puro: é a base do demi-glace. Guarde coberto com filme encostando no molho.",
+  "images": [],
+  "source": "",
+  "updatedAt": "2026-11-09T03:10:00.000Z"
+}

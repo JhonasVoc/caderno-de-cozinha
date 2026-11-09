@@ -1,0 +1,82 @@
+{
+  "title": "Bolo de tapioca",
+  "category": "Bolos",
+  "description": "Tapioca granulada hidratada no leite, com coco fresco e manteiga. Úmido e com casquinha dourada.",
+  "servings": 1,
+  "yieldLabel": "fôrma",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 2,
+      "id": "1",
+      "name": "tapioca granulada",
+      "unit": "cup"
+    },
+    {
+      "amount": 0.5,
+      "id": "2",
+      "name": "coco fresco ralado",
+      "unit": "cup"
+    },
+    {
+      "amount": 150,
+      "id": "3",
+      "name": "manteiga em temperatura ambiente (+ para untar)",
+      "unit": "g"
+    },
+    {
+      "amount": 5,
+      "id": "4",
+      "name": "leite",
+      "unit": "cup"
+    },
+    {
+      "amount": 2,
+      "id": "5",
+      "name": "açúcar",
+      "unit": "cup"
+    },
+    {
+      "amount": 4,
+      "id": "6",
+      "name": "ovos grandes",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Num recipiente fundo, misture a tapioca com 3 xícaras do leite e deixe até absorver todo o líquido.",
+      "timer": 0,
+      "title": "Hidratar a tapioca"
+    },
+    {
+      "content": "Bata o coco com o restante do leite no liquidificador por cerca de 3 minutos.",
+      "timer": 180,
+      "title": "Bater o coco"
+    },
+    {
+      "content": "Na batedeira, bata a manteiga, os ovos e o açúcar por 10 minutos.",
+      "timer": 600,
+      "title": "Bater a base"
+    },
+    {
+      "content": "Junte o leite de coco batido e a tapioca hidratada, misturando levemente com uma colher.",
+      "timer": 0,
+      "title": "Juntar"
+    },
+    {
+      "content": "Despeje numa fôrma com furo no meio untada com manteiga e asse em forno preaquecido a 200 °C por 45 minutos, até começar a dourar.",
+      "timer": 2700,
+      "title": "Assar"
+    },
+    {
+      "content": "Deixe esfriar um pouco antes de desenformar.",
+      "timer": 0,
+      "title": "Desenformar"
+    }
+  ],
+  "notes": "",
+  "images": [],
+  "source": "BOLO_DE_TAPIOCA.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

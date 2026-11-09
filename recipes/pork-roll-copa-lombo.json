@@ -1,0 +1,112 @@
+{
+  "title": "Pork roll de copa lombo defumada",
+  "category": "Churrasco",
+  "description": "Copa lombo aberta em manta, recheada com maionese e dry rub, enrolada e defumada no pit smoker até 68 °C.",
+  "servings": 1,
+  "yieldLabel": "peça (~2,5 kg)",
+  "scale": false,
+  "ingredients": [
+    {
+      "amount": 2.5,
+      "id": "1",
+      "name": "copa lombo com boa capa de gordura",
+      "unit": "kg"
+    },
+    {
+      "amount": 3,
+      "id": "2",
+      "name": "maionese",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 3,
+      "id": "3",
+      "name": "dry rub suíno",
+      "unit": "tbsp"
+    },
+    {
+      "amount": "",
+      "id": "4",
+      "name": "barbante culinário",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "5",
+      "name": "## Sanduíche (opcional)",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "6",
+      "name": "fatias de pão de milho",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "7",
+      "name": "manteiga e maionese",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "8",
+      "name": "alface verde e roxa",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "9",
+      "name": "fatia de tomate",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "10",
+      "name": "picles a gosto",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "11",
+      "name": "fatia generosa do pork roll",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Abra a copa lombo em borboleta, formando uma manta.",
+      "timer": 0,
+      "title": "Abrir a peça"
+    },
+    {
+      "content": "Misture a maionese com o rub e passe metade por dentro da carne.",
+      "timer": 0,
+      "title": "Temperar por dentro"
+    },
+    {
+      "content": "Enrole bem apertado, amarre com barbante e passe o restante da mistura por fora.",
+      "timer": 0,
+      "title": "Enrolar"
+    },
+    {
+      "content": "Leve ao pit smoker a 120 °C por cerca de 2 horas e meia, até 68 °C no centro.",
+      "timer": 9000,
+      "title": "Defumar"
+    },
+    {
+      "content": "Retire e deixe descansar 30 minutos para a umidade voltar às extremidades.",
+      "timer": 1800,
+      "title": "Descansar"
+    },
+    {
+      "content": "Passe manteiga no pão de milho, toste na chapa, passe maionese e monte com alface, tomate, picles e uma fatia generosa do pork roll.",
+      "timer": 0,
+      "title": "Sanduíche"
+    }
+  ],
+  "notes": "",
+  "images": [],
+  "source": "Dry_Rub_Suino.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

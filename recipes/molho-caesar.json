@@ -1,0 +1,98 @@
+{
+  "title": "Molho caesar",
+  "category": "Molhos",
+  "description": "Maionese, parmesão, anchova, alho e limão, batidos e descansados para apurar.",
+  "servings": 1,
+  "yieldLabel": "receita",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 1,
+      "id": "1",
+      "name": "maionese",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "2",
+      "name": "ovo",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "3",
+      "name": "parmesão ralado fino na hora",
+      "unit": "cup"
+    },
+    {
+      "amount": 2,
+      "id": "4",
+      "name": "água",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 2,
+      "id": "5",
+      "name": "azeite",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "6",
+      "name": "suco de limão",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "7",
+      "name": "pasta de anchova",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 2,
+      "id": "8",
+      "name": "dentes de alho amassados",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "9",
+      "name": "açúcar",
+      "unit": "tsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "10",
+      "name": "pimenta-do-reino",
+      "unit": "tsp"
+    },
+    {
+      "amount": 0.25,
+      "id": "11",
+      "name": "sal",
+      "unit": "tsp"
+    },
+    {
+      "amount": 0.25,
+      "id": "12",
+      "name": "salsa desidratada",
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Bata tudo na batedeira e transfira para um pote.",
+      "timer": 0,
+      "title": "Bater"
+    },
+    {
+      "content": "Deixe descansar algumas horas na geladeira para apurar o sabor.",
+      "timer": 0,
+      "title": "Descansar"
+    }
+  ],
+  "notes": "Use parmesão de peça ralado na hora: o de saquinho é muito salgado. Pasta de anchova caseira: bata anchovas em conserva no liquidificador e passe na peneira. O molho leva ovo cru.",
+  "images": [],
+  "source": "Molhos.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

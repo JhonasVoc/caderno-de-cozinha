@@ -1,0 +1,80 @@
+{
+  "title": "Dry rub suíno",
+  "category": "Temperos",
+  "description": "Rub em grande quantidade para porco defumado: açúcar demerara, sal rosa, alho, cebola, colorau e um toque de canela e louro.",
+  "servings": 1,
+  "yieldLabel": "receita (~1 kg)",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 100,
+      "id": "1",
+      "name": "alho granulado",
+      "unit": "g"
+    },
+    {
+      "amount": 50,
+      "id": "2",
+      "name": "cebola granulada",
+      "unit": "g"
+    },
+    {
+      "amount": 250,
+      "id": "3",
+      "name": "sal rosa granulado fino",
+      "unit": "g"
+    },
+    {
+      "amount": 500,
+      "id": "4",
+      "name": "açúcar demerara",
+      "unit": "g"
+    },
+    {
+      "amount": 50,
+      "id": "5",
+      "name": "pimenta-do-reino moída grossa",
+      "unit": "g"
+    },
+    {
+      "amount": 80,
+      "id": "6",
+      "name": "colorau ou páprica",
+      "unit": "g"
+    },
+    {
+      "amount": 10,
+      "id": "7",
+      "name": "canela em pó",
+      "unit": "g"
+    },
+    {
+      "amount": 10,
+      "id": "8",
+      "name": "louro em pó",
+      "unit": "g"
+    },
+    {
+      "amount": 8,
+      "id": "9",
+      "name": "pimenta-caiena em pó",
+      "unit": "g"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Bata a cebola e o alho granulados no liquidificador para diminuir a granulação.",
+      "timer": 0,
+      "title": "Moer"
+    },
+    {
+      "content": "Numa tigela, junte todos os ingredientes e misture bem.",
+      "timer": 0,
+      "title": "Misturar"
+    }
+  ],
+  "notes": "Bem fechado, dura 6 meses. Sugestão: acrescentar guaraná em pó à mistura.",
+  "images": [],
+  "source": "Dry_Rub_Suino.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

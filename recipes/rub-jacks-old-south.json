@@ -1,0 +1,69 @@
+{
+  "title": "BBQ rub Jack's Old South",
+  "category": "Temperos",
+  "description": "Rub doce e defumado para porco e costela: açúcar mascavo, páprica doce, sal kosher e pimentas.",
+  "servings": 1,
+  "yieldLabel": "receita",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 0.25,
+      "id": "1",
+      "name": "açúcar mascavo",
+      "unit": "cup"
+    },
+    {
+      "amount": 0.25,
+      "id": "2",
+      "name": "páprica doce",
+      "unit": "cup"
+    },
+    {
+      "amount": 0.25,
+      "id": "3",
+      "name": "sal kosher",
+      "unit": "cup"
+    },
+    {
+      "amount": 3,
+      "id": "4",
+      "name": "pimenta-do-reino",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 2,
+      "id": "5",
+      "name": "alho em pó",
+      "unit": "tsp"
+    },
+    {
+      "amount": 2,
+      "id": "6",
+      "name": "cebola em pó",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "7",
+      "name": "pimenta-caiena",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "8",
+      "name": "manjericão seco",
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Combine todos os ingredientes e misture bem. Guarde em pote fechado.",
+      "timer": 0,
+      "title": "Misturar"
+    }
+  ],
+  "notes": "",
+  "images": [],
+  "source": "BBB_Temperos_Miron_Mixon.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

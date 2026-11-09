@@ -1,0 +1,74 @@
+{
+  "title": "Molho de vinagre Jack's Old South",
+  "category": "Molhos",
+  "description": "Molho fino de vinagre de cidra com ketchup, páprica e pimentas, estilo competição. Dura meses na geladeira.",
+  "servings": 1,
+  "yieldLabel": "receita",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 2,
+      "id": "1",
+      "name": "vinagre de cidra",
+      "unit": "cup"
+    },
+    {
+      "amount": 3,
+      "id": "2",
+      "name": "ketchup",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 2,
+      "id": "3",
+      "name": "páprica",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 2,
+      "id": "4",
+      "name": "açúcar mascavo",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 4,
+      "id": "5",
+      "name": "sal kosher",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "molho de pimenta",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "7",
+      "name": "pimenta-caiena (1 a 2)",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "8",
+      "name": "pimenta-do-reino moída (1 a 2)",
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Numa tigela não reativa, misture tudo até o açúcar e o sal dissolverem. Prove e ajuste a pimenta.",
+      "timer": 0,
+      "title": "Misturar"
+    },
+    {
+      "content": "Transfira para um frasco limpo e esterilizado e guarde na geladeira.",
+      "timer": 0,
+      "title": "Guardar"
+    }
+  ],
+  "notes": "Dura vários meses na geladeira. A receita original fala só \"2 colheres de açúcar mascavo\": considerei colheres de sopa.",
+  "images": [],
+  "source": "BBB_Temperos_Miron_Mixon.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

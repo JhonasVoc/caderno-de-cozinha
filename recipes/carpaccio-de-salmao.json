@@ -1,0 +1,100 @@
+{
+  "title": "Carpaccio de salmão",
+  "category": "Peixe cru",
+  "description": "Fatias finíssimas de salmão com vinagrete de limão-siciliano, mostarda, alcaparras, dill e pimenta-rosa.",
+  "servings": 4,
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 300,
+      "id": "1",
+      "name": "filé de salmão próprio para sashimi, sem pele",
+      "unit": "g"
+    },
+    {
+      "amount": 4,
+      "id": "2",
+      "name": "azeite extravirgem",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 2,
+      "id": "3",
+      "name": "suco de limão-siciliano",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "4",
+      "name": "raspas de limão-siciliano",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "5",
+      "name": "mostarda Dijon",
+      "unit": "tsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "6",
+      "name": "mel",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "7",
+      "name": "alcaparras escorridas",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "8",
+      "name": "dill fresco picado",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 2,
+      "id": "9",
+      "name": "cebola roxa bem fina",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "10",
+      "name": "flor de sal",
+      "unit": "tsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "11",
+      "name": "pimenta-rosa levemente amassada",
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Embrulhe {1} em filme e deixe no freezer até firmar, sem congelar.",
+      "timer": 1800,
+      "title": "Firmar o salmão"
+    },
+    {
+      "content": "Com a faca bem afiada, corte fatias finíssimas contra a fibra e arrume num prato frio, sem sobrepor muito. Pode ficar coberto na geladeira por até 2 horas.",
+      "timer": 0,
+      "title": "Fatiar"
+    },
+    {
+      "content": "Misture {3}, {4}, {5} e {6}. Junte {2} aos poucos, batendo com um garfo até emulsionar.",
+      "timer": 0,
+      "title": "Fazer o molho"
+    },
+    {
+      "content": "Na hora de servir, regue o molho e espalhe {7}, {9} e {8}. Finalize com {10} e {11}. Sirva em até 5 minutos.",
+      "timer": 0,
+      "title": "Montar e servir"
+    }
+  ],
+  "notes": "O limão começa a \"cozinhar\" o peixe: depois de 10 minutos as bordas ficam opacas. Variações: shoyu e gengibre no lugar de mel e mostarda, ou rúcula e lascas de parmesão.",
+  "images": [],
+  "updatedAt": "2026-11-01T09:50:00.000Z"
+}

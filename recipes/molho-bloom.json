@@ -1,0 +1,57 @@
+{
+  "title": "Molho bloom (para cebola empanada)",
+  "category": "Molhos",
+  "description": "Molho simples de maionese e ketchup com páprica e orégano, para a cebola florida.",
+  "servings": 1,
+  "yieldLabel": "porção",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 1,
+      "id": "1",
+      "name": "maionese",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "2",
+      "name": "ketchup",
+      "unit": "tbsp"
+    },
+    {
+      "amount": "",
+      "id": "3",
+      "name": "sal a gosto",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "4",
+      "name": "pimenta-do-reino moída a gosto",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "5",
+      "name": "páprica doce a gosto",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "6",
+      "name": "orégano seco a gosto",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Misture tudo e ajuste os temperos.",
+      "timer": 0,
+      "title": "Misturar"
+    }
+  ],
+  "notes": "",
+  "images": [],
+  "source": "Molhos.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

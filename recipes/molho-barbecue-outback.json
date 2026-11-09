@@ -1,0 +1,51 @@
+{
+  "title": "Molho barbecue (estilo Outback)",
+  "category": "Molhos",
+  "description": "Barbecue frio de ketchup, vinagre de maçã e molho inglês, com cravo, canela e caiena.",
+  "servings": 1,
+  "yieldLabel": "receita",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 0.667,
+      "id": "1",
+      "name": "ketchup",
+      "unit": "cup"
+    },
+    {
+      "amount": 2,
+      "id": "2",
+      "name": "vinagre de maçã",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1.5,
+      "id": "3",
+      "name": "molho inglês",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "4",
+      "name": "água (pouco menos)",
+      "unit": "cup"
+    },
+    {
+      "amount": "",
+      "id": "5",
+      "name": "sal, cravo em pó, canela em pó e pimenta-caiena a gosto",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Misture tudo muito bem e use na receita que preferir.",
+      "timer": 0,
+      "title": "Misturar"
+    }
+  ],
+  "notes": "No original, a linha da água está confusa (\"1 e 1/2 colher (sopa) de pouco menos de 1/2 xícara de água\"): usei pouco menos de ½ xícara. Ajuste a gosto.",
+  "images": [],
+  "source": "Molhos.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

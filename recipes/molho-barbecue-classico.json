@@ -1,0 +1,137 @@
+{
+  "title": "Molho barbecue com suco de maçã",
+  "category": "Molhos",
+  "description": "Barbecue caseiro de panela, com ketchup, suco de maçã, mel e páprica defumada, batido no final.",
+  "servings": 1,
+  "yieldLabel": "receita",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 4,
+      "id": "1",
+      "name": "óleo de girassol ou canola",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "2",
+      "name": "cebola pequena bem picada",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "3",
+      "name": "dentes de alho amassados",
+      "unit": ""
+    },
+    {
+      "amount": 4,
+      "id": "4",
+      "name": "suco de maçã",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 3,
+      "id": "5",
+      "name": "ketchup",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 2,
+      "id": "6",
+      "name": "vinagre de maçã",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "7",
+      "name": "açúcar mascavo (bem cheia)",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "8",
+      "name": "mel",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 4,
+      "id": "9",
+      "name": "água",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 2,
+      "id": "10",
+      "name": "molho de pimenta",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "11",
+      "name": "molho inglês",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "12",
+      "name": "mostarda (bem cheia)",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "13",
+      "name": "páprica defumada ou pimenta ancho em pó",
+      "unit": "tsp"
+    },
+    {
+      "amount": 0.25,
+      "id": "14",
+      "name": "sal de aipo",
+      "unit": "tsp"
+    },
+    {
+      "amount": 0.25,
+      "id": "15",
+      "name": "pimenta-da-jamaica",
+      "unit": "tsp"
+    },
+    {
+      "amount": "",
+      "id": "16",
+      "name": "sal e pimenta-do-reino moída na hora",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Aqueça o óleo numa panela pequena de fundo grosso e frite a cebola em fogo médio por cerca de 5 minutos, até ficar macia sem dourar.",
+      "timer": 300,
+      "title": "Refogar"
+    },
+    {
+      "content": "Junte o alho e frite por mais 2 minutos.",
+      "timer": 120,
+      "title": "Alho"
+    },
+    {
+      "content": "Junte todos os outros ingredientes, misture e leve à fervura.",
+      "timer": 0,
+      "title": "Ferver"
+    },
+    {
+      "content": "Abaixe para fervura leve e cozinhe destampado por 15 minutos, até engrossar.",
+      "timer": 900,
+      "title": "Reduzir"
+    },
+    {
+      "content": "Bata no liquidificador ou com mixer até ficar liso.",
+      "timer": 0,
+      "title": "Bater"
+    }
+  ],
+  "notes": "",
+  "images": [],
+  "source": "CHURRASCO_AMERICANO.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

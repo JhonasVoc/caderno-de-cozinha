@@ -1,0 +1,131 @@
+{
+  "title": "Fumet de peixe",
+  "category": "Fundos",
+  "description": "Fundo rápido de espinhas de peixe branco com vinho branco, pronto em 30 minutos. Use a carcaça do snapper.",
+  "servings": 1,
+  "yieldLabel": "receita (~1 l)",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 1,
+      "id": "1",
+      "name": "espinhas e cabeças de peixe branco (snapper, linguado), sem guelras e sem sangue",
+      "unit": "kg"
+    },
+    {
+      "amount": 30,
+      "id": "2",
+      "name": "manteiga",
+      "unit": "g"
+    },
+    {
+      "amount": "",
+      "id": "3",
+      "name": "## Mirepoix branco",
+      "unit": ""
+    },
+    {
+      "amount": 100,
+      "id": "4",
+      "name": "cebola em fatias finas",
+      "unit": "g"
+    },
+    {
+      "amount": 50,
+      "id": "5",
+      "name": "aipo (salsão)",
+      "unit": "g"
+    },
+    {
+      "amount": 50,
+      "id": "6",
+      "name": "alho-poró, parte branca",
+      "unit": "g"
+    },
+    {
+      "amount": 50,
+      "id": "7",
+      "name": "talos de cogumelo (opcional)",
+      "unit": "g"
+    },
+    {
+      "amount": "",
+      "id": "8",
+      "name": "## Líquido",
+      "unit": ""
+    },
+    {
+      "amount": 150,
+      "id": "9",
+      "name": "vinho branco seco",
+      "unit": "ml"
+    },
+    {
+      "amount": 1.2,
+      "id": "10",
+      "name": "água fria",
+      "unit": "l"
+    },
+    {
+      "amount": "",
+      "id": "11",
+      "name": "## Ervas",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "12",
+      "name": "folha de louro",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "13",
+      "name": "ramo de tomilho",
+      "unit": ""
+    },
+    {
+      "amount": 5,
+      "id": "14",
+      "name": "talos de salsinha",
+      "unit": ""
+    },
+    {
+      "amount": 5,
+      "id": "15",
+      "name": "grãos de pimenta-branca",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Tire as guelras e lave bem as espinhas em água fria até sair todo o sangue. Corte em pedaços.",
+      "timer": 0,
+      "title": "Limpar as espinhas"
+    },
+    {
+      "content": "Derreta {2} e sue os legumes com as espinhas em fogo baixo, tampado, sem dourar.",
+      "timer": 300,
+      "title": "Suar"
+    },
+    {
+      "content": "Junte {9} e deixe reduzir pela metade.",
+      "timer": 0,
+      "title": "Deglacear"
+    },
+    {
+      "content": "Cubra com {10}, junte as ervas, leve à fervura, retire a espuma e mantenha em fervura bem leve.",
+      "timer": 1500,
+      "title": "Cozinhar"
+    },
+    {
+      "content": "Coe sem espremer e esfrie rápido.",
+      "timer": 0,
+      "title": "Coar"
+    }
+  ],
+  "notes": "Não passe de 30 minutos: espinha de peixe cozida demais deixa o fumet amargo e turvo. Use só peixe branco e magro (salmão e peixes gordos deixam o fundo forte). Sem sal. Ótimo para risoto de frutos do mar, molho beurre blanc e velouté de peixe.",
+  "images": [],
+  "source": "",
+  "updatedAt": "2026-11-09T03:10:00.000Z"
+}

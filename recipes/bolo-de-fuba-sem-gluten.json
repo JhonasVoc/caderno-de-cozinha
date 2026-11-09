@@ -1,0 +1,90 @@
+{
+  "title": "Bolo de fubá sem glúten e sem lactose",
+  "category": "Bolos",
+  "description": "Bolo de fubá com farinha de arroz, leite de coco e coco ralado. Fácil e pronto em 50 minutos.",
+  "servings": 12,
+  "yieldLabel": "fatias",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 4,
+      "id": "1",
+      "name": "ovos inteiros",
+      "unit": ""
+    },
+    {
+      "amount": 1.5,
+      "id": "2",
+      "name": "açúcar demerara",
+      "unit": "cup"
+    },
+    {
+      "amount": 2,
+      "id": "3",
+      "name": "fubá",
+      "unit": "cup"
+    },
+    {
+      "amount": 3,
+      "id": "4",
+      "name": "farinha de arroz (rasas)",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "5",
+      "name": "óleo de milho ou girassol",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "leite de coco",
+      "unit": "cup"
+    },
+    {
+      "amount": 1,
+      "id": "7",
+      "name": "fermento em pó",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 3,
+      "id": "8",
+      "name": "coco ralado",
+      "unit": "tbsp"
+    },
+    {
+      "amount": "",
+      "id": "9",
+      "name": "óleo e farinha de arroz para untar",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Bata os ovos, o açúcar e o óleo até obter um creme homogêneo.",
+      "timer": 0,
+      "title": "Bater o creme"
+    },
+    {
+      "content": "Numa tigela, misture o fubá, a farinha de arroz, o coco ralado e o fermento. Junte ao creme, adicione o leite de coco e incorpore.",
+      "timer": 0,
+      "title": "Misturar os secos"
+    },
+    {
+      "content": "Unte uma fôrma de 23 cm com óleo e farinha de arroz, despeje a massa e asse em forno preaquecido a 180 °C por cerca de 35 minutos.",
+      "timer": 2100,
+      "title": "Assar"
+    }
+  ],
+  "notes": "Tire do forno ainda úmido: ele seca um pouco depois de frio.",
+  "images": [
+    {
+      "src": "images/bolo-de-fuba-sem-gluten/01.jpg",
+      "caption": "Bolo de fubá pronto."
+    }
+  ],
+  "source": "Bolo_Fuba_sem_lactose_gluten.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

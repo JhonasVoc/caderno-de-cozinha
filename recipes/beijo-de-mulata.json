@@ -1,0 +1,114 @@
+{
+  "title": "Beijo de mulata",
+  "category": "Doces",
+  "description": "Bolinhos fritos de massa com pinga, banhados em calda quente de chocolate e passados no coco ralado.",
+  "servings": 1,
+  "yieldLabel": "receita",
+  "scale": false,
+  "ingredients": [
+    {
+      "amount": "",
+      "id": "1",
+      "name": "## Massa",
+      "unit": ""
+    },
+    {
+      "amount": 3,
+      "id": "2",
+      "name": "ovos",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "3",
+      "name": "cálice de pinga",
+      "unit": ""
+    },
+    {
+      "amount": 7,
+      "id": "4",
+      "name": "açúcar",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 1,
+      "id": "5",
+      "name": "manteiga",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 0.5,
+      "id": "6",
+      "name": "fermento em pó",
+      "unit": "tbsp"
+    },
+    {
+      "amount": "",
+      "id": "7",
+      "name": "farinha de trigo até dar ponto de enrolar",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "8",
+      "name": "óleo para fritar",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "9",
+      "name": "## Calda",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "10",
+      "name": "açúcar",
+      "unit": "cup"
+    },
+    {
+      "amount": 2,
+      "id": "11",
+      "name": "chocolate do padre (chocolate em pó)",
+      "unit": "cup"
+    },
+    {
+      "amount": 2,
+      "id": "12",
+      "name": "leite",
+      "unit": "cup"
+    },
+    {
+      "amount": "",
+      "id": "13",
+      "name": "coco ralado para passar",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Misture os ovos, a pinga, o açúcar, a manteiga e o fermento. Junte farinha aos poucos até a massa dar ponto de enrolar.",
+      "timer": 0,
+      "title": "Fazer a massa"
+    },
+    {
+      "content": "Enrole em cordões e corte como nhoque. Frite em óleo quente até dourar.",
+      "timer": 0,
+      "title": "Cortar e fritar"
+    },
+    {
+      "content": "Leve ao fogo o açúcar, o chocolate e o leite, mexendo até formar uma calda.",
+      "timer": 0,
+      "title": "Fazer a calda"
+    },
+    {
+      "content": "Passe os bolinhos na calda ainda quente e depois no coco ralado.",
+      "timer": 0,
+      "title": "Finalizar"
+    }
+  ],
+  "notes": "",
+  "images": [],
+  "source": "Beijo_de_Mulata.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

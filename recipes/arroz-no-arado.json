@@ -1,0 +1,214 @@
+{
+  "title": "Arroz no arado (paella caipira)",
+  "category": "Pratos",
+  "description": "Arroz com seis carnes, linguiças, legumes e amendoim, feito no disco de arado para servir muita gente.",
+  "servings": 20,
+  "yieldLabel": "porções",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": "",
+      "id": "1",
+      "name": "## Carnes",
+      "unit": ""
+    },
+    {
+      "amount": 400,
+      "id": "2",
+      "name": "contrafilé em cubos",
+      "unit": "g"
+    },
+    {
+      "amount": 400,
+      "id": "3",
+      "name": "copa lombo em cubos",
+      "unit": "g"
+    },
+    {
+      "amount": 400,
+      "id": "4",
+      "name": "filé de peito de frango em cubos",
+      "unit": "g"
+    },
+    {
+      "amount": "",
+      "id": "5",
+      "name": "## Tempero das carnes",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "sal",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "7",
+      "name": "alho triturado",
+      "unit": "tsp"
+    },
+    {
+      "amount": 1,
+      "id": "8",
+      "name": "pimenta-do-reino moída e pimenta calabresa",
+      "unit": "pinch"
+    },
+    {
+      "amount": 2,
+      "id": "9",
+      "name": "alecrim desidratado",
+      "unit": "pinch"
+    },
+    {
+      "amount": 3,
+      "id": "10",
+      "name": "folhas de louro",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "11",
+      "name": "sálvia desidratada",
+      "unit": "pinch"
+    },
+    {
+      "amount": "",
+      "id": "12",
+      "name": "## Para o arado",
+      "unit": ""
+    },
+    {
+      "amount": "",
+      "id": "13",
+      "name": "½ copo (americano) de óleo",
+      "unit": ""
+    },
+    {
+      "amount": 400,
+      "id": "14",
+      "name": "bacon sem pele em cubinhos",
+      "unit": "g"
+    },
+    {
+      "amount": 400,
+      "id": "15",
+      "name": "linguiça toscana sem pele, esmagada",
+      "unit": "g"
+    },
+    {
+      "amount": 400,
+      "id": "16",
+      "name": "linguiça fina defumada sem pele, esmagada",
+      "unit": "g"
+    },
+    {
+      "amount": 400,
+      "id": "17",
+      "name": "linguiça calabresa em cubinhos",
+      "unit": "g"
+    },
+    {
+      "amount": 1,
+      "id": "18",
+      "name": "cebola em tiras",
+      "unit": "kg"
+    },
+    {
+      "amount": 1.2,
+      "id": "19",
+      "name": "tomate em pedaços grandes (+1 tomate para decorar)",
+      "unit": "kg"
+    },
+    {
+      "amount": 2,
+      "id": "20",
+      "name": "talos de alho-poró em rodelas finas (200 g)",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "21",
+      "name": "maços de cheiro-verde (salsinha e cebolinha) picados",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "22",
+      "name": "latas de milho-verde escorrido",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "23",
+      "name": "sal",
+      "unit": "tsp"
+    },
+    {
+      "amount": 2,
+      "id": "24",
+      "name": "sachês de tempero pronto para carne",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "25",
+      "name": "tabletes de caldo de galinha",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "26",
+      "name": "arroz agulhinha cozido",
+      "unit": "kg"
+    },
+    {
+      "amount": 300,
+      "id": "27",
+      "name": "amendoim torrado sem pele (com ou sem sal)",
+      "unit": "g"
+    },
+    {
+      "amount": "",
+      "id": "28",
+      "name": "azeite a gosto",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Tempere o contrafilé, a copa lombo e o frango com o sal, o alho, as pimentas, o alecrim, o louro e a sálvia. Reserve.",
+      "timer": 0,
+      "title": "Temperar as carnes"
+    },
+    {
+      "content": "Aqueça o óleo no arado. Frite o bacon por 4–5 minutos, até dourar, e afaste para a lateral. Repita com a linguiça toscana, depois a linguiça fina, a calabresa e, por fim, as carnes temperadas, sempre afastando para a lateral.",
+      "timer": 300,
+      "title": "Fritar as carnes por etapas"
+    },
+    {
+      "content": "No óleo que ficou no centro, refogue a cebola até murchar. Junte o tomate, o alho-poró, parte do cheiro-verde, o milho, o sal, o tempero pronto e o caldo de galinha. Mexa por 2 minutos.",
+      "timer": 120,
+      "title": "Refogar os legumes"
+    },
+    {
+      "content": "Misture os legumes com todas as carnes e acrescente o arroz cozido em duas etapas, mexendo bem.",
+      "timer": 0,
+      "title": "Juntar o arroz"
+    },
+    {
+      "content": "Salpique parte do amendoim e misture. Decore o centro com um tomate cortado em 8, o restante do amendoim e do cheiro-verde e um fio de azeite. Apague o fogo e sirva.",
+      "timer": 0,
+      "title": "Finalizar"
+    }
+  ],
+  "notes": "Feito no disco de arado sobre fogo, mas dá para adaptar numa panela paella grande ou numa frigideira larga, em levas.",
+  "images": [
+    {
+      "src": "images/arroz-no-arado/01.jpg",
+      "caption": "Arroz no arado pronto."
+    }
+  ],
+  "source": "Arroz_de_Arado_-_Paella_Caipira.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

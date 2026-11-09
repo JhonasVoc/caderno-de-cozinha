@@ -1,0 +1,112 @@
+{
+  "title": "Fundo claro de ave (fond blanc)",
+  "category": "Fundos",
+  "description": "Fundo clássico de carcaça de frango sem tostar, com mirepoix branco. Base de velouté, risotos, sopas e molhos claros.",
+  "servings": 1,
+  "yieldLabel": "receita (~1,5 l)",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 1,
+      "id": "1",
+      "name": "carcaças, pescoços e asas de frango",
+      "unit": "kg"
+    },
+    {
+      "amount": 2.5,
+      "id": "2",
+      "name": "água fria",
+      "unit": "l"
+    },
+    {
+      "amount": "",
+      "id": "3",
+      "name": "## Mirepoix branco",
+      "unit": ""
+    },
+    {
+      "amount": 125,
+      "id": "4",
+      "name": "cebola",
+      "unit": "g"
+    },
+    {
+      "amount": 60,
+      "id": "5",
+      "name": "aipo (salsão)",
+      "unit": "g"
+    },
+    {
+      "amount": 60,
+      "id": "6",
+      "name": "alho-poró, parte branca",
+      "unit": "g"
+    },
+    {
+      "amount": "",
+      "id": "7",
+      "name": "## Bouquet garni (ervas aromáticas)",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "8",
+      "name": "ramos de tomilho",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "9",
+      "name": "folha de louro",
+      "unit": ""
+    },
+    {
+      "amount": 5,
+      "id": "10",
+      "name": "talos de salsinha",
+      "unit": ""
+    },
+    {
+      "amount": 6,
+      "id": "11",
+      "name": "grãos de pimenta-do-reino",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Tire o excesso de gordura e restos de sangue e lave os ossos em água fria.",
+      "timer": 0,
+      "title": "Limpar os ossos"
+    },
+    {
+      "content": "Para um fundo mais límpido, cubra os ossos com água fria, deixe ferver, descarte a água e enxágue os ossos.",
+      "timer": 0,
+      "title": "Branquear (opcional)"
+    },
+    {
+      "content": "Coloque os ossos com {2} na panela e leve ao fogo médio até começar a ferver. Retire toda a espuma.",
+      "timer": 0,
+      "title": "Começar a frio"
+    },
+    {
+      "content": "Abaixe para uma fervura bem suave, sem tampa, retirando espuma e gordura de tempos em tempos.",
+      "timer": 5400,
+      "title": "Fervura leve"
+    },
+    {
+      "content": "Junte o mirepoix e o bouquet garni e continue em fervura leve.",
+      "timer": 3600,
+      "title": "Aromáticos"
+    },
+    {
+      "content": "Coe num pano ou peneira fina, sem espremer. Esfrie rápido e, depois de gelado, retire a gordura que endurecer por cima.",
+      "timer": 0,
+      "title": "Coar e esfriar"
+    }
+  ],
+  "notes": "Tempo total: 2h30 a 3h. Não deixe ferver forte: o fundo fica turvo. Sem sal. Para fundo claro de vitela, use ossos de vitela e cozinhe 5–6 horas. Dura 3–4 dias na geladeira e 3 meses no congelador.",
+  "images": [],
+  "source": "",
+  "updatedAt": "2026-11-09T03:10:00.000Z"
+}

@@ -1,0 +1,90 @@
+{
+  "title": "Jô de salmão",
+  "category": "Sushi",
+  "description": "Versão brasileira do gunkan: uma fatia longa de salmão faz o papel do nori, cercando o arroz, com recheio cremoso por cima.",
+  "servings": 6,
+  "yieldLabel": "peças",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 90,
+      "id": "1",
+      "name": "arroz de sushi pronto (shari)",
+      "unit": "g"
+    },
+    {
+      "amount": 90,
+      "id": "2",
+      "name": "lombo de salmão para as fatias",
+      "unit": "g"
+    },
+    {
+      "amount": 50,
+      "id": "3",
+      "name": "aparas de salmão picadas",
+      "unit": "g"
+    },
+    {
+      "amount": 30,
+      "id": "4",
+      "name": "cream cheese",
+      "unit": "g"
+    },
+    {
+      "amount": 1,
+      "id": "5",
+      "name": "cebolinha bem fina",
+      "unit": "tbsp"
+    },
+    {
+      "amount": 6,
+      "id": "6",
+      "name": "fatias finas de jalapeño ou cebolinha para finalizar",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "content": "Embrulhe {2} em filme e deixe no freezer até firmar, sem congelar.",
+      "timer": 1200,
+      "title": "Firmar o lombo"
+    },
+    {
+      "content": "Com a faca deitada, paralela à tábua, corte camadas de 2–3 mm ao longo do bloco, num puxão longo por camada. Corte em tiras de ~12–14 × 3 cm (~15 g cada), com as listras de gordura atravessadas.",
+      "timer": 0,
+      "title": "Fatiar no comprimento"
+    },
+    {
+      "content": "Misture {3}, {4} e {5}. Mantenha na geladeira.",
+      "timer": 0,
+      "title": "Fazer o recheio"
+    },
+    {
+      "content": "Com as mãos úmidas, divida {1} em bolinhos redondos de ~15 g, com ~3,5 cm de diâmetro, 2 cm de altura e topo reto.",
+      "timer": 0,
+      "title": "Formar os bolinhos"
+    },
+    {
+      "content": "Enrole uma tira de salmão em volta de cada bolinho, base alinhada e ~1 cm acima do arroz. Sobreponha as pontas ~1 cm e pressione: o salmão gruda sozinho. Se a tira for curta, emende duas.",
+      "timer": 0,
+      "title": "Envolver com salmão"
+    },
+    {
+      "content": "Coloque 10–15 g de recheio por peça e finalize com {6}. Sirva logo ou mantenha na geladeira até servir.",
+      "timer": 0,
+      "title": "Rechear e finalizar"
+    }
+  ],
+  "notes": "Recheio picante: salmão picado + maionese japonesa + sriracha, com fatia de jalapeño. Opcional: maçaricar de leve o topo (aburi) ou finalizar com ikura ou tobiko.",
+  "images": [
+    {
+      "src": "images/jo-de-salmao/01.jpg",
+      "caption": "Jô de salmão com recheio cremoso e jalapeño."
+    },
+    {
+      "src": "images/jo-de-salmao/02.png",
+      "caption": "Esquema: de onde tirar a fatia, como fatiar no comprimento e como montar."
+    }
+  ],
+  "updatedAt": "2026-11-02T09:15:01.000Z"
+}

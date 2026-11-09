@@ -1,0 +1,117 @@
+{
+  "title": "Creme brûlée catalão",
+  "category": "Doces",
+  "description": "Versão catalã do creme brûlée, cozida na panela com especiarias e raspas de laranja. Precisa de maçarico.",
+  "servings": 4,
+  "yieldLabel": "tigelinhas",
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 250,
+      "id": "1",
+      "name": "leite",
+      "unit": "ml"
+    },
+    {
+      "amount": 250,
+      "id": "2",
+      "name": "creme de leite",
+      "unit": "ml"
+    },
+    {
+      "amount": 2,
+      "id": "3",
+      "name": "ramas de canela",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "4",
+      "name": "estrelas de anis",
+      "unit": ""
+    },
+    {
+      "amount": 2,
+      "id": "5",
+      "name": "cravos",
+      "unit": ""
+    },
+    {
+      "amount": 1,
+      "id": "6",
+      "name": "fava de baunilha aberta no comprimento",
+      "unit": ""
+    },
+    {
+      "amount": 4,
+      "id": "7",
+      "name": "gemas",
+      "unit": ""
+    },
+    {
+      "amount": 120,
+      "id": "8",
+      "name": "açúcar",
+      "unit": "g"
+    },
+    {
+      "amount": 8,
+      "id": "9",
+      "name": "farinha de trigo",
+      "unit": "g"
+    },
+    {
+      "amount": "",
+      "id": "10",
+      "name": "raspas finas de casca de laranja",
+      "unit": ""
+    },
+    {
+      "amount": 200,
+      "id": "11",
+      "name": "açúcar para caramelizar",
+      "unit": "g"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Bata as gemas com o açúcar com um batedor de arame até ficar quase branco. Junte a farinha e as raspas de laranja e bata mais um pouco.",
+      "timer": 0,
+      "title": "Bater as gemas"
+    },
+    {
+      "content": "Ferva o leite e o creme de leite com a canela, o anis, o cravo e a baunilha.",
+      "timer": 0,
+      "title": "Infusionar"
+    },
+    {
+      "content": "Coe a mistura quente sobre as gemas e bata até ficar homogêneo.",
+      "timer": 0,
+      "title": "Juntar"
+    },
+    {
+      "content": "Leve a uma panela em fogo baixo por alguns minutos, mexendo sempre para não grudar, até engrossar.",
+      "timer": 0,
+      "title": "Cozinhar"
+    },
+    {
+      "content": "Distribua nas tigelinhas e leve ao forno a 180 °C por 5 minutos.",
+      "timer": 300,
+      "title": "Formar a película"
+    },
+    {
+      "content": "Deixe esfriar e leve à geladeira.",
+      "timer": 0,
+      "title": "Gelar"
+    },
+    {
+      "content": "Cubra com açúcar e caramelize com maçarico. Repita a caramelização para ficar bem crocante.",
+      "timer": 0,
+      "title": "Caramelizar"
+    }
+  ],
+  "notes": "Do chef Claude Troisgros: \"Se você não tem um maçarico de cozinha, não faça creme brûlée.\" O rendimento de 4 tigelinhas é uma estimativa.",
+  "images": [],
+  "source": "CREME_BRULE__CATALAO.docx",
+  "updatedAt": "2026-11-09T03:00:00.000Z"
+}

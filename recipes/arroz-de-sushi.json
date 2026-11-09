@@ -1,0 +1,83 @@
+{
+  "title": "Arroz de sushi (shari)",
+  "category": "Sushi",
+  "description": "Arroz japonês de grão curto na panela comum, começando com água gelada e temperado com vinagre de sushi. Rende cerca de 1,1 kg.",
+  "servings": 4,
+  "scale": true,
+  "ingredients": [
+    {
+      "amount": 400,
+      "id": "1",
+      "name": "arroz japonês de grão curto",
+      "unit": "g"
+    },
+    {
+      "amount": 460,
+      "id": "2",
+      "name": "água gelada (480 ml em panela fina)",
+      "unit": "ml"
+    },
+    {
+      "amount": 1,
+      "id": "3",
+      "name": "pedaço de kombu, ~5 cm (opcional)",
+      "unit": ""
+    },
+    {
+      "amount": 100,
+      "id": "4",
+      "name": "Mizkan Sushi Seasoning (すし酢)",
+      "unit": "ml"
+    }
+  ],
+  "steps": [
+    {
+      "content": "Lave {1} em água fria da torneira, esfregando de leve e trocando a água logo, até sair quase transparente (4–5 vezes). Escorra bem.",
+      "timer": 0,
+      "title": "Lavar"
+    },
+    {
+      "content": "Coloque o arroz na panela com {2} e {3}. Deixe de molho com o fogo desligado.",
+      "timer": 1800,
+      "title": "Deixar de molho"
+    },
+    {
+      "content": "Retire o kombu. Se a tampa não vedar bem, coloque papel-alumínio ou um pano de prato (pontas dobradas para cima, longe da chama) entre a panela e a tampa.",
+      "timer": 0,
+      "title": "Vedar a panela"
+    },
+    {
+      "content": "Fogo médio-alto, tampado, até ferver. Com água gelada leva uns 8–10 minutos; você percebe pelo vapor e pelo barulho da tampa.",
+      "timer": 540,
+      "title": "Levar à fervura"
+    },
+    {
+      "content": "Menor boca, fogo mínimo absoluto (de preferência com frigideira de ferro ou difusor por baixo). Não abra a tampa nem mexa. Se sentir cheiro de queimado, desligue.",
+      "timer": 750,
+      "title": "Cozinhar no mínimo"
+    },
+    {
+      "content": "Desligue e deixe tampado, sem abrir, para o vapor terminar de cozinhar o grão.",
+      "timer": 900,
+      "title": "Descansar"
+    },
+    {
+      "content": "Passe o arroz de uma vez para um bowl largo de madeira ou vidro, sem raspar o fundo. Regue na hora uns 80% de {4}, espalhando com a espátula como guia.",
+      "timer": 0,
+      "title": "Temperar quente"
+    },
+    {
+      "content": "Misture com cortes verticais da espátula, sem amassar nem mexer em círculos, abanando ao mesmo tempo para dar brilho. Prove e complete o tempero.",
+      "timer": 120,
+      "title": "Misturar e abanar"
+    },
+    {
+      "content": "Espalhe o arroz, cubra com pano úmido e espere chegar à temperatura do corpo antes de montar. Use em até 3–4 horas e nunca leve à geladeira.",
+      "timer": 900,
+      "title": "Esfriar"
+    }
+  ],
+  "notes": "Sem sushi seasoning pronto: 80 ml de vinagre de arroz, 2½ colheres de sopa de açúcar e 1½ colher de chá de sal. Nigiri mais firme: ~440 ml de água; maki mais macio: ~480 ml. Comece 1h30 antes de montar. Rende 8–10 rolos de maki ou 50–60 nigiris.",
+  "images": [],
+  "updatedAt": "2026-11-01T09:50:00.000Z"
+}
