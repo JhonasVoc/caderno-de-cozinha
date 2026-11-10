@@ -153,7 +153,8 @@
     ['01.jpg', 'Ramen com carne, ovo marinado e alga'],
     ['02.jpg', 'Tomates no ramo'],
     ['03.jpg', 'Massa fresca em fitas'],
-    ['04.jpg', 'Massa de chocolate na tigela']
+    ['04.jpg', 'Massa de chocolate na tigela'],
+    ['05.jpg', 'Risoto de tomate com manjericão e bife fatiado']
   ];
   async function renderLanding() {
     document.title = 'Caderno de Cozinha';
@@ -174,7 +175,8 @@
     const strip = $('#homeStrip'), dots = [...document.querySelectorAll('#homeDots button')];
     const cardStep = () => { const f = strip.children; return f.length > 1 ? f[1].offsetLeft - f[0].offsetLeft : strip.clientWidth; };
     strip.addEventListener('scroll', () => {
-      const i = Math.min(dots.length - 1, Math.round(strip.scrollLeft / cardStep()));
+      const atEnd = strip.scrollLeft >= strip.scrollWidth - strip.clientWidth - 2; // a última foto não chega ao início
+      const i = atEnd ? dots.length - 1 : Math.min(dots.length - 1, Math.round(strip.scrollLeft / cardStep()));
       dots.forEach((d, k) => { if (k === i) d.setAttribute('aria-current', 'true'); else d.removeAttribute('aria-current'); });
     }, { passive: true });
     dots.forEach((d, k) => { d.onclick = () => strip.scrollTo({ left: k * cardStep(), behavior: 'smooth' }); });
