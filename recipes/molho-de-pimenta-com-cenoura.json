@@ -1,0 +1,29 @@
+{
+  "title": "Molho de pimenta com cenoura",
+  "category": "Molhos",
+  "description": "Molho picante, adocicado e encorpado de long red chilli e cenoura, pronto em uns 25 minutos.",
+  "servings": 1,
+  "yieldLabel": "receita (~600 ml)",
+  "scale": true,
+  "ingredients": [
+    { "id": "1", "name": "cenoura (fatiada ou em fitas)", "amount": 250, "unit": "g" },
+    { "id": "2", "name": "long red chillies", "amount": 5, "unit": "" },
+    { "id": "3", "name": "cebola média picada", "amount": 1, "unit": "" },
+    { "id": "4", "name": "dentes de alho", "amount": 4, "unit": "" },
+    { "id": "5", "name": "azeite", "amount": 1, "unit": "tbsp" },
+    { "id": "6", "name": "vinagre (branco ou de maçã)", "amount": 120, "unit": "ml" },
+    { "id": "7", "name": "água", "amount": 150, "unit": "ml" },
+    { "id": "8", "name": "sal", "amount": 1, "unit": "tsp" },
+    { "id": "9", "name": "açúcar ou mel", "amount": 1, "unit": "tbsp" },
+    { "id": "10", "name": "suco de limão", "amount": 1, "unit": "tbsp" }
+  ],
+  "steps": [
+    { "title": "Refogar", "content": "Aqueça {5} numa panela e refogue {3} e {4} até a cebola ficar macia, sem deixar dourar demais.", "timer": 300 },
+    { "title": "Cozinhar os legumes", "content": "Junte {1}, {2} picadas grosseiramente (tire as sementes se quiser menos picante), {7} e {8}. Tampe e cozinhe até a cenoura ficar bem macia.", "timer": 900 },
+    { "title": "Bater", "content": "Desligue o fogo, junte {6}, {9} e {10} e bata no liquidificador até ficar bem liso. Se ficar grosso demais, acrescente um pouco de água." },
+    { "title": "Guardar", "content": "Prove, acerte o sal e guarde num pote de vidro limpo na geladeira. Fica mais saboroso depois de um dia." }
+  ],
+  "notes": "Receita enviada pronta. Só converti as medidas para o formato do caderno (tablespoon = col. sopa, teaspoon = col. chá) e acrescentei os timers: 5 minutos para refogar e 15 para cozinhar a cenoura, somando os uns 25 minutos da descrição. O rendimento (~600 ml) também é estimativa minha.\n\nLong red chilli é a pimenta vermelha comprida dos mercados australianos, de ardência média. No Brasil, a mais parecida é a dedo-de-moça.\n\nUse luvas para cortar as pimentas e não encoste nos olhos. Bata com cuidado: o vapor das pimentas quentes arde no nariz; deixe esfriar uns minutos ou abra a tampinha do liquidificador coberta com um pano.\n\nGuarde em pote de vidro bem limpo (escaldado com água fervente). Com o vinagre, dura umas 3 a 4 semanas na geladeira; se aparecer bolor ou cheiro estranho, descarte.",
+  "source": "Receita enviada pelo Jhonas (com as medidas em inglês)",
+  "updatedAt": "2026-11-10T06:00:00.000Z"
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Vitello tonnato",
+  "category": "Pratos",
+  "description": "Clássico do Piemonte: vitela cozida em caldo aromático, fatiada fininho e coberta com molho cremoso de atum, anchova e alcaparra.",
+  "servings": 6,
+  "yieldLabel": "porções (entrada)",
+  "scale": true,
+  "ingredients": [
+    { "id": "1", "name": "## Vitela", "amount": "", "unit": "" },
+    { "id": "2", "name": "vitela sem osso (lagarto, paleta ou pernil)", "amount": 600, "unit": "g" },
+    { "id": "3", "name": "cebola descascada e cortada em quatro", "amount": 1, "unit": "" },
+    { "id": "4", "name": "talo de salsão", "amount": 1, "unit": "" },
+    { "id": "5", "name": "dentes de alho descascados", "amount": 2, "unit": "" },
+    { "id": "6", "name": "folhas de louro", "amount": 2, "unit": "" },
+    { "id": "7", "name": "sementes de erva-doce", "amount": 1, "unit": "tsp" },
+    { "id": "8", "name": "pimenta-do-reino em grãos", "amount": 0.5, "unit": "tsp" },
+    { "id": "9", "name": "sal", "amount": 1, "unit": "tsp" },
+    { "id": "10", "name": "## Molho tonnato", "amount": "", "unit": "" },
+    { "id": "11", "name": "atum de boa qualidade, em azeite ou em água, escorrido", "amount": 150, "unit": "g" },
+    { "id": "12", "name": "filés de anchova em óleo, com o óleo", "amount": 30, "unit": "g" },
+    { "id": "13", "name": "azeite extravirgem", "amount": 0.5, "unit": "cup" },
+    { "id": "14", "name": "ovos cozidos", "amount": 3, "unit": "" },
+    { "id": "15", "name": "limão (o suco)", "amount": 1, "unit": "" },
+    { "id": "16", "name": "## Para finalizar", "amount": "", "unit": "" },
+    { "id": "17", "name": "alcaparras", "amount": 2, "unit": "tbsp" },
+    { "id": "18", "name": "salsinha picada fino", "amount": 1, "unit": "tbsp" },
+    { "id": "19", "name": "pimenta-do-reino moída na hora e gomos de limão", "amount": "", "unit": "" }
+  ],
+  "steps": [
+    { "title": "Cozinhar a vitela", "content": "Coloque {2} numa panela média e cubra com água. Junte {3}, {4}, {5}, {6}, {7}, {8} e {9}. Deixe levantar fervura, abaixe o fogo para borbulhar de leve e cozinhe tampado por 90 minutos.", "timer": 5400 },
+    { "title": "Esfriar e gelar", "content": "Tire do fogo e deixe a carne esfriar por completo. Embrulhe em filme plástico e leve à geladeira por pelo menos 2 horas: carne gelada é o que permite fatiar bem fino.", "timer": 7200 },
+    { "title": "Guardar o caldo", "content": "Coe o caldo do cozimento e guarde na geladeira. Ele serve para afinar o molho e, o resto, como caldo leve em outra receita." },
+    { "title": "Fazer o molho", "content": "Bata {14}, {11}, {12} e o suco de {15} com mixer ou liquidificador até ficar liso. Com o aparelho ligado, junte {13} em fio, aos poucos, até ficar cremoso. Se engrossar demais, afine com um pouco do caldo gelado. O ponto é de maionese." },
+    { "title": "Fatiar", "content": "Tire a vitela da geladeira e corte em fatias bem finas com uma faca afiada, contra as fibras." },
+    { "title": "Montar", "content": "Arrume as fatias numa travessa grande, em uma camada só. Espalhe o molho por cima e finalize com {17}, {18} e {19}." }
+  ],
+  "notes": "Fonte: Cook Eat World (cookeatworld.com/vitello-tonnato), receita de Lee. Texto reescrito por mim; as quantidades são as do original, convertidas: 1,3 lb = 600 g de vitela, 5 oz = 150 g de atum, 1 oz = 30 g de anchova, ½ xícara de azeite.\n\nO que foi interpretado:\n- O cabeçalho do original diz 45 minutos de cozimento, mas o passo a passo manda cozinhar por 90 minutos. Segui os 90 minutos, que é o tempo certo para a vitela ficar macia.\n- O original diz que dura até uma semana na geladeira. Por segurança, conte com 3 a 4 dias: carne cozida com molho de ovo.\n\nFaça com antecedência: o autor prepara até 4 dias antes e diz que o sabor melhora muito. Tire da geladeira uns 30 minutos antes de servir, porque fica mais gostoso fora do frio (não deixe mais de 2 horas fora). Não congela.\n\nComo servir: como entrada ou num antipasto, com bastante pão e folhas de alface crocantes, que servem de conchinha para a carne e o molho.\n\nSobra de molho: com batatinhas cozidas, com batata frita ou num hambúrguer de atum grelhado com rúcula e cebola roxa.\n\nNa Austrália: peça \"veal girello\" ou \"veal eye round\" ao açougueiro (no Brasil, lagarto de vitela). Salsão é \"celery\"; erva-doce em semente é \"fennel seeds\".",
+  "source": "Cook Eat World: cookeatworld.com/vitello-tonnato (autor: Lee)",
+  "updatedAt": "2026-11-10T06:10:00.000Z"
+}
