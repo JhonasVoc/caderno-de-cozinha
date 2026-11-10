@@ -1,0 +1,169 @@
+{
+  "title": "Massas coloridas: laranja, branca, preta e azul",
+  "category": "Massas",
+  "description": "Quatro massas frescas para montar padrões: laranja de urucum, branca de farinha e água, preta de carvão ativado e azul de espirulina.",
+  "servings": 12,
+  "yieldLabel": "porções (~1,5 kg de massa)",
+  "scale": true,
+  "ingredients": [
+    {
+      "id": "1",
+      "name": "## Massa laranja",
+      "amount": "",
+      "unit": ""
+    },
+    {
+      "id": "2",
+      "name": "farinha tipo 00",
+      "amount": 190,
+      "unit": "g"
+    },
+    {
+      "id": "3",
+      "name": "gemas (cerca de 10)",
+      "amount": 180,
+      "unit": "g"
+    },
+    {
+      "id": "4",
+      "name": "urucum em pó puro (annatto)",
+      "amount": 2,
+      "unit": "tsp"
+    },
+    {
+      "id": "5",
+      "name": "sal",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "6",
+      "name": "## Massa branca",
+      "amount": "",
+      "unit": ""
+    },
+    {
+      "id": "7",
+      "name": "farinha tipo 00 (para a massa branca)",
+      "amount": 200,
+      "unit": "g"
+    },
+    {
+      "id": "8",
+      "name": "água",
+      "amount": 86,
+      "unit": "g"
+    },
+    {
+      "id": "9",
+      "name": "## Massa preta",
+      "amount": "",
+      "unit": ""
+    },
+    {
+      "id": "10",
+      "name": "farinha tipo 00 (para a massa preta)",
+      "amount": 200,
+      "unit": "g"
+    },
+    {
+      "id": "11",
+      "name": "gemas (cerca de 10, para a massa preta)",
+      "amount": 180,
+      "unit": "g"
+    },
+    {
+      "id": "12",
+      "name": "carvão ativado em pó, próprio para alimentos",
+      "amount": 2,
+      "unit": "tsp"
+    },
+    {
+      "id": "13",
+      "name": "sal (para a massa preta)",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "17",
+      "name": "## Massa azul",
+      "amount": "",
+      "unit": ""
+    },
+    {
+      "id": "18",
+      "name": "farinha tipo 00 (para a massa azul)",
+      "amount": 200,
+      "unit": "g"
+    },
+    {
+      "id": "19",
+      "name": "água (para a massa azul)",
+      "amount": 74,
+      "unit": "g"
+    },
+    {
+      "id": "20",
+      "name": "espirulina azul em pó (blue spirulina)",
+      "amount": 2,
+      "unit": "tsp"
+    },
+    {
+      "id": "14",
+      "name": "## Para abrir e cozinhar",
+      "amount": "",
+      "unit": ""
+    },
+    {
+      "id": "15",
+      "name": "semolina para polvilhar",
+      "amount": "",
+      "unit": ""
+    },
+    {
+      "id": "16",
+      "name": "sal grosso para a água do cozimento",
+      "amount": "",
+      "unit": ""
+    }
+  ],
+  "steps": [
+    {
+      "title": "Fazer a massa laranja",
+      "content": "Misture {2}, {4} e {5} antes de juntar o líquido, para a cor sair uniforme. Abra um buraco no meio, coloque {3}, incorpore com garfo e sove até ficar lisa e elástica, 8 a 10 minutos.",
+      "timer": 600
+    },
+    {
+      "title": "Fazer a massa preta",
+      "content": "Faça igual com {10}, {12} e {13}, e depois {11}. Use luvas ou uma tigela que possa manchar: o carvão tinge mãos e bancada.",
+      "timer": 600
+    },
+    {
+      "title": "Fazer a massa branca",
+      "content": "Junte {7} e {8} e sove até ficar lisa, 8 a 10 minutos. É a mais firme das três; se parecer seca demais, molhe as mãos e continue sovando antes de pôr mais água.",
+      "timer": 600
+    },
+    {
+      "title": "Fazer a massa azul",
+      "content": "Misture {18} e {20}, junte {19} e sove até ficar lisa, 10 minutos. É a massa mais firme de todas, com bem pouca água; se não der liga, molhe as mãos e continue sovando. O descanso amacia bastante.",
+      "timer": 600
+    },
+    {
+      "title": "Descansar",
+      "content": "Embrulhe cada massa em filme plástico, separadas, e deixe descansar 30 minutos.",
+      "timer": 1800
+    },
+    {
+      "title": "Abrir e montar o padrão",
+      "content": "Para listras: abra cada massa com 5 mm, corte tiras de 1 cm e coloque lado a lado, alternando as cores e encostando bem. Passe o rolo para colar e abra a folha até 1 mm, como no Tortelli listrado. Para massas de uma cor só, abra cada uma até 1 mm e corte em fettuccine ou pappardelle, polvilhando {15}."
+    },
+    {
+      "title": "Cozinhar",
+      "content": "Cozinhe em bastante água fervente com {16} por 2 a 3 minutos (recheadas: 3 a 4). Não passe do ponto: a cor azul desbota com cozimento longo.",
+      "timer": 180
+    }
+  ],
+  "notes": "O que foi interpretado ou completado:\n- A receita colada trazia só os ingredientes das três massas, sem modo de preparo. A massa azul veio numa mensagem separada e juntei aqui por ser da mesma família. Os passos, os tempos de sova (8 a 10 minutos), o descanso de 30 minutos, a montagem em listras (igual à do Tortelli listrado) e o cozimento são completados por mim.\n- O rendimento é aproximado: as quatro massas somam uns 1,5 kg, o que dá umas 12 porções.\n- Mantive as quantidades do original. As massas branca e azul são só farinha e água (mais a espirulina), sem sal nem ovo, como no original. Ela fica mais clara e mais firme, e é por isso que contrasta com as coloridas. A azul tem ainda menos água (37% da farinha) e é a mais dura de abrir.\n- 180 g de gemas são cerca de 10 gemas de ovo grande, para cada massa colorida: quase 20 no total. Pese para acertar. Congele as claras para usar em suspiro.\n\nUrucum: use urucum em pó puro (annatto powder). O colorau brasileiro é urucum misturado com fubá e não tinge igual.\n\nCarvão ativado: use só o próprio para alimentos (food grade). Ele pode reduzir a absorção de remédios tomados junto; quem usa medicação contínua deve comer longe do horário do remédio.\n\nEspirulina azul: é o pigmento azul (ficocianina) extraído da espirulina; não tem gosto de alga como a espirulina verde. A cor é sensível a calor longo e a ácido: cozinhe pouco e evite molhos com muito limão ou tomate se quiser o azul vivo.\n\nNa Austrália: \"annatto powder\" tem em lojas de especiarias e de produtos latinos. \"Activated charcoal powder, food grade\" e \"blue spirulina powder\" têm em lojas de produtos naturais e de confeitaria. Farinha 00 aparece como \"00 flour\" ou \"tipo 00\".\n\nAs massas laranja e preta levam gema crua: não prove antes de cozinhar.",
+  "source": "Receita colada (post de rede social em inglês, autor não informado)",
+  "updatedAt": "2026-11-10T05:25:00.000Z"
+}

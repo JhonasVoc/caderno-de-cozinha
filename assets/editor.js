@@ -6,7 +6,7 @@
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const UNIT_OPTS = [['', '—'], ['g', 'g'], ['kg', 'kg'], ['ml', 'ml'], ['l', 'l'], ['tsp', 'c. chá'], ['tbsp', 'c. sopa'], ['cup', 'xícara'], ['pinch', 'pitada']];
   const UNIT_SHORT = { '': '', g: 'g', kg: 'kg', ml: 'ml', l: 'l', tsp: 'col. chá', tbsp: 'col. sopa', cup: 'xíc.', pinch: 'pitada' };
-  const DEFAULT_CATS = ['Bolos', 'Caldos', 'Churrasco', 'Doces', 'Embutidos', 'Frituras', 'Fundos', 'Molhos', 'Peixe cru', 'Pratos', 'Salgados', 'Sushi', 'Técnicas', 'Temperos'];
+  const DEFAULT_CATS = ['Bolos', 'Caldos', 'Churrasco', 'Doces', 'Embutidos', 'Frituras', 'Fundos', 'Massas', 'Molhos', 'Peixe cru', 'Pratos', 'Salgados', 'Sushi', 'Técnicas', 'Temperos'];
   const SECTIONS = [['basico', 'Básico', 'Básico'], ['ingredientes', 'Ingred.', 'Ingredientes'], ['passos', 'Passos', 'Passos'], ['notas', 'Notas', 'Notas']];
   const MANAGED = ['title', 'category', 'description', 'servings', 'yieldLabel', 'scale', 'ingredients', 'steps', 'notes', 'source', 'images', 'updatedAt',
     'id', 'owner', 'author', 'isPublic', 'likes', 'liked', 'mine', 'createdAt', 'demoCopy'];

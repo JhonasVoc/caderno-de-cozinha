@@ -1,0 +1,41 @@
+{
+  "title": "Tortelli listrado (massa dourada e vermelha)",
+  "category": "Massas",
+  "description": "Massa fresca só de gemas em duas cores, a dourada e a vermelha de beterraba, montada em listras e fechada em tortelli recheados.",
+  "servings": 3,
+  "yieldLabel": "porções (~36 tortelli)",
+  "scale": true,
+  "ingredients": [
+    { "id": "1", "name": "## Massa dourada", "amount": "", "unit": "" },
+    { "id": "2", "name": "farinha tipo 00", "amount": 100, "unit": "g" },
+    { "id": "3", "name": "gemas (cerca de 5)", "amount": 87.5, "unit": "g" },
+    { "id": "4", "name": "sal", "amount": 0.5, "unit": "tsp" },
+    { "id": "5", "name": "## Massa vermelha", "amount": "", "unit": "" },
+    { "id": "6", "name": "farinha tipo 00 (para a massa vermelha)", "amount": 100, "unit": "g" },
+    { "id": "7", "name": "gemas (cerca de 5, para a massa vermelha)", "amount": 87.5, "unit": "g" },
+    { "id": "8", "name": "beterraba em pó", "amount": 2, "unit": "tsp" },
+    { "id": "9", "name": "sal (para a massa vermelha)", "amount": 0.5, "unit": "tsp" },
+    { "id": "10", "name": "## Recheio (sugestão)", "amount": "", "unit": "" },
+    { "id": "11", "name": "ricota bem escorrida", "amount": 250, "unit": "g" },
+    { "id": "12", "name": "parmesão ralado fino", "amount": 40, "unit": "g" },
+    { "id": "13", "name": "limão-siciliano (só as raspas)", "amount": 0.5, "unit": "" },
+    { "id": "14", "name": "noz-moscada, sal e pimenta-do-reino a gosto", "amount": "", "unit": "" },
+    { "id": "15", "name": "## Para montar e cozinhar", "amount": "", "unit": "" },
+    { "id": "16", "name": "semolina para polvilhar", "amount": "", "unit": "" },
+    { "id": "17", "name": "sal grosso para a água do cozimento", "amount": "", "unit": "" }
+  ],
+  "steps": [
+    { "title": "Fazer a massa dourada", "content": "Misture {2} e {4} numa tigela ou na bancada, abra um buraco no meio e coloque {3}. Incorpore com um garfo e depois sove com as mãos até a massa ficar lisa e elástica, 8 a 10 minutos. Ela começa seca e esfarelada: continue sovando antes de pensar em pôr água.", "timer": 600 },
+    { "title": "Fazer a massa vermelha", "content": "Repita com {6}, {9} e {8} misturados antes, e depois {7}. Misturar a beterraba com a farinha seca evita pintas de cor.", "timer": 600 },
+    { "title": "Descansar", "content": "Embrulhe cada massa em filme plástico e deixe descansar 30 minutos em temperatura ambiente. O glúten relaxa e a massa abre sem encolher.", "timer": 1800 },
+    { "title": "Preparar o recheio", "content": "Enquanto a massa descansa, misture {11}, {12}, {13} e {14}. Prove e acerte o sal. Leve à geladeira até a hora de montar; recheio frio é mais fácil de porcionar." },
+    { "title": "Cortar as tiras", "content": "Abra cada massa com 5 mm de espessura e corte em tiras de cerca de 1 cm de largura, todas iguais." },
+    { "title": "Montar o listrado", "content": "Coloque as tiras lado a lado, alternando as cores, encostadas umas nas outras. Passe o rolo por cima com pressão leve, no sentido das listras, para colar. Se alguma tira não grudar, pincele a borda com um pouco de água." },
+    { "title": "Abrir a folha", "content": "Abra a folha listrada até 1 mm de espessura, com rolo ou na máquina (a penúltima regulagem da maioria das máquinas). Polvilhe {16} para não grudar." },
+    { "title": "Rechear e fechar", "content": "Distribua colheradas de chá do recheio sobre metade da folha, com 3 cm entre elas. Dobre a outra metade por cima, aperte em volta de cada porção tirando todo o ar e corte os tortelli com cortador ou faca. Deixe-os sobre a bancada polvilhada com semolina." },
+    { "title": "Cozinhar", "content": "Cozinhe em bastante água fervente com {17} por 2 a 3 minutos, até subirem e as bordas ficarem macias. Tire com escumadeira.", "timer": 180 }
+  ],
+  "notes": "Dica do original: para as listras ficarem nítidas, pressione bem as tiras umas contra as outras antes de abrir a folha. Se ficar espaço entre elas, a massa abre e a cor borra.\n\nO que foi interpretado ou completado:\n- Receita colada em inglês e traduzida. Mantive as quantidades: 87,5 g de gemas são cerca de 5 gemas de ovo grande, mas o certo é pesar.\n- O original diz \"seu recheio favorito\": o recheio de ricota, parmesão e limão é sugestão minha, para uns 36 tortelli. Para o tamanho, o tempo de sova (8 a 10 minutos), a largura das tiras (1 cm), o espaçamento, o cozimento (2 a 3 minutos) e o rendimento também completei eu.\n- Dividi a farinha, as gemas e o sal em dois grupos, um para cada cor, para dar para ajustar as porções.\n\nSugestão para servir: manteiga dourada com sálvia e parmesão. Molhos pesados escondem as listras.\n\nNa Austrália: farinha 00 aparece como \"00 flour\" ou \"tipo 00\" nos supermercados. Beterraba em pó é \"beetroot powder\", na seção de produtos naturais ou em lojas de health food. Ricota é \"ricotta\": prefira a de balcão (deli), mais firme. Semolina é \"semolina\" ou \"semola rimacinata\".\n\nAs gemas que sobrarem viram claras: congele para usar depois em suspiro ou omelete. A massa crua leva gema crua: não prove antes de cozinhar. Os tortelli montados aguentam 1 dia na geladeira, sobre semolina, ou 2 meses no congelador, que podem ir direto para a água.",
+  "source": "Receita colada (post de rede social em inglês, autor não informado)",
+  "updatedAt": "2026-11-10T05:00:00.000Z"
+}

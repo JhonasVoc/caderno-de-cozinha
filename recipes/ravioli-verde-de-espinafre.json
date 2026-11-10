@@ -1,0 +1,40 @@
+{
+  "title": "Ravióli verde (massa de espinafre e gema)",
+  "category": "Massas",
+  "description": "Massa fresca verde-intensa feita com purê de espinafre e gemas, aberta a 1 mm e fechada em ravióli com carimbo.",
+  "servings": 2,
+  "yieldLabel": "porções (~24 ravióli de 5 cm)",
+  "scale": true,
+  "ingredients": [
+    { "id": "1", "name": "## Purê de espinafre e gema", "amount": "", "unit": "" },
+    { "id": "2", "name": "espinafre cozido e espremido até ficar bem seco", "amount": 100, "unit": "g" },
+    { "id": "3", "name": "gemas (cerca de 6)", "amount": 100, "unit": "g" },
+    { "id": "4", "name": "sal marinho fino", "amount": 1, "unit": "tsp" },
+    { "id": "5", "name": "## Massa verde", "amount": "", "unit": "" },
+    { "id": "6", "name": "farinha tipo 00", "amount": 200, "unit": "g" },
+    { "id": "7", "name": "purê de espinafre e gema pronto (115 a 120 g)", "amount": 115, "unit": "g" },
+    { "id": "8", "name": "## Recheio (sugestão)", "amount": "", "unit": "" },
+    { "id": "9", "name": "ricota bem escorrida", "amount": 200, "unit": "g" },
+    { "id": "10", "name": "parmesão ralado fino", "amount": 40, "unit": "g" },
+    { "id": "11", "name": "noz-moscada, sal e pimenta-do-reino a gosto", "amount": "", "unit": "" },
+    { "id": "12", "name": "## Para montar e cozinhar", "amount": "", "unit": "" },
+    { "id": "13", "name": "água num borrifador (névoa fina)", "amount": "", "unit": "" },
+    { "id": "14", "name": "semolina para polvilhar", "amount": "", "unit": "" },
+    { "id": "15", "name": "sal grosso para a água do cozimento", "amount": "", "unit": "" }
+  ],
+  "steps": [
+    { "title": "Fazer o purê", "content": "Bata {2}, {3} e {4} no liquidificador ou mixer até ficar totalmente liso e homogêneo, sem pedacinhos de folha. Quanto mais seco o espinafre, mais firme a massa." },
+    { "title": "Hidratar a farinha", "content": "Coloque {6} numa tigela e junte 115 g do purê; guarde o resto à parte. Misture com garfo ou com as pontas dos dedos até formar farelos úmidos por igual. Só se ainda sobrar farinha seca, junte mais purê, de grama em grama, até 120 g." },
+    { "title": "Juntar e descansar", "content": "Aperte os farelos com as mãos até virarem uma bola e deixe descansar 10 minutos, coberta. Nesse tempo a farinha termina de absorver o líquido e fica muito mais fácil de sovar.", "timer": 600 },
+    { "title": "Sovar", "content": "Sove até a massa ficar lisa, firme e elástica, 5 a 8 minutos. Ela é mais firme que uma massa de ovo comum: é assim mesmo." },
+    { "title": "Descansar", "content": "Embrulhe em filme plástico e deixe descansar pelo menos 30 minutos.", "timer": 1800 },
+    { "title": "Preparar o recheio", "content": "Misture {9}, {10} e {11} e coloque num saco de confeitar. Deixe na geladeira até a hora de usar." },
+    { "title": "Abrir as folhas", "content": "Divida a massa em duas e abra cada parte até cerca de 1 mm, com rolo ou na máquina. Mantenha a folha que não estiver usando coberta, para não ressecar." },
+    { "title": "Rechear", "content": "Sobre a primeira folha, faça montinhos de recheio com o saco de confeitar, com 4 cm entre eles. Borrife {13} só na área em volta do recheio, onde a massa vai colar: uma névoa, sem deixar a massa visivelmente molhada." },
+    { "title": "Fechar e cortar", "content": "Cubra com a segunda folha e aperte com cuidado em volta de cada montinho, empurrando o ar para fora antes de selar. Corte com o carimbo de ravióli e deixe sobre a bancada polvilhada com {14}." },
+    { "title": "Cozinhar", "content": "Cozinhe em bastante água fervente com {15} por 3 a 4 minutos, até subirem e as bordas ficarem macias. Tire com escumadeira.", "timer": 210 }
+  ],
+  "notes": "Dica do original: não borrife água a ponto de molhar a massa. Basta uma névoa bem fina; água demais faz as folhas escorregarem uma sobre a outra em vez de colar firme.\n\nO que foi interpretado ou completado:\n- Receita colada em inglês e traduzida, com as quantidades do original.\n- 100 g de gemas são cerca de 6 gemas de ovo grande; pese para acertar.\n- O purê rende uns 200 g e a massa usa só 115 a 120 g. Com o que sobra, misture no recheio ou faça ovos mexidos verdes.\n- O original diz só para colocar o recheio com saco de confeitar. O recheio de ricota e parmesão é sugestão minha.\n- Também completei eu: o tempo de sova (5 a 8 minutos), o espaçamento de 4 cm, o cozimento (3 a 4 minutos) e o rendimento (~24 ravióli de 5 cm).\n\n100 g de espinafre cozido e espremido saem de uns 300 a 350 g de folhas frescas. Escalde rapidamente, esfrie em água gelada e esprema num pano limpo até não sair mais água: o espinafre úmido deixa a massa mole e pegajosa.\n\nNa Austrália: use \"English spinach\" ou \"baby spinach\", não \"silverbeet\", que é acelga. Farinha 00 aparece como \"00 flour\" ou \"tipo 00\".\n\nA massa leva gema crua: não prove antes de cozinhar. Os ravióli montados aguentam 1 dia na geladeira, sobre semolina, ou 2 meses no congelador, e vão direto congelados para a água.",
+  "source": "Receita colada (post de rede social em inglês, autor não informado)",
+  "updatedAt": "2026-11-10T05:10:00.000Z"
+}

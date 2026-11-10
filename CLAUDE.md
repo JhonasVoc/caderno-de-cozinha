@@ -65,7 +65,7 @@ Vídeos (`videos/<id>.json`): `{ "url", "title", "category", "note", "addedAt" }
 
 ## Categorias em uso
 
-Bolos, Caldos, Churrasco, Doces, Embutidos, Frituras, Fundos, Molhos, Peixe cru, Pratos, Salgados, Sushi, Técnicas, Temperos. Fundos (fundo claro, escuro, fumet) ficam separados de Molhos de propósito. Reaproveite uma categoria existente antes de criar outra.
+Bolos, Caldos, Churrasco, Doces, Embutidos, Frituras, Fundos, Massas, Molhos, Peixe cru, Pratos, Salgados, Sushi, Técnicas, Temperos. Massas (massa fresca, coloridas, recheadas) foi criada em nov/2026. Fundos (fundo claro, escuro, fumet) ficam separados de Molhos de propósito. Reaproveite uma categoria existente antes de criar outra.
 
 ## Como escrever e completar receitas
 
