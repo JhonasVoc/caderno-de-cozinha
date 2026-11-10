@@ -4,10 +4,10 @@
 // Enquanto supabaseUrl ou supabaseAnonKey estiverem vazios, o site roda em "modo demonstração":
 // o login é simulado e nada é salvo.
 window.CADERNO_CONFIG = {
-  supabaseUrl: '',
-  supabaseAnonKey: '',
+  supabaseUrl: 'https://byyhocwvccrxdhngblrq.supabase.co',
+  supabaseAnonKey: 'sb_publishable_26VAdpKj5wTLP5EkuOe6og_UEDleQXt',
   // id (uuid) da conta do dono: só ela vê o botão de importar as receitas de recipes/.
-  ownerId: '',
+  ownerId: '89a1b4cc-5776-4b05-bf36-ec2d9297c0e0',
   // Login por e-mail (código de 6 dígitos) exige SMTP próprio no Supabase (Authentication → SMTP Settings)
   // e {{ .Token }} no modelo "Magic Link". Sem isso o Supabase só envia para membros do projeto, 2 por hora.
   emailEnabled: false,
