@@ -129,7 +129,12 @@
     }
   ],
   "notes": "Sem sal. Se queimar os ossos, o fundo fica amargo: dourado escuro é o ponto. Ao reduzir até virar uma calda grossa e brilhante (cerca de 1/10 do volume), vira glace de viande, ótima para finalizar molhos. Dura 4–5 dias na geladeira e 3 meses no congelador.",
-  "images": [],
+  "images": [
+    {
+      "src": "images/fundo-escuro/01.jpg",
+      "caption": "Ilustração"
+    }
+  ],
   "source": "",
   "updatedAt": "2026-11-09T03:10:00.000Z"
 }

@@ -106,7 +106,12 @@
     }
   ],
   "notes": "Tempo total: 2h30 a 3h. Não deixe ferver forte: o fundo fica turvo. Sem sal. Para fundo claro de vitela, use ossos de vitela e cozinhe 5–6 horas. Dura 3–4 dias na geladeira e 3 meses no congelador.",
-  "images": [],
+  "images": [
+    {
+      "src": "images/fundo-claro-de-ave/01.jpg",
+      "caption": "Ilustração"
+    }
+  ],
   "source": "",
   "updatedAt": "2026-11-09T03:10:00.000Z"
 }

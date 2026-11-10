@@ -107,7 +107,12 @@
     }
   ],
   "notes": "Fundo não leva sal: ele será reduzido depois. Mais de 1 hora de cozimento deixa o fundo de legumes amargo. Para mais sabor, sue os legumes em um fio de óleo por 5 minutos, sem dourar, antes da água. Dura 3–4 dias na geladeira e 3 meses no congelador (em forminhas de gelo é prático).",
-  "images": [],
+  "images": [
+    {
+      "src": "images/fundo-claro-de-legumes/01.jpg",
+      "caption": "Ilustração"
+    }
+  ],
   "source": "",
   "updatedAt": "2026-11-09T03:10:00.000Z"
 }

@@ -125,7 +125,12 @@
     }
   ],
   "notes": "Não passe de 30 minutos: espinha de peixe cozida demais deixa o fumet amargo e turvo. Use só peixe branco e magro (salmão e peixes gordos deixam o fundo forte). Sem sal. Ótimo para risoto de frutos do mar, molho beurre blanc e velouté de peixe.",
-  "images": [],
+  "images": [
+    {
+      "src": "images/fumet-de-peixe/01.jpg",
+      "caption": "Ilustração"
+    }
+  ],
   "source": "",
   "updatedAt": "2026-11-09T03:10:00.000Z"
 }

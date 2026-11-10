@@ -1,0 +1,28 @@
+{
+  "title": "Empanada do Douglas",
+  "category": "Salgados",
+  "description": "Massa de empanada com banha e um toque de vodka ou cachaça: lisa, fácil de abrir e com casca folhada e crocante, no forno ou na fritura.",
+  "servings": 1,
+  "yieldLabel": "receita (~2 kg de massa, ~40 discos de 13 cm)",
+  "scale": true,
+  "ingredients": [
+    { "id": "1", "name": "farinha de trigo (plain flour)", "amount": 1250, "unit": "g" },
+    { "id": "2", "name": "água quente (~60 °C)", "amount": 575, "unit": "g" },
+    { "id": "3", "name": "vodka ou cachaça", "amount": 50, "unit": "g" },
+    { "id": "4", "name": "banha ou gordura animal derretida (morna)", "amount": 150, "unit": "g" },
+    { "id": "5", "name": "sal", "amount": 25, "unit": "g" }
+  ],
+  "steps": [
+    { "title": "Preparar o líquido", "content": "Dissolva {5} na {2} e junte {3}. A água deve estar quente, mas ainda suportável ao toque." },
+    { "title": "Incorporar a água", "content": "Coloque {1} numa tigela grande (ou na batedeira com gancho) e adicione o líquido aos poucos, misturando até não sobrar farinha seca." },
+    { "title": "Sovar", "content": "Misture e sove por 5 minutos, até a massa ficar homogênea.", "timer": 300 },
+    { "title": "Juntar a gordura", "content": "Adicione {4} no final, aos poucos, e sove até ela ser toda absorvida e a massa voltar a ficar lisa e macia (3 a 5 minutos). No começo a massa escorrega e parece que não vai incorporar: continue." },
+    { "title": "Descansar", "content": "Embrulhe a massa em filme plástico e deixe descansar 30 minutos em temperatura ambiente. O glúten relaxa e a massa abre sem encolher.", "timer": 1800 },
+    { "title": "Abrir e cortar", "content": "Divida a massa em 4 partes. Abra cada uma com rolo até 2 a 3 mm de espessura e corte discos de 13 cm. Mantenha o que não estiver usando coberto, para não ressecar." },
+    { "title": "Rechear e fechar", "content": "Coloque o recheio frio no centro de cada disco, dobre ao meio, aperte as bordas e faça o repulgue (a dobrinha trançada) ou feche com um garfo." },
+    { "title": "Assar ou fritar", "content": "No forno: pincele com ovo batido e asse a 200 °C por 15 a 20 minutos, até dourar. Na fritura: frite em óleo a 170–175 °C até dourar dos dois lados e escorra em papel.", "timer": 1080 }
+  ],
+  "notes": "O que foi interpretado ou completado:\n- A anotação original dizia \"1250kg farinha\" e \"575 kg água\": li como gramas (1250 g e 575 g). Isso dá 46% de água em relação à farinha, a proporção típica de massa de empanada.\n- \"25g salt\" = 25 g de sal (2% da farinha).\n- Dissolver o sal na água junto com a vodka, a temperatura da água (~60 °C), o descanso de 30 minutos, a espessura, o tamanho dos discos e os tempos de forno e fritura foram completados por mim; não estavam na receita.\n- O tempo para incorporar a gordura (3 a 5 minutos) também é estimativa.\n- O rendimento (~40 discos) é aproximado: 2 kg de massa em discos de 13 cm com 2 a 3 mm. Para empanadas de festa, corte discos de 9 a 10 cm.\n\nPor que vodka ou cachaça: o álcool atrapalha a formação de glúten e evapora no calor, então a massa fica mais macia de abrir e com casca folhada e crocante, cheia de bolhinhas na fritura. Não fica gosto de bebida.\n\nA gordura vai derretida, mas morna: quente demais, ela começa a cozinhar a farinha.\n\nNa Austrália: banha é \"lard\" (tem nos supermercados, perto da manteiga) e também serve \"beef dripping\". Farinha de trigo comum é \"plain flour\". Trocar a banha por manteiga ou gordura vegetal funciona, mas a massa fica menos folhada.\n\nA massa crua não deve ser provada (farinha crua não é segura). A massa aguenta até 2 dias na geladeira bem embrulhada; tire 20 minutos antes de abrir.",
+  "source": "Receita do Douglas",
+  "updatedAt": "2026-11-10T03:30:00.000Z"
+}
