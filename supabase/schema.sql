@@ -65,6 +65,14 @@ select r.id, r.owner, r.slug, r.data, r.is_public, r.created_at, r.updated_at, p
   exists (select 1 from public.recipe_likes l where l.recipe_id = r.id and l.user_id = auth.uid()) as liked
 from public.recipes r join public.profiles p on p.id = r.owner;
 
+-- Permissões da API. Necessárias se "Automatically expose new tables" estiver desligado no projeto
+-- (recomendado); se estiver ligado, não fazem mal. O RLS acima continua decidindo quais linhas cada um vê.
+grant usage on schema public to anon, authenticated;
+grant select on public.profiles, public.recipes, public.recipe_likes, public.recipe_feed to anon, authenticated;
+grant update (username) on public.profiles to authenticated;
+grant insert, update, delete on public.recipes to authenticated;
+grant insert, delete on public.recipe_likes to authenticated;
+
 -- Ao criar uma conta, cria o perfil com um @ derivado do nome (sem usar o e-mail, que fica privado).
 create or replace function public.handle_new_user() returns trigger
 language plpgsql security definer set search_path = '' as $$
