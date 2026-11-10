@@ -19,7 +19,7 @@ assets/app.js         lógica do site (índice, receita, porções, timers, víd
 assets/style.css      visual (tokens de cor em :root, tema claro e escuro)
 ```
 
-Depois de qualquer mudança em `recipes/` ou `videos/`, rode `npm run build` (ou `node scripts/build.mjs`). Ele recusa o build e lista os erros se algo estiver inválido. Commite também o `data/caderno.js` gerado, para o site funcionar direto (inclusive abrindo o `index.html` com dois cliques, sem servidor).
+Depois de qualquer mudança em `recipes/`, `videos/` ou `assets/`, rode `npm run build` (ele também carimba `?v=` nos arquivos do `index.html` para o navegador não usar versão velha do cache) (ou `node scripts/build.mjs`). Ele recusa o build e lista os erros se algo estiver inválido. Commite também o `data/caderno.js` gerado, para o site funcionar direto (inclusive abrindo o `index.html` com dois cliques, sem servidor).
 
 Para ver localmente: abra `index.html` no navegador, ou rode `npm run serve` e acesse http://localhost:3000.
 

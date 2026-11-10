@@ -3,6 +3,7 @@
 // Sem dependências: só Node 18+.
 import { readdirSync, readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -66,3 +67,14 @@ mkdirSync(join(ROOT, 'data'), { recursive: true });
 const out = `// Gerado por scripts/build.mjs. Não edite à mão: edite recipes/ e videos/ e rode npm run build.\nwindow.CADERNO = ${JSON.stringify({ recipes, videos }, null, 0)};\n`;
 writeFileSync(join(ROOT, 'data', 'caderno.js'), out);
 console.log(`OK: ${recipes.length} receitas e ${videos.length} vídeos em data/caderno.js`);
+
+// Carimba ?v=<hash do conteúdo> nos arquivos locais do index.html, para o navegador
+// não misturar arquivos novos com antigos guardados em cache (o GitHub Pages guarda por 10 min).
+const indexPath = join(ROOT, 'index.html');
+const html = readFileSync(indexPath, 'utf8');
+const stamped = html.replace(/((?:src|href)=")((?:assets|data)\/[\w./-]+?\.(?:js|css))(?:\?v=\w*)?"/g, (m, pre, path) => {
+  const file = join(ROOT, path);
+  if (!existsSync(file)) return m;
+  return `${pre}${path}?v=${createHash('sha1').update(readFileSync(file)).digest('hex').slice(0, 8)}"`;
+});
+if (stamped !== html) { writeFileSync(indexPath, stamped); console.log('index.html: versões dos arquivos atualizadas.'); }
