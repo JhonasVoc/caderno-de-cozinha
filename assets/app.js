@@ -113,7 +113,12 @@
   };
   $('#otherEmail').onclick = () => loginStep(1);
 
+  // Só redesenha quando quem está logado muda (renovação de sessão em segundo plano não conta).
+  let lastUserId = undefined;
   S.onChange(() => {
+    const uid = S.user() ? S.user().id : null;
+    if (uid === lastUserId) return;
+    lastUserId = uid;
     invalidate(); renderAcct();
     if (S.user() && dlg.open) dlg.close();
     route();
@@ -393,5 +398,5 @@
   $('#emailLogin').hidden = !S.emailEnabled;
   renderAcct();
   loading();
-  S.init().then(() => { renderAcct(); route(); }).catch(e => { errorBox(e); });
+  S.init().then(() => { lastUserId = S.user() ? S.user().id : null; renderAcct(); route(); }).catch(e => { errorBox(e); });
 })();
