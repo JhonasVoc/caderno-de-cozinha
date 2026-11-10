@@ -1,0 +1,50 @@
+{
+  "title": "Massa branca (farinha e água)",
+  "category": "Massas",
+  "description": "Massa sem ovo, só farinha e água: clara, firme e neutra, para contrastar com as coloridas.",
+  "servings": 3,
+  "yieldLabel": "porções (~290 g de massa)",
+  "scale": true,
+  "ingredients": [
+    {
+      "id": "1",
+      "name": "farinha tipo 00",
+      "amount": 200,
+      "unit": "g"
+    },
+    {
+      "id": "2",
+      "name": "água",
+      "amount": 86,
+      "unit": "g"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Misturar",
+      "content": "Coloque {1} numa tigela, junte {2} aos poucos e misture até formar farelos."
+    },
+    {
+      "title": "Sovar",
+      "content": "Sove até a massa ficar lisa, 8 a 10 minutos. É uma massa firme; se não der liga, molhe as mãos e continue sovando antes de pôr mais água.",
+      "timer": 600
+    },
+    {
+      "title": "Descansar",
+      "content": "Embrulhe em filme plástico e deixe descansar 30 minutos em temperatura ambiente. O glúten relaxa e a massa abre sem encolher.",
+      "timer": 1800
+    },
+    {
+      "title": "Abrir",
+      "content": "Abra com rolo ou na máquina. Para massas recheadas (ravióli, tortelli), até 1 mm; para fettuccine, talharim ou pappardelle, 1,5 a 2 mm. Polvilhe semolina para não grudar."
+    },
+    {
+      "title": "Cozinhar",
+      "content": "Cozinhe em bastante água fervente com sal grosso por 2 a 3 minutos (recheadas: 3 a 4), até as bordas ficarem macias.",
+      "timer": 180
+    }
+  ],
+  "notes": "Vem das Massas coloridas; quantidades do original, sem sal nem ovo. Os tempos e o rendimento (~290 g, 3 porções) são completados por mim.\n\nCom 43% de água em relação à farinha, é bem mais firme que as massas de gema e fica mais clara depois de cozida. O descanso amacia bastante. Sem ovo, ela também serve para quem não come ovo.\n\nPara combinar: use com qualquer recheio da categoria Recheios e qualquer molho da categoria Molhos. Para listras, junte com outra massa como no Tortelli listrado (tiras de 5 mm, lado a lado, abertas a 1 mm).\n\nNa Austrália, farinha 00 aparece como \"00 flour\" ou \"tipo 00\".",
+  "source": "Receita colada (post de rede social em inglês, autor não informado), a mesma das Massas coloridas",
+  "updatedAt": "2026-11-10T05:40:00.000Z"
+}

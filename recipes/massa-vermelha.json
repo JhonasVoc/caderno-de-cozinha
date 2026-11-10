@@ -1,0 +1,62 @@
+{
+  "title": "Massa vermelha (beterraba)",
+  "category": "Massas",
+  "description": "Massa só de gemas tingida com beterraba em pó: vermelho-rosado vivo, ótima para listras com a dourada.",
+  "servings": 2,
+  "yieldLabel": "porções (~190 g de massa)",
+  "scale": true,
+  "ingredients": [
+    {
+      "id": "1",
+      "name": "farinha tipo 00",
+      "amount": 100,
+      "unit": "g"
+    },
+    {
+      "id": "2",
+      "name": "gemas (cerca de 5)",
+      "amount": 87.5,
+      "unit": "g"
+    },
+    {
+      "id": "3",
+      "name": "sal",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "4",
+      "name": "beterraba em pó",
+      "amount": 2,
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Misturar",
+      "content": "Misture {1}, {3} e {4} antes de juntar o líquido, para a cor sair uniforme. Abra um buraco no meio, coloque {2} e incorpore com um garfo até formar farelos."
+    },
+    {
+      "title": "Sovar",
+      "content": "Sove até a massa ficar lisa e elástica, 8 a 10 minutos. Ela começa seca e esfarelada: continue sovando antes de pensar em pôr água.",
+      "timer": 600
+    },
+    {
+      "title": "Descansar",
+      "content": "Embrulhe em filme plástico e deixe descansar 30 minutos em temperatura ambiente. O glúten relaxa e a massa abre sem encolher.",
+      "timer": 1800
+    },
+    {
+      "title": "Abrir",
+      "content": "Abra com rolo ou na máquina. Para massas recheadas (ravióli, tortelli), até 1 mm; para fettuccine, talharim ou pappardelle, 1,5 a 2 mm. Polvilhe semolina para não grudar."
+    },
+    {
+      "title": "Cozinhar",
+      "content": "Cozinhe em bastante água fervente com sal grosso por 2 a 3 minutos (recheadas: 3 a 4), até as bordas ficarem macias.",
+      "timer": 180
+    }
+  ],
+  "notes": "Vem da massa vermelha do Tortelli listrado; quantidades do original. Os tempos e o rendimento (~190 g, 2 porções) são completados por mim.\n\nMisturar a beterraba com a farinha seca evita pintas de cor. A cor fica um pouco mais clara depois de cozida.\n\n87,5 g de gemas são cerca de 5 gemas de ovo grande.\n\nPara combinar: use com qualquer recheio da categoria Recheios e qualquer molho da categoria Molhos. Para listras, junte com outra massa como no Tortelli listrado (tiras de 5 mm, lado a lado, abertas a 1 mm).\n\nNa Austrália: beterraba em pó é \"beetroot powder\", em lojas de produtos naturais. Na Austrália, farinha 00 aparece como \"00 flour\" ou \"tipo 00\".\n\nLeva gema crua: não prove a massa antes de cozinhar.",
+  "source": "Receita colada (post de rede social em inglês, autor não informado), a mesma do Tortelli listrado",
+  "updatedAt": "2026-11-10T05:40:00.000Z"
+}

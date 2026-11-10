@@ -1,0 +1,22 @@
+{
+  "title": "Recheio de ricota, parmesão e limão",
+  "category": "Recheios",
+  "description": "Recheio clássico e leve para massas frescas: ricota cremosa, parmesão e raspas de limão-siciliano.",
+  "servings": 1,
+  "yieldLabel": "receita (~300 g, para ~36 tortelli ou ~24 ravióli)",
+  "scale": true,
+  "ingredients": [
+    { "id": "1", "name": "ricota bem escorrida", "amount": 250, "unit": "g" },
+    { "id": "2", "name": "parmesão ralado fino", "amount": 40, "unit": "g" },
+    { "id": "3", "name": "limão-siciliano (só as raspas)", "amount": 0.5, "unit": "" },
+    { "id": "4", "name": "noz-moscada, sal e pimenta-do-reino a gosto", "amount": "", "unit": "" }
+  ],
+  "steps": [
+    { "title": "Escorrer a ricota", "content": "Se a {1} estiver úmida, deixe numa peneira forrada com pano limpo, na geladeira, por 1 hora. Recheio úmido amolece a massa e faz o ravióli abrir no cozimento.", "timer": 3600 },
+    { "title": "Misturar", "content": "Amasse a ricota com um garfo até ficar lisa e junte {2}, {3} e {4}. Prove e acerte o sal: a massa não tem muito sal, então o recheio pode ser bem temperado." },
+    { "title": "Porcionar", "content": "Coloque num saco de confeitar (ou use duas colheres de chá) e deixe na geladeira até a hora de montar. Frio, o recheio fica firme e mais fácil de porcionar." }
+  ],
+  "notes": "Era a sugestão de recheio do Tortelli listrado e do Ravióli verde. Separei como receita própria para combinar com qualquer massa da categoria Massas.\n\nVariações: troque o limão por 1 colher de sopa de manjericão picado; junte 100 g de espinafre refogado e bem espremido (combina com a Massa verde); ou use metade de ricota e metade de burrata.\n\nCombina com molhos leves, que não escondem a massa: manteiga com sálvia, manteiga com limão ou um fio de azeite com parmesão.\n\nNa Austrália: ricota é \"ricotta\". Prefira a de balcão (deli), mais firme que a de pote. Limão-siciliano é o \"lemon\" comum.\n\nAguenta 2 dias na geladeira, bem fechado.",
+  "source": "Sugestão minha (Claude), a partir das receitas de massa coladas",
+  "updatedAt": "2026-11-10T05:45:00.000Z"
+}
