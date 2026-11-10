@@ -148,6 +148,13 @@
   window.addEventListener('hashchange', () => { route(); window.scrollTo(0, 0); });
 
   /* ---------- página inicial (sem login) ---------- */
+  // Fotos com fundo de "cores arrastadas" (geradas a partir das fotos do dono; ver CLAUDE.md).
+  const HOME_PHOTOS = [
+    ['01.jpg', 'Ramen com carne, ovo marinado e alga'],
+    ['02.jpg', 'Tomates no ramo'],
+    ['03.jpg', 'Massa fresca em fitas'],
+    ['04.jpg', 'Massa de chocolate na tigela']
+  ];
   async function renderLanding() {
     document.title = 'Caderno de Cozinha';
     const seq = ++renderSeq;
@@ -157,11 +164,20 @@
         <span class="k">seu caderno de receitas</span>
         <h2>Sua cozinha, do seu jeito.</h2>
         <p>Crie suas próprias receitas, edite como quiser, ajuste as porções e compartilhe com amigos e a comunidade.</p>
-        <div class="feats">${feats.map(f => `<div class="feat"><span class="ic" aria-hidden="true">${f[0]}</span><b>${f[1]}</b><span>${f[2]}</span></div>`).join('')}</div>
+        <div class="home-strip" id="homeStrip">${HOME_PHOTOS.map((p, i) => `<figure><img src="assets/home/${p[0]}" alt="${esc(p[1])}" width="960" height="1200"${i ? ' loading="lazy"' : ''}></figure>`).join('')}</div>
+        <div class="home-dots" id="homeDots">${HOME_PHOTOS.map((p, i) => `<button type="button" aria-label="Foto ${i + 1}: ${esc(p[1])}"${i ? '' : ' aria-current="true"'}></button>`).join('')}</div>
         <div class="cta"><button class="btn primary lg" id="start">Criar meu caderno</button><a class="btn lg" href="#descubra">Explorar receitas da comunidade</a></div>
+        <div class="feats">${feats.map(f => `<div class="feat"><span class="ic" aria-hidden="true">${f[0]}</span><b>${f[1]}</b><span>${f[2]}</span></div>`).join('')}</div>
       </section>
       <section class="trending"><span class="k">em alta na comunidade</span><div class="grid" id="trend"><p class="status">Carregando…</p></div></section>`;
     $('#start').onclick = () => S.user() ? (location.hash = 'minhas') : openLogin();
+    const strip = $('#homeStrip'), dots = [...document.querySelectorAll('#homeDots button')];
+    const cardStep = () => { const f = strip.children; return f.length > 1 ? f[1].offsetLeft - f[0].offsetLeft : strip.clientWidth; };
+    strip.addEventListener('scroll', () => {
+      const i = Math.min(dots.length - 1, Math.round(strip.scrollLeft / cardStep()));
+      dots.forEach((d, k) => { if (k === i) d.setAttribute('aria-current', 'true'); else d.removeAttribute('aria-current'); });
+    }, { passive: true });
+    dots.forEach((d, k) => { d.onclick = () => strip.scrollTo({ left: k * cardStep(), behavior: 'smooth' }); });
     try {
       const all = await list('descubra'); if (seq !== renderSeq) return;
       const top = [...all].sort((a, b) => (b.likes - a.likes) || ((b.images || []).length ? 1 : 0) - ((a.images || []).length ? 1 : 0)).slice(0, 4);

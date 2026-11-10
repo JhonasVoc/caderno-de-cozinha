@@ -94,6 +94,10 @@ supabase/schema.sql   tabelas profiles, recipes (conteúdo em jsonb "data"), rec
 
 O repositório é público, então `recipes/` e `data/caderno.js` ficam visíveis no GitHub mesmo quando a receita está "privada" no site. Decisão do dono (nov/2026): **manter esses arquivos públicos no repositório**; não os remova sem ele pedir. Nunca coloque a chave `service_role` nem senhas no repositório. Login é só por e-mail (não por @), para não expor o e-mail de ninguém.
 
+## Fotos da página inicial
+
+O carrossel da página inicial usa `assets/home/01.jpg` a `04.jpg` (960×1200), geradas a partir de fotos do dono com o efeito de "cores arrastadas" de `scripts/efeito-fotos.js` (roda no navegador). A lista e os textos alternativos ficam em `HOME_PHOTOS`, em `assets/app.js`. Para trocar uma foto: gere a nova com o mesmo efeito, mostre ao dono e substitua o arquivo.
+
 ## Visual
 
 Paleta de "balcão de peixaria": gelo azulado e acento laranja-salmão, com tema claro e escuro (tokens em `:root` de `assets/style.css`). Fontes: Shippori Mincho (títulos), Zen Kaku Gothic New (texto), IBM Plex Mono (números e rótulos). Mantenha esse estilo ao criar telas novas. O site precisa funcionar bem no celular (ele consulta na cozinha).
