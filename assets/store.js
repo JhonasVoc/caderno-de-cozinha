@@ -24,7 +24,8 @@
     const copies = [];
     const s = id => { if (!st.has(id)) st.set(id, { isPublic: true, likes: 0, liked: false }); return st.get(id); };
     const view = r => ({ ...r, author: r.author || author, isPublic: s(r.id).isPublic, likes: s(r.id).likes, liked: s(r.id).liked, mine: !!user && (r.author || author) === user.username });
-    const all = () => [...staticRecipes(), ...copies];
+    const removed = new Set();
+    const all = () => [...staticRecipes(), ...copies].filter(r => !removed.has(r.id));
     const login = async () => { user = { id: 'demo', username: author, demo: true }; emit(); };
     return {
       async init() { },
@@ -38,6 +39,10 @@
       async setPublic(id, v) { s(id).isPublic = !!v; },
       async toggleLike(r) { const x = s(r.id); x.liked = !x.liked; x.likes += x.liked ? 1 : -1; },
       async saveCopy(r) { const id = slugify(r.title) + '-copia-' + (copies.length + 1); copies.push({ ...strip(r), id, author: user.username, source: 'Receita de @' + r.author }); s(id).isPublic = false; return id; },
+      async create(data, isPublic) { const id = slugify(data.title) + '-' + (copies.length + 1); copies.push({ ...strip(data), id, author: user.username }); s(id).isPublic = !!isPublic; return id; },
+      async update(id, data, isPublic) { const r = all().find(x => x.id === id); if (!r) throw new Error('Receita não encontrada.'); Object.keys(r).forEach(k => { if (k !== 'id' && k !== 'author') delete r[k]; }); Object.assign(r, strip(data)); s(id).isPublic = !!isPublic; },
+      async remove(id) { removed.add(id); },
+      async uploadImage(blob) { return URL.createObjectURL(blob); },
       canImport() { return false; },
       async importStatic() { return 0; }
     };
@@ -112,6 +117,31 @@
         const data = { ...strip(r), source: 'Receita de @' + r.author, updatedAt: new Date().toISOString() };
         const { data: row, error } = await sb.from('recipes').insert({ owner: user.id, slug: slugify(r.title) + '-' + Date.now().toString(36), data, is_public: false }).select('id').single();
         fail(error, 'Não foi possível salvar no seu caderno.'); return row.id;
+      },
+      async create(data, isPublic) {
+        const d = { ...strip(data), updatedAt: new Date().toISOString() };
+        const { data: row, error } = await sb.from('recipes').insert({ owner: user.id, slug: slugify(d.title) + '-' + Date.now().toString(36), data: d, is_public: !!isPublic }).select('id').single();
+        fail(error, 'Não foi possível salvar a receita.'); return row.id;
+      },
+      async update(id, data, isPublic) {
+        const now = new Date().toISOString();
+        const { data: rows, error } = await sb.from('recipes').update({ data: { ...strip(data), updatedAt: now }, is_public: !!isPublic, updated_at: now }).eq('id', id).select('id');
+        fail(error, 'Não foi possível salvar as alterações.');
+        if (!rows.length) throw new Error('Esta receita não é sua ou não existe mais.');
+      },
+      async remove(id, imageSrcs) {
+        const { error } = await sb.from('recipes').delete().eq('id', id);
+        fail(error, 'Não foi possível apagar a receita.');
+        // Apaga também as fotos que estão na pasta da própria conta (as de outras pessoas ficam).
+        const paths = (imageSrcs || []).map(src => String(src).split('/recipe-images/')[1]).filter(p => p && p.startsWith(user.id + '/'));
+        if (paths.length) { const { error: e2 } = await sb.storage.from('recipe-images').remove(paths); if (e2) console.warn('Fotos não apagadas:', e2); }
+      },
+      async uploadImage(blob) {
+        const path = `${user.id}/${(crypto.randomUUID && crypto.randomUUID()) || Date.now().toString(36)}.jpg`;
+        const { error } = await sb.storage.from('recipe-images').upload(path, blob, { contentType: 'image/jpeg', cacheControl: '31536000' });
+        if (error && /bucket not found/i.test(error.message || '')) fail(error, 'O espaço das fotos ainda não foi criado no Supabase (rode supabase/storage.sql).');
+        fail(error, 'Não foi possível enviar a foto.');
+        return sb.storage.from('recipe-images').getPublicUrl(path).data.publicUrl;
       },
       canImport() { return !!user && !!CFG.ownerId && user.id === CFG.ownerId && staticRecipes().length > 0; },
       async importStatic() {

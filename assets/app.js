@@ -13,6 +13,8 @@
   const timers = {};
   let lastTab = 'descubra';
   let renderSeq = 0;
+  let editing = null; // { id (null = nova), draft, section, dirty }
+  let flash = '';     // mensagem mostrada na próxima receita aberta
 
   const UNITS = { '': '', g: 'g', kg: 'kg', ml: 'ml', l: 'l', tsp: 'col. chá', tbsp: 'col. sopa', cup: 'xíc.', pinch: 'pitada' };
   const unitLabel = u => UNITS[u] ?? u;
@@ -125,9 +127,14 @@
   function route() {
     const h = decodeURIComponent(location.hash.slice(1));
     const u = S.user();
+    if (editing && h !== 'nova' && !h.startsWith('editar-')) editing.previewing = false;
     if (h === 'videos') { setTab('videos'); return renderVideos(); }
     if (h === 'descubra') { lastTab = 'descubra'; setTab('descubra'); return renderGrid('descubra'); }
     if (h.startsWith('r-')) { setTab(lastTab); return renderRecipe(h.slice(2)); }
+    if (h === 'nova' || h.startsWith('editar-')) {
+      if (!u) { setTab(null); renderLanding(); return openLogin(); }
+      setTab(null); return openEditor(h === 'nova' ? null : h.slice(7));
+    }
     if (u && (h === 'minhas' || h === '')) { lastTab = 'minhas'; setTab('minhas'); return renderGrid('minhas'); }
     setTab(null);
     renderLanding();
@@ -175,7 +182,7 @@
     const canImport = mine && S.canImport() && !all.length;
     if (mine && !all.length && !canImport) {
       view.innerHTML = `<div class="empty"><strong>Comece seu caderno</strong><span>Salve receitas da comunidade ou crie as suas.</span><div class="cta"><a class="btn primary" href="#descubra">Explorar receitas</a><button class="btn" id="newR">Nova receita</button></div><p class="status" id="gridMsg" role="status"></p></div>`;
-      $('#newR').onclick = soon; return;
+      $('#newR').onclick = () => { location.hash = 'nova'; }; return;
     }
     view.innerHTML = `
       ${mine ? `<div class="list-head"><span class="status">${plural(all.length, 'receita', 'receitas')}</span><button class="btn primary" id="newR">+ Nova receita</button></div>` : ''}
@@ -189,14 +196,14 @@
     const qi = $('#q');
     qi.addEventListener('input', e => { f.q = e.target.value; const pos = qi.selectionStart; renderGrid(tab).then(() => { const n = $('#q'); if (n) { n.focus(); n.setSelectionRange(pos, pos); } }); });
     view.querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => { f.cat = b.dataset.cat; renderGrid(tab); }));
-    if ($('#newR')) $('#newR').onclick = soon;
+    if ($('#newR')) $('#newR').onclick = () => { location.hash = 'nova'; };
+    if (flash) { $('#gridMsg').textContent = flash; flash = ''; }
     if ($('#imp')) $('#imp').onclick = async e => {
       e.currentTarget.disabled = true;
       try { const n = await S.importStatic(); invalidate(); await renderGrid('minhas'); $('#gridMsg').textContent = plural(n, 'receita importada', 'receitas importadas') + '.'; }
       catch (err) { $('#gridMsg').textContent = err.message; $('#gridMsg').classList.add('err'); e.currentTarget.disabled = false; }
     };
   }
-  function soon() { const m = $('#gridMsg'); if (m) m.textContent = 'O editor de receitas é o próximo passo: o mockup dele vem antes.'; }
 
   function card(r, tab) {
     const img = (r.images || [])[0];
@@ -225,20 +232,23 @@
   }
   function actionsHTML(r) {
     if (r.mine) return `<span class="vis ${r.isPublic ? 'pub' : ''}">${r.isPublic ? 'pública: aparece em Descubra' : 'privada: só você vê'}</span>
+      <a class="btn sm" href="#editar-${esc(r.id)}">Editar</a>
       <button class="btn sm" id="vis">${r.isPublic ? 'Tornar privada' : 'Publicar na comunidade'}</button>`;
     return `<span class="by">por @${esc(r.author)}</span>
       <button class="btn sm${r.liked ? ' on' : ''}" id="like" aria-pressed="${!!r.liked}">${r.liked ? '♥' : '♡'} ${r.likes || 0}</button>
       <button class="btn sm" id="save">Salvar no meu caderno</button>`;
   }
-  function paintRecipe(r) {
+  function paintRecipe(r, opts = {}) {
     const { b, s, k } = scaleOf(r);
     view.innerHTML = `
-      <a class="back" href="#${lastTab}">← ${lastTab === 'minhas' ? 'Minhas receitas' : 'Descubra'}</a>
+      ${opts.preview
+        ? `<div class="notice"><span>Pré-visualização: ainda não foi salva.</span><button class="btn primary sm" id="backEd">Voltar ao editor</button></div>`
+        : `<a class="back" href="#${lastTab}">← ${lastTab === 'minhas' ? 'Minhas receitas' : 'Descubra'}</a>`}
       <div class="r-head" style="margin-top:14px">
         ${r.category ? `<span class="cat">${esc(r.category)}</span>` : ''}
-        <h2>${esc(r.title)}</h2>
+        <h2>${esc(r.title || 'Sem título')}</h2>
         ${r.description ? `<p>${esc(r.description)}</p>` : ''}
-        <div class="r-actions">${actionsHTML(r)}</div>
+        ${opts.preview ? '' : `<div class="r-actions">${actionsHTML(r)}</div>`}
         <p class="status" id="rMsg" role="status"></p>
       </div>
       ${(r.images || []).length ? `<div class="gallery" style="margin-top:24px">${r.images.map(im => `<figure><img src="${esc(im.src)}" alt="${esc(im.caption || r.title)}" loading="lazy">${im.caption ? `<figcaption>${esc(im.caption)}</figcaption>` : ''}</figure>`).join('')}</div>` : ''}
@@ -259,7 +269,8 @@
       </div>
       ${r.notes ? `<p class="notes" style="margin-top:28px"><b>Notas:</b> ${esc(r.notes).replace(/\n/g, '<br>')}</p>` : ''}
       ${r.source ? `<p class="status" style="margin-top:12px">Fonte: ${esc(r.source)}</p>` : ''}`;
-    const set = v => { servings[r.id] = Math.max(1, v); paintRecipe(r); };
+    const set = v => { servings[r.id] = Math.max(1, v); paintRecipe(r, opts); };
+    if (opts.preview) $('#backEd').onclick = () => { editing.previewing = false; renderEditor(); window.scrollTo(0, 0); };
     if ($('#sm')) $('#sm').onclick = () => set(s - 1);
     if ($('#sp')) $('#sp').onclick = () => set(s + 1);
     if ($('#sr')) $('#sr').onclick = () => set(b);
@@ -270,8 +281,61 @@
     act('#vis', async () => { await S.setPublic(r.id, !r.isPublic); r.isPublic = !r.isPublic; cache.descubra = null; paintRecipe(r); msg(r.isPublic ? 'Publicada: agora aparece em Descubra.' : 'Agora só você vê esta receita.'); });
     act('#like', async () => { await S.toggleLike(r); r.liked = !r.liked; r.likes = (r.likes || 0) + (r.liked ? 1 : -1); paintRecipe(r); });
     act('#save', async () => { await S.saveCopy(r); cache.minhas = null; msg('Salva em Minhas receitas como privada.'); });
-    document.title = r.title + ' · Caderno de Cozinha';
+    if (flash && !opts.preview) { msg(flash); flash = ''; }
+    document.title = (opts.preview ? 'Pré-visualização' : r.title) + ' · Caderno de Cozinha';
   }
+
+  /* ---------- editor ---------- */
+  async function openEditor(id) {
+    if (editing && editing.id !== id && editing.dirty && !confirm('Você tem alterações não salvas em outra receita. Descartar?')) {
+      location.hash = editing.id ? 'editar-' + editing.id : 'nova'; return;
+    }
+    if (!editing || editing.id !== id) {
+      let r = null;
+      if (id) {
+        const seq = ++renderSeq; loading();
+        try { r = [...(cache.minhas || [])].find(x => x.id === id) || await S.get(id); } catch (e) { if (seq === renderSeq) errorBox(e); return; }
+        if (seq !== renderSeq) return;
+        if (!r || !r.mine) { view.innerHTML = `<div class="empty"><strong>Você só pode editar as suas receitas.</strong><a class="btn" href="#minhas">Minhas receitas</a></div>`; return; }
+      }
+      editing = { id, draft: Editor.fromRecipe(r), section: 'basico', dirty: false, previewing: false };
+    }
+    editing.previewing ? showPreview() : renderEditor();
+  }
+  function renderEditor() {
+    ++renderSeq;
+    const ed = editing;
+    document.title = (ed.id ? 'Editar receita' : 'Nova receita') + ' · Caderno de Cozinha';
+    const cats = [...new Set((cache.minhas || []).map(r => r.category).filter(Boolean))];
+    Editor.mount(view, {
+      draft: ed.draft, section: ed.section, isNew: !ed.id, categories: cats,
+      onDirty: () => { ed.dirty = true; },
+      upload: blob => S.uploadImage(blob),
+      onPreview: () => { ed.section = 'notas'; ed.previewing = true; showPreview(); window.scrollTo(0, 0); },
+      onCancel: () => {
+        if (ed.dirty && !confirm('Descartar as alterações?')) return;
+        editing = null; location.hash = ed.id ? 'r-' + ed.id : 'minhas';
+      },
+      onSave: async (recipe, isPublic) => {
+        let id = ed.id;
+        if (id) await S.update(id, recipe, isPublic); else id = await S.create(recipe, isPublic);
+        editing = null; invalidate(); lastTab = 'minhas';
+        flash = ed.id ? 'Alterações salvas.' : (isPublic ? 'Receita salva e publicada em Descubra.' : 'Receita salva. Só você vê.');
+        location.hash = 'r-' + id;
+      },
+      onDelete: async () => {
+        if (!confirm(`Apagar “${ed.draft.title || 'esta receita'}”? Isso não pode ser desfeito.`)) return;
+        await S.remove(ed.id, ed.draft.images.map(im => im.src));
+        editing = null; invalidate(); flash = 'Receita apagada.'; location.hash = 'minhas';
+      }
+    });
+  }
+  function showPreview() {
+    ++renderSeq;
+    const { recipe } = Editor.toRecipe(editing.draft);
+    paintRecipe({ ...recipe, id: 'preview' }, { preview: true });
+  }
+  window.addEventListener('beforeunload', e => { if (editing && editing.dirty) { e.preventDefault(); e.returnValue = ''; } });
   $('#zoom').addEventListener('click', () => $('#zoom').close());
 
   /* ---------- timers ---------- */
