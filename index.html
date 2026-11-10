@@ -12,16 +12,53 @@
 </head>
 <body>
 <div class="wrap">
-  <div class="top">
+  <header class="top">
     <a class="brand" href="#"><span class="k">receitas e técnicas</span><h1>Caderno de Cozinha</h1></a>
-  </div>
-  <nav class="tabs" aria-label="Seções"><a href="#" id="tabR">Receitas</a><a href="#videos" id="tabV">Vídeos</a></nav>
+    <div class="acct" id="acct"></div>
+  </header>
+  <div class="demo-banner" id="demoBanner" hidden>Modo demonstração: o login ainda não está conectado ao Supabase, então nada do que você fizer aqui é salvo.</div>
+  <nav class="tabs" id="tabs" aria-label="Seções">
+    <a href="#minhas" data-tab="minhas">Minhas receitas</a>
+    <a href="#descubra" data-tab="descubra">Descubra</a>
+    <a href="#videos" data-tab="videos">Vídeos</a>
+  </nav>
   <main id="view">
     <div class="empty"><strong>Abrindo o caderno…</strong></div>
   </main>
 </div>
+
 <dialog class="zoom" id="zoom"><img id="zoomImg" alt=""></dialog>
+
+<dialog class="sheet" id="login" aria-labelledby="loginTitle">
+  <div class="sheet-in">
+    <div class="sheet-top"><span class="k">entrar</span><button type="button" class="x" id="loginClose" aria-label="Fechar">×</button></div>
+    <h2 id="loginTitle">Entre no seu caderno</h2>
+    <p class="sub">Suas receitas salvas em qualquer aparelho.</p>
+    <div class="login-step" id="loginStep1">
+      <button type="button" class="oauth" id="googleBtn"><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2A12 12 0 0 1 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3a12 12 0 0 1-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg>Continuar com Google</button>
+      <button type="button" class="oauth" id="appleBtn"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.37 12.6c-.02-2.3 1.88-3.4 1.97-3.46-1.07-1.57-2.74-1.78-3.33-1.8-1.42-.14-2.77.83-3.49.83-.72 0-1.83-.81-3.01-.79-1.55.02-2.98.9-3.78 2.29-1.61 2.8-.41 6.94 1.16 9.21.77 1.11 1.68 2.36 2.88 2.31 1.16-.05 1.59-.75 2.99-.75 1.4 0 1.79.75 3.01.72 1.24-.02 2.03-1.13 2.79-2.25.88-1.29 1.24-2.53 1.26-2.6-.03-.01-2.42-.93-2.45-3.71zM14.08 5.85c.64-.77 1.07-1.85.95-2.92-.92.04-2.03.61-2.69 1.38-.59.68-1.11 1.77-.97 2.82 1.03.08 2.07-.52 2.71-1.28z"/></svg>Continuar com Apple</button>
+      <div class="or"><span>ou</span></div>
+      <form id="emailForm" class="login-form" novalidate>
+        <input class="field" type="email" id="email" placeholder="Seu e-mail" autocomplete="email" aria-label="Seu e-mail">
+        <button type="submit" class="cont">Continuar</button>
+      </form>
+      <p class="fine">Não tem conta? Ela é criada no primeiro acesso.</p>
+    </div>
+    <div class="login-step" id="loginStep2" hidden>
+      <p class="fine" style="text-align:left">Enviamos um código de 6 dígitos para <b id="sentTo"></b>. Digite abaixo ou toque no link do e-mail.</p>
+      <form id="codeForm" class="login-form" novalidate>
+        <input class="field code" id="code" inputmode="numeric" autocomplete="one-time-code" maxlength="6" placeholder="000000" aria-label="Código recebido por e-mail">
+        <button type="submit" class="cont">Entrar</button>
+      </form>
+      <button type="button" class="linkbtn" id="otherEmail">Usar outro e-mail</button>
+    </div>
+    <p class="status" id="loginMsg" role="status" aria-live="polite"></p>
+  </div>
+</dialog>
+
+<script src="assets/config.js"></script>
 <script src="data/caderno.js"></script>
+<script src="assets/store.js"></script>
 <script src="assets/app.js"></script>
 </body>
 </html>

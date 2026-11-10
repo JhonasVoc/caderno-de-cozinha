@@ -1,14 +1,18 @@
-// Caderno de Cozinha: site estático que lê window.CADERNO (gerado em data/caderno.js).
+// Caderno de Cozinha: página inicial, login, Minhas receitas, Descubra e Vídeos.
+// Os dados vêm de window.Store (assets/store.js): Supabase quando configurado, senão modo demonstração.
 (function () {
   'use strict';
   const $ = s => document.querySelector(s);
   const view = $('#view');
-  const DATA = window.CADERNO || { recipes: [], videos: [] };
-  const recipes = DATA.recipes.filter(r => !r.draft);
-  const videos = DATA.videos || [];
-  let filterCat = '', query = '', vCat = '';
+  const S = window.Store;
+  const videos = S.videos;
+  let vCat = '';
+  const filters = { minhas: { cat: '', q: '' }, descubra: { cat: '', q: '' } };
+  const cache = { minhas: null, descubra: null };
   const servings = {};
   const timers = {};
+  let lastTab = 'descubra';
+  let renderSeq = 0;
 
   const UNITS = { '': '', g: 'g', kg: 'kg', ml: 'ml', l: 'l', tsp: 'col. chá', tbsp: 'col. sopa', cup: 'xíc.', pinch: 'pitada' };
   const unitLabel = u => UNITS[u] ?? u;
@@ -18,6 +22,7 @@
   const FRACS = [[0, ''], [1 / 8, '⅛'], [1 / 4, '¼'], [1 / 3, '⅓'], [1 / 2, '½'], [2 / 3, '⅔'], [3 / 4, '¾'], [1, '']];
   const cap = s => { s = String(s || ''); return s.charAt(0).toUpperCase() + s.slice(1); };
   const isSection = i => String(i.name || '').startsWith('## ');
+  const plural = (n, one, many) => n + ' ' + (n === 1 ? one : many);
 
   function fmtAmt(a, u) {
     if (a == null || a === '') return '';
@@ -49,58 +54,192 @@
     }).replace(/\n/g, '<br>');
   }
   const fmtTime = sec => { sec = Math.max(0, Math.round(sec)); return Math.floor(sec / 60) + ':' + String(sec % 60).padStart(2, '0'); };
+  const loading = () => { view.innerHTML = '<div class="empty"><strong>Abrindo o caderno…</strong></div>'; };
+  const errorBox = e => { view.innerHTML = `<div class="empty"><strong>Não foi possível carregar.</strong><span>${esc(e.message)}</span><button class="btn" id="retry">Tentar de novo</button></div>`; $('#retry').onclick = route; };
+  async function list(tab) { if (!cache[tab]) cache[tab] = await (tab === 'minhas' ? S.mine() : S.discover()); return cache[tab]; }
+  const invalidate = () => { cache.minhas = cache.descubra = null; };
+
+  /* ---------- conta (canto superior direito) ---------- */
+  function renderAcct() {
+    const u = S.user(), el = $('#acct');
+    if (!u) { el.innerHTML = '<button class="btn" id="enter">Entrar</button>'; $('#enter').onclick = openLogin; return; }
+    el.innerHTML = `<button class="avatar" id="avatar" aria-haspopup="true" aria-expanded="false" aria-label="Sua conta, @${esc(u.username)}">${esc(u.username.charAt(0).toUpperCase())}</button>
+      <div class="menu" id="acctMenu" hidden><span class="who">@${esc(u.username)}</span><a href="#minhas">Minhas receitas</a><button type="button" id="signOut">Sair</button></div>`;
+    const btn = $('#avatar'), menu = $('#acctMenu');
+    btn.onclick = e => { e.stopPropagation(); menu.hidden = !menu.hidden; btn.setAttribute('aria-expanded', String(!menu.hidden)); };
+    menu.onclick = e => e.stopPropagation();
+    menu.querySelector('a').onclick = () => { menu.hidden = true; };
+    $('#signOut').onclick = async () => { menu.hidden = true; await S.signOut(); location.hash = ''; };
+  }
+  document.addEventListener('click', () => { const m = $('#acctMenu'); if (m && !m.hidden) { m.hidden = true; $('#avatar').setAttribute('aria-expanded', 'false'); } });
+
+  /* ---------- login ---------- */
+  const dlg = $('#login');
+  let sentTo = '';
+  const loginMsg = (t, err) => { const m = $('#loginMsg'); m.textContent = t || ''; m.classList.toggle('err', !!err); };
+  function loginStep(n) { $('#loginStep1').hidden = n !== 1; $('#loginStep2').hidden = n !== 2; loginMsg(''); }
+  function openLogin() {
+    loginStep(1); $('#email').value = ''; $('#code').value = '';
+    if (!S.online) loginMsg('Modo demonstração: qualquer opção entra com uma conta de teste.');
+    try { dlg.showModal(); } catch (e) { dlg.setAttribute('open', ''); }
+  }
+  const busy = async (btn, fn) => { btn.disabled = true; try { await fn(); } catch (e) { loginMsg(e.message, true); } finally { btn.disabled = false; } };
+  $('#loginClose').onclick = () => dlg.close();
+  dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+  $('#googleBtn').onclick = e => busy(e.currentTarget, () => S.signInGoogle());
+  $('#appleBtn').onclick = e => {
+    if (!S.appleEnabled) return loginMsg('O login com Apple chega em breve. Por enquanto, use Google ou e-mail.', true);
+    busy(e.currentTarget, () => S.signInApple());
+  };
+  $('#email').addEventListener('input', () => loginMsg(''));
+  $('#emailForm').onsubmit = e => {
+    e.preventDefault();
+    const email = $('#email').value.trim();
+    if (!/^\S+@\S+\.\S+$/.test(email)) return loginMsg('Digite um e-mail válido.', true);
+    busy(e.submitter || $('#emailForm .cont'), async () => {
+      await S.sendCode(email); sentTo = email; $('#sentTo').textContent = email; loginStep(2);
+      if (!S.online) loginMsg('Modo demonstração: digite qualquer código de 6 dígitos.');
+      $('#code').focus();
+    });
+  };
+  $('#code').addEventListener('input', e => { e.target.value = e.target.value.replace(/\D/g, '').slice(0, 6); loginMsg(''); });
+  $('#codeForm').onsubmit = e => {
+    e.preventDefault();
+    const code = $('#code').value;
+    if (code.length !== 6) return loginMsg('O código tem 6 dígitos.', true);
+    busy(e.submitter || $('#codeForm .cont'), () => S.verifyCode(sentTo, code));
+  };
+  $('#otherEmail').onclick = () => loginStep(1);
+
+  S.onChange(() => {
+    invalidate(); renderAcct();
+    if (S.user() && dlg.open) dlg.close();
+    route();
+  });
 
   /* ---------- roteamento ---------- */
+  function setTab(tab) {
+    $('#tabs').hidden = !tab;
+    document.querySelectorAll('#tabs a').forEach(a => { if (a.dataset.tab === tab) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+  }
   function route() {
     const h = decodeURIComponent(location.hash.slice(1));
-    const isV = h === 'videos';
-    $('#tabR').toggleAttribute('aria-current', !isV); if (!isV) $('#tabR').setAttribute('aria-current', 'page');
-    $('#tabV').toggleAttribute('aria-current', isV); if (isV) $('#tabV').setAttribute('aria-current', 'page');
-    if (isV) return renderVideos();
-    if (h.startsWith('r-')) { const r = recipes.find(x => x.id === h.slice(2)); if (r) return renderRecipe(r); }
-    renderList();
+    const u = S.user();
+    if (h === 'videos') { setTab('videos'); return renderVideos(); }
+    if (h === 'descubra') { lastTab = 'descubra'; setTab('descubra'); return renderGrid('descubra'); }
+    if (h.startsWith('r-')) { setTab(lastTab); return renderRecipe(h.slice(2)); }
+    if (u && (h === 'minhas' || h === '')) { lastTab = 'minhas'; setTab('minhas'); return renderGrid('minhas'); }
+    setTab(null);
+    renderLanding();
+    if (h === 'minhas') openLogin();
   }
   window.addEventListener('hashchange', () => { route(); window.scrollTo(0, 0); });
 
-  /* ---------- índice ---------- */
-  function renderList() {
+  /* ---------- página inicial (sem login) ---------- */
+  async function renderLanding() {
     document.title = 'Caderno de Cozinha';
-    if (!recipes.length) {
-      view.innerHTML = `<div class="empty"><strong>Nenhuma receita encontrada.</strong><span>Rode <code>npm run build</code> para gerar data/caderno.js.</span></div>`;
-      return;
-    }
-    const cats = [...new Set(recipes.map(r => r.category).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'pt'));
-    const q = query.trim().toLowerCase();
-    const list = recipes.filter(r => (!filterCat || r.category === filterCat) &&
-      (!q || [r.title, r.description, r.category, ...(r.ingredients || []).map(i => i.name)].join(' ').toLowerCase().includes(q)));
+    const seq = ++renderSeq;
+    const feats = [['+', 'Crie', 'receitas e técnicas do seu jeito'], ['✎', 'Edite', 'quando quiser, quantas vezes quiser'], ['⚖', 'Ajuste', 'as porções e as medidas se ajustam'], ['↗', 'Compartilhe', 'com amigos e a comunidade']];
     view.innerHTML = `
-      <div class="filters">
-        <input class="search" id="q" type="search" placeholder="Buscar por nome ou ingrediente…" value="${esc(query)}" aria-label="Buscar receitas">
-        ${cats.length > 1 ? `<div class="chips" role="group" aria-label="Categorias"><button class="chip" data-cat="" aria-pressed="${!filterCat}">Todas (${recipes.length})</button>${cats.map(c => `<button class="chip" data-cat="${esc(c)}" aria-pressed="${filterCat === c}">${esc(c)}</button>`).join('')}</div>` : ''}
-      </div>
-      <div class="grid" style="margin-top:20px">${list.map(card).join('') || '<p class="status">Nenhuma receita encontrada.</p>'}</div>`;
-    const qi = $('#q');
-    qi.addEventListener('input', e => { query = e.target.value; const pos = qi.selectionStart; renderList(); const n = $('#q'); n.focus(); n.setSelectionRange(pos, pos); });
-    view.querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => { filterCat = b.dataset.cat; renderList(); }));
+      <section class="hero">
+        <span class="k">seu caderno de receitas</span>
+        <h2>Sua cozinha, do seu jeito.</h2>
+        <p>Crie suas próprias receitas, edite como quiser, ajuste as porções e compartilhe com amigos e a comunidade.</p>
+        <div class="feats">${feats.map(f => `<div class="feat"><span class="ic" aria-hidden="true">${f[0]}</span><b>${f[1]}</b><span>${f[2]}</span></div>`).join('')}</div>
+        <div class="cta"><button class="btn primary lg" id="start">Criar meu caderno</button><a class="btn lg" href="#descubra">Explorar receitas da comunidade</a></div>
+      </section>
+      <section class="trending"><span class="k">em alta na comunidade</span><div class="grid" id="trend"><p class="status">Carregando…</p></div></section>`;
+    $('#start').onclick = () => S.user() ? (location.hash = 'minhas') : openLogin();
+    try {
+      const all = await list('descubra'); if (seq !== renderSeq) return;
+      const top = [...all].sort((a, b) => (b.likes - a.likes) || ((b.images || []).length ? 1 : 0) - ((a.images || []).length ? 1 : 0)).slice(0, 4);
+      $('#trend').innerHTML = top.map(r => card(r, 'descubra')).join('') || '<p class="status">Ainda não há receitas públicas. Seja a primeira pessoa a publicar uma.</p>';
+    } catch (e) { if (seq === renderSeq) $('#trend').innerHTML = `<p class="status err">${esc(e.message)}</p>`; }
   }
-  function card(r) {
+
+  /* ---------- Minhas receitas e Descubra ---------- */
+  async function renderGrid(tab) {
+    const seq = ++renderSeq;
+    const mine = tab === 'minhas';
+    document.title = (mine ? 'Minhas receitas' : 'Descubra') + ' · Caderno de Cozinha';
+    if (!cache[tab]) loading();
+    let all;
+    try { all = await list(tab); } catch (e) { if (seq === renderSeq) errorBox(e); return; }
+    if (seq !== renderSeq) return;
+    const f = filters[tab];
+    const cats = [...new Set(all.map(r => r.category).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'pt'));
+    const q = f.q.trim().toLowerCase();
+    const shown = all.filter(r => (!f.cat || r.category === f.cat) &&
+      (!q || [r.title, r.description, r.category, r.author, ...(r.ingredients || []).map(i => i.name)].join(' ').toLowerCase().includes(q)))
+      .sort(mine ? (a, b) => a.title.localeCompare(b.title, 'pt') : (a, b) => (b.likes - a.likes) || String(b.createdAt || '').localeCompare(String(a.createdAt || '')) || a.title.localeCompare(b.title, 'pt'));
+    const canImport = mine && S.canImport() && !all.length;
+    if (mine && !all.length && !canImport) {
+      view.innerHTML = `<div class="empty"><strong>Comece seu caderno</strong><span>Salve receitas da comunidade ou crie as suas.</span><div class="cta"><a class="btn primary" href="#descubra">Explorar receitas</a><button class="btn" id="newR">Nova receita</button></div><p class="status" id="gridMsg" role="status"></p></div>`;
+      $('#newR').onclick = soon; return;
+    }
+    view.innerHTML = `
+      ${mine ? `<div class="list-head"><span class="status">${plural(all.length, 'receita', 'receitas')}</span><button class="btn primary" id="newR">+ Nova receita</button></div>` : ''}
+      ${canImport ? `<div class="notice"><span>Importe as ${plural(window.CADERNO.recipes.length, 'receita', 'receitas')} do seu caderno antigo. Elas entram como privadas.</span><button class="btn primary sm" id="imp">Importar</button></div>` : ''}
+      <p class="status" id="gridMsg" role="status"></p>
+      <div class="filters">
+        <input class="search" id="q" type="search" placeholder="${mine ? 'Buscar nas minhas receitas…' : 'Buscar receitas da comunidade…'}" value="${esc(f.q)}" aria-label="Buscar receitas">
+        ${cats.length > 1 ? `<div class="chips" role="group" aria-label="Categorias"><button class="chip" data-cat="" aria-pressed="${!f.cat}">Todas (${all.length})</button>${cats.map(c => `<button class="chip" data-cat="${esc(c)}" aria-pressed="${f.cat === c}">${esc(c)}</button>`).join('')}</div>` : ''}
+      </div>
+      <div class="grid" style="margin-top:20px">${shown.map(r => card(r, tab)).join('') || '<p class="status">Nenhuma receita encontrada.</p>'}</div>`;
+    const qi = $('#q');
+    qi.addEventListener('input', e => { f.q = e.target.value; const pos = qi.selectionStart; renderGrid(tab).then(() => { const n = $('#q'); if (n) { n.focus(); n.setSelectionRange(pos, pos); } }); });
+    view.querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => { f.cat = b.dataset.cat; renderGrid(tab); }));
+    if ($('#newR')) $('#newR').onclick = soon;
+    if ($('#imp')) $('#imp').onclick = async e => {
+      e.currentTarget.disabled = true;
+      try { const n = await S.importStatic(); invalidate(); await renderGrid('minhas'); $('#gridMsg').textContent = plural(n, 'receita importada', 'receitas importadas') + '.'; }
+      catch (err) { $('#gridMsg').textContent = err.message; $('#gridMsg').classList.add('err'); e.currentTarget.disabled = false; }
+    };
+  }
+  function soon() { const m = $('#gridMsg'); if (m) m.textContent = 'O editor de receitas é o próximo passo: o mockup dele vem antes.'; }
+
+  function card(r, tab) {
     const img = (r.images || [])[0];
     const n = (r.ingredients || []).filter(i => !isSection(i)).length;
+    const tail = tab === 'minhas'
+      ? `<span class="vis ${r.isPublic ? 'pub' : ''}">${r.isPublic ? 'pública' : 'privada'}</span>`
+      : `<span>por @${esc(r.author)}</span><span>♥ ${r.likes || 0}</span>`;
     return `<a class="card" href="#r-${esc(r.id)}">
       ${img ? `<img class="thumb" src="${esc(img.src)}" alt="" loading="lazy">` : `<div class="ph" aria-hidden="true">${esc((r.title || '?').trim().charAt(0))}</div>`}
       <div class="body">${r.category ? `<span class="cat">${esc(r.category)}</span>` : ''}<h2>${esc(r.title)}</h2>${r.description ? `<p>${esc(r.description)}</p>` : ''}
-      <span class="meta">${n} itens · ${(r.steps || []).length} passos${r.scale !== false && r.servings ? ` · ${esc(r.servings)} ${esc(r.yieldLabel || 'porções')}` : ''}</span></div></a>`;
+      <span class="meta">${n} itens · ${(r.steps || []).length} passos${r.scale !== false && r.servings ? ` · ${esc(r.servings)} ${esc(r.yieldLabel || 'porções')}` : ''}</span>
+      <span class="meta row">${tail}</span></div></a>`;
   }
 
   /* ---------- receita ---------- */
-  function renderRecipe(r) {
+  async function renderRecipe(id) {
+    const seq = ++renderSeq;
+    let r = [...(cache.minhas || []), ...(cache.descubra || [])].find(x => x.id === id);
+    if (!r) {
+      loading();
+      try { r = await S.get(id); } catch (e) { if (seq === renderSeq) errorBox(e); return; }
+      if (seq !== renderSeq) return;
+    }
+    if (!r) { view.innerHTML = `<div class="empty"><strong>Receita não encontrada.</strong><span>Ela pode ter sido apagada ou estar privada.</span><a class="btn" href="#descubra">Ver receitas da comunidade</a></div>`; return; }
+    paintRecipe(r);
+  }
+  function actionsHTML(r) {
+    if (r.mine) return `<span class="vis ${r.isPublic ? 'pub' : ''}">${r.isPublic ? 'pública: aparece em Descubra' : 'privada: só você vê'}</span>
+      <button class="btn sm" id="vis">${r.isPublic ? 'Tornar privada' : 'Publicar na comunidade'}</button>`;
+    return `<span class="by">por @${esc(r.author)}</span>
+      <button class="btn sm${r.liked ? ' on' : ''}" id="like" aria-pressed="${!!r.liked}">${r.liked ? '♥' : '♡'} ${r.likes || 0}</button>
+      <button class="btn sm" id="save">Salvar no meu caderno</button>`;
+  }
+  function paintRecipe(r) {
     const { b, s, k } = scaleOf(r);
     view.innerHTML = `
-      <a class="back" href="#">← Todas as receitas</a>
+      <a class="back" href="#${lastTab}">← ${lastTab === 'minhas' ? 'Minhas receitas' : 'Descubra'}</a>
       <div class="r-head" style="margin-top:14px">
         ${r.category ? `<span class="cat">${esc(r.category)}</span>` : ''}
         <h2>${esc(r.title)}</h2>
         ${r.description ? `<p>${esc(r.description)}</p>` : ''}
+        <div class="r-actions">${actionsHTML(r)}</div>
+        <p class="status" id="rMsg" role="status"></p>
       </div>
       ${(r.images || []).length ? `<div class="gallery" style="margin-top:24px">${r.images.map(im => `<figure><img src="${esc(im.src)}" alt="${esc(im.caption || r.title)}" loading="lazy">${im.caption ? `<figcaption>${esc(im.caption)}</figcaption>` : ''}</figure>`).join('')}</div>` : ''}
       <div class="cols" style="margin-top:28px">
@@ -118,13 +257,19 @@
           }).join('')}</ol>
         </section>
       </div>
-      ${r.notes ? `<p class="notes" style="margin-top:28px"><b>Notas:</b> ${esc(r.notes).replace(/\n/g, '<br>')}</p>` : ''}`;
-    const set = v => { servings[r.id] = Math.max(1, v); renderRecipe(r); };
+      ${r.notes ? `<p class="notes" style="margin-top:28px"><b>Notas:</b> ${esc(r.notes).replace(/\n/g, '<br>')}</p>` : ''}
+      ${r.source ? `<p class="status" style="margin-top:12px">Fonte: ${esc(r.source)}</p>` : ''}`;
+    const set = v => { servings[r.id] = Math.max(1, v); paintRecipe(r); };
     if ($('#sm')) $('#sm').onclick = () => set(s - 1);
     if ($('#sp')) $('#sp').onclick = () => set(s + 1);
     if ($('#sr')) $('#sr').onclick = () => set(b);
     view.querySelectorAll('.timer').forEach(bt => { bt.onclick = () => toggleTimer(bt.dataset.key, Number(bt.dataset.tot)); });
     view.querySelectorAll('.gallery img').forEach(im => { im.onclick = () => { $('#zoomImg').src = im.src; try { $('#zoom').showModal(); } catch (e) { } }; });
+    const msg = (t, err) => { const m = $('#rMsg'); m.textContent = t; m.classList.toggle('err', !!err); };
+    const act = (id, fn) => { const el = $(id); if (el) el.onclick = async () => { if (!S.user()) return openLogin(); el.disabled = true; try { await fn(); } catch (e) { msg(e.message, true); el.disabled = false; } }; };
+    act('#vis', async () => { await S.setPublic(r.id, !r.isPublic); r.isPublic = !r.isPublic; cache.descubra = null; paintRecipe(r); msg(r.isPublic ? 'Publicada: agora aparece em Descubra.' : 'Agora só você vê esta receita.'); });
+    act('#like', async () => { await S.toggleLike(r); r.liked = !r.liked; r.likes = (r.likes || 0) + (r.liked ? 1 : -1); paintRecipe(r); });
+    act('#save', async () => { await S.saveCopy(r); cache.minhas = null; msg('Salva em Minhas receitas como privada.'); });
     document.title = r.title + ' · Caderno de Cozinha';
   }
   $('#zoom').addEventListener('click', () => $('#zoom').close());
@@ -163,12 +308,13 @@
   const safeUrl = u => { try { const x = new URL(u); return /^https?:$/.test(x.protocol) ? x.href : ''; } catch (e) { return ''; } };
   const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return ''; } };
   function renderVideos() {
+    ++renderSeq;
     document.title = 'Vídeos · Caderno de Cozinha';
     if (!videos.length) { view.innerHTML = `<div class="empty"><strong>Nenhum vídeo salvo ainda.</strong><span>Adicione um arquivo em videos/ e rode npm run build.</span></div>`; return; }
     const cats = [...new Set(videos.map(v => v.category).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'pt'));
-    const list = videos.filter(v => !vCat || v.category === vCat);
+    const shown = videos.filter(v => !vCat || v.category === vCat);
     view.innerHTML = `${cats.length > 1 ? `<div class="chips" role="group" aria-label="Categorias de vídeo" style="margin-bottom:20px"><button class="chip" data-cat="" aria-pressed="${!vCat}">Todos</button>${cats.map(c => `<button class="chip" data-cat="${esc(c)}" aria-pressed="${vCat === c}">${esc(c)}</button>`).join('')}</div>` : ''}
-      <div class="vlist">${list.map(v => {
+      <div class="vlist">${shown.map(v => {
         const u = safeUrl(v.url), yt = /youtu\.?be/.test(hostOf(v.url));
         return `<article class="vcard">
           <a class="play" href="${esc(u)}" target="_blank" rel="noopener" aria-label="Assistir ${esc(v.title)}"><span class="tri" aria-hidden="true"></span><span class="src">${yt ? 'YouTube' : esc(hostOf(v.url))}</span></a>
@@ -178,5 +324,9 @@
     view.querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => { vCat = b.dataset.cat; renderVideos(); }));
   }
 
-  route();
+  /* ---------- início ---------- */
+  $('#demoBanner').hidden = S.online;
+  renderAcct();
+  loading();
+  S.init().then(() => { renderAcct(); route(); }).catch(e => { errorBox(e); });
 })();

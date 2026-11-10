@@ -78,6 +78,22 @@ O dono costuma mandar receitas incompletas ou em anotação rápida (ex.: "16g f
 - Ele mora na Austrália: quando um ingrediente brasileiro tiver nome diferente lá, diga o equivalente (ex.: lata de creme de leite = Nestlé Reduced Cream; cornflour = amido de milho).
 - Mostre a receita para aprovação antes de commitar quando ele pedir; quando ele mandar "adicione", pode adicionar direto.
 
+## Antes de mudar o site: mockup primeiro
+
+Para qualquer ajuste visual ou funcionalidade nova, **mostre antes um mockup** (estilo Figma, telas de celular na paleta do site) e só altere o código depois que ele aprovar. Receitas novas não precisam de mockup.
+
+## Contas e comunidade (em andamento)
+
+O site tem página inicial para quem não está logado, login (Google, e-mail com código de 6 dígitos; Apple depois) e três abas: **Minhas receitas**, **Descubra** (receitas públicas da comunidade) e **Vídeos**. Toda receita nasce privada; o dono publica quando quiser.
+
+```
+assets/config.js      URL e chave pública (anon) do Supabase; vazio = modo demonstração
+assets/store.js       dados: Supabase ou demonstração (login simulado, nada é salvo)
+supabase/schema.sql   tabelas profiles, recipes (conteúdo em jsonb "data"), recipe_likes, view recipe_feed, RLS
+```
+
+Nunca coloque a chave `service_role` nem senhas no repositório. Login é só por e-mail (não por @), para não expor o e-mail de ninguém.
+
 ## Visual
 
 Paleta de "balcão de peixaria": gelo azulado e acento laranja-salmão, com tema claro e escuro (tokens em `:root` de `assets/style.css`). Fontes: Shippori Mincho (títulos), Zen Kaku Gothic New (texto), IBM Plex Mono (números e rótulos). Mantenha esse estilo ao criar telas novas. O site precisa funcionar bem no celular (ele consulta na cozinha).
