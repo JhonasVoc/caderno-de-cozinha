@@ -92,7 +92,7 @@ assets/store.js       dados: Supabase ou demonstração (login simulado, nada é
 supabase/schema.sql   tabelas profiles, recipes (conteúdo em jsonb "data"), recipe_likes, view recipe_feed, RLS
 ```
 
-Nunca coloque a chave `service_role` nem senhas no repositório. Login é só por e-mail (não por @), para não expor o e-mail de ninguém.
+O repositório é público, então `recipes/` e `data/caderno.js` ficam visíveis no GitHub mesmo quando a receita está "privada" no site. Decisão do dono (nov/2026): **manter esses arquivos públicos no repositório**; não os remova sem ele pedir. Nunca coloque a chave `service_role` nem senhas no repositório. Login é só por e-mail (não por @), para não expor o e-mail de ninguém.
 
 ## Visual
 
