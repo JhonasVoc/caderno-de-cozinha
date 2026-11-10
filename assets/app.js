@@ -326,6 +326,7 @@
 
   /* ---------- início ---------- */
   $('#demoBanner').hidden = S.online;
+  $('#emailLogin').hidden = !S.emailEnabled;
   renderAcct();
   loading();
   S.init().then(() => { renderAcct(); route(); }).catch(e => { errorBox(e); });

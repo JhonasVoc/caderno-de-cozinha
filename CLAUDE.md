@@ -84,7 +84,7 @@ Para qualquer ajuste visual ou funcionalidade nova, **mostre antes um mockup** (
 
 ## Contas e comunidade (em andamento)
 
-O site tem página inicial para quem não está logado, login (Google, e-mail com código de 6 dígitos; Apple depois) e três abas: **Minhas receitas**, **Descubra** (receitas públicas da comunidade) e **Vídeos**. Toda receita nasce privada; o dono publica quando quiser.
+O site tem página inicial para quem não está logado, login com Google (e-mail com código de 6 dígitos fica desligado em `emailEnabled` até haver SMTP próprio no Supabase; Apple depois) e três abas: **Minhas receitas**, **Descubra** (receitas públicas da comunidade) e **Vídeos**. Toda receita nasce privada; o dono publica quando quiser.
 
 ```
 assets/config.js      URL e chave pública (anon) do Supabase; vazio = modo demonstração

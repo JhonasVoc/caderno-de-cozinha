@@ -126,6 +126,7 @@
   window.Store = {
     online: ONLINE,
     appleEnabled: ONLINE ? !!CFG.appleEnabled : true,
+    emailEnabled: ONLINE ? !!CFG.emailEnabled : true,
     videos: DATA.videos || [],
     user: () => user,
     onChange(fn) { listeners.add(fn); },
