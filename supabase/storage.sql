@@ -7,6 +7,12 @@ insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_typ
 values ('recipe-images', 'recipe-images', true, 5242880, array['image/jpeg', 'image/png', 'image/webp'])
 on conflict (id) do update set public = excluded.public, file_size_limit = excluded.file_size_limit, allowed_mime_types = excluded.allowed_mime_types;
 
+-- O Storage exige permissão de leitura na API para apagar (sem ela, apagar "dá certo" mas não apaga nada).
+-- Isso não muda quem vê as fotos: o link público continua funcionando para todos.
+drop policy if exists "fotos: ver as proprias" on storage.objects;
+create policy "fotos: ver as proprias" on storage.objects for select to authenticated
+  using (bucket_id = 'recipe-images' and (storage.foldername(name))[1] = auth.uid()::text);
+
 drop policy if exists "fotos: enviar na propria pasta" on storage.objects;
 create policy "fotos: enviar na propria pasta" on storage.objects for insert to authenticated
   with check (bucket_id = 'recipe-images' and (storage.foldername(name))[1] = auth.uid()::text);

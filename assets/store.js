@@ -134,7 +134,10 @@
         fail(error, 'Não foi possível apagar a receita.');
         // Apaga também as fotos que estão na pasta da própria conta (as de outras pessoas ficam).
         const paths = (imageSrcs || []).map(src => String(src).split('/recipe-images/')[1]).filter(p => p && p.startsWith(user.id + '/'));
-        if (paths.length) { const { error: e2 } = await sb.storage.from('recipe-images').remove(paths); if (e2) console.warn('Fotos não apagadas:', e2); }
+        if (paths.length) {
+          const { data: gone, error: e2 } = await sb.storage.from('recipe-images').remove(paths);
+          if (e2 || (gone || []).length < paths.length) console.warn('Algumas fotos não foram apagadas do Storage:', e2 || paths.length - (gone || []).length);
+        }
       },
       async uploadImage(blob) {
         const path = `${user.id}/${(crypto.randomUUID && crypto.randomUUID()) || Date.now().toString(36)}.jpg`;
